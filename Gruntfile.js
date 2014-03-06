@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             '-s', 'ASM_JS=1',
             //'-g3',
             //'-s', "EXPORTED_FUNCTIONS=['_gme_track_info','_gme_open_data','_gme_track_count','_gme_start_track','_gme_play','_gme_track_ended']",
-            '-s', "EXPORTED_FUNCTIONS=['_initialize', '_gmemujs_test', '_open_data', '_track_count']",
+            '-s', "EXPORTED_FUNCTIONS=['_initialize', '_gmemujs_test', '_open_data', '_track_count', '_open_track', '_track_info', '_track_start', '_generate_sound_data']",
             //'-s', 'LABEL_DEBUG=1',
             '-O1',
             '-I' + gme_dir,

@@ -15,7 +15,8 @@
             xhr.onload = function(e) {
               var payload = new Uint8Array(this.response);
               var file = gmemujs.read(payload);
-              console.log(file.trackCount());
+              var track = file.track(0);
+              track.play();
             };
             xhr.send();
         });
