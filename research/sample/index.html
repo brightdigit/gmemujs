@@ -4,10 +4,21 @@
     <title>pure javascript nsf-player</title>
     <!--<script type="text/javascript" src="../../tmp/build/a.out.js"></script>-->
     <!--<script type="text/javascript" src="libgme.js"></script>-->
-    <script type="text/javascript" src="../../tmp/gmemu.js"></script>
+    <script src="../../tmp/gmemu.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
     <!--<script type="text/javascript" src="player.js"></script>-->
     <script type="text/javascript">
-        console.log(gmemujs.helloWorld());
+        $(window).ready(function () {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", 'nsf/megaman2.nsf', true);
+            xhr.responseType = "arraybuffer";
+            xhr.onload = function(e) {
+              var payload = new Uint8Array(this.response);
+              var file = gmemujs.read(payload);
+              console.log(file.trackCount());
+            };
+            xhr.send();
+        });
     </script>
   </head>
   <body style="font-family: arial; font-size: 12px;">

@@ -1,6 +1,44 @@
+
+#include <stdlib.h>
+#include <stdio.h>
+#include "gme.h"
+
+typedef struct AlbumBuilder
+{
+    int sample_rate;
+} AlbumBuilder;
+
+typedef struct Album {
+    Music_Emu* emu;
+    int track_count;
+} Album;
+
 char* gmemujs_test () {
   return "hello world!";
 }
+
+AlbumBuilder * initialize (int sample_rate) {
+  AlbumBuilder * builder;
+  builder = malloc(sizeof(AlbumBuilder));
+  builder->sample_rate = sample_rate;
+  return builder;
+}
+
+Album * open_data (AlbumBuilder * builder, void const * data, long size) {
+  Album * album;
+  Music_Emu* emu;
+  gme_open_data(data, size, &emu, builder->sample_rate);
+  album = malloc(sizeof(Album));
+  album->emu = emu;
+  album->track_count = gme_track_count(emu);
+  return album;
+}
+
+int track_count (Album * album) {
+  return album->track_count;
+}
+
+
 /*
 #include <stdlib.h>
 #include <stdio.h>
