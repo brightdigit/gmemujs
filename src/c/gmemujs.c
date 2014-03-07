@@ -87,9 +87,9 @@ PlayInfo * track_start (Track * track) {
 }
 
 short * generate_sound_data (int buffer_size) {
-  gme_play(emu, buffer_size, audio_buffer);
-  printf("%d", buffer_size);
-  printf("%d", buffer_size);
+  gme_play(emu, 8192 * 2, audio_buffer);
+  //printf("%d", buffer_size);
+  //printf("%d", buffer_size);
   return audio_buffer;
 }
 /*

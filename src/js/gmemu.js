@@ -28,6 +28,7 @@
     this.audioContext = new AudioContext();
     this.scriptProcessor = this.audioContext.createScriptProcessor(8192, 2, 2);
     this.scriptProcessor.onaudioprocess = this._onaudioprocess.bind(this);
+      this.scriptProcessor.connect(this.audioContext.destination);
     this._c_albumBuilder = Module.initialize(this.audioContext.sampleRate, this.scriptProcessor.bufferSize);
   };
 
@@ -39,19 +40,20 @@
 
     _onaudioprocess : function (e) {
       if (this._c_playInfo) {
-        var bufferSize = this.scriptProcessor.bufferSize;
+        var bufferSize = 8192;
         var buffer = Module.generateSoundData(bufferSize);
-        //var channels = [e.outputBuffer.getChannelData(0), e.outputBuffer.getChannelData(1)];
+        var channels = [e.outputBuffer.getChannelData(0), e.outputBuffer.getChannelData(1)];
         //console.log(buffer);
-                var left = e.outputBuffer.getChannelData(0);
-                var right = e.outputBuffer.getChannelData(1);
+              //  var left = e.outputBuffer.getChannelData(0);
+                //var right = e.outputBuffer.getChannelData(1);
         //console.log(e.outputBuffer.numberOfChannels);
          for (var i = 0; i < bufferSize; i++) {
-         
-            left[i] = Module.getValue(buffer + (i * 4), 'i16');
-            right[i] = Module.getValue(buffer + (i * 4) + 2, 'i16');
-            if (left[i] + right[1]) {
-            console.log(i + ": " + left[i] + ", " + right[i]);
+          for (var n = 0; n < e.outputBuffer.numberOfChannels; n++) {
+         channels[n][i] = Module.getValue(buffer + i * e.outputBuffer.numberOfChannels * 2 + n * 4, "i32") / INT16_MAX;
+            //left[i] = Module.getValue(buffer + (i * 4), 'i16');
+            //right[i] = Module.getValue(buffer + (i * 4) + 2, 'i16');
+            //if (left[i] + right[1]) {
+            //console.log(i + ": " + left[i] + ", " + right[i]);
           }
           }
       }
@@ -61,7 +63,6 @@
     },
     play : function (track) {
       this._c_playInfo = Module.trackStart(track._c_track);
-      this.scriptProcessor.connect(this.audioContext.destination);
       console.log('play begin');
     }
   };
