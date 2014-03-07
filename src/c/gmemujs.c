@@ -5,6 +5,9 @@
 
 const char* info_fmt = "{\"length\": %d, \"system\": \"%s\", \"game\": \"%s\", \"song\": \"%s\", \"author\": \"%s\", \"copyright\": \"%s\", \"comment\": \"%s\", \"dumper\": \"%s\"}";
 
+static char json_str[2048];
+static short audio_buffer[8192 * 2];
+static Music_Emu* emu;
 typedef struct AlbumBuilder
 {
     int sample_rate;
@@ -13,7 +16,6 @@ typedef struct AlbumBuilder
 
 typedef struct Album {
   AlbumBuilder* album_builder;
-    Music_Emu* emu;
     int track_count;
 } Album;
 
@@ -25,7 +27,6 @@ typedef struct Track {
 typedef struct PlayInfo
 {
     AlbumBuilder * album_builder;
-    Music_Emu * emu;
     Track * track;
 } PlayInfo;
 char* gmemujs_test () {
@@ -42,11 +43,9 @@ AlbumBuilder * initialize (int sample_rate, int buffer_size) {
 
 Album * open_data (AlbumBuilder * builder, void const * data, long size) {
   Album * album;
-  Music_Emu* emu;
   gme_open_data(data, size, &emu, builder->sample_rate);
   album = malloc(sizeof(Album));
   album->album_builder = builder;
-  album->emu = emu;
   album->track_count = gme_track_count(emu);
   return album;
 }
@@ -60,9 +59,9 @@ Track * open_track (Album * album, int track_number) {
 }
 
 char* track_info (Track * track) {
-  char json_str[2048];
+  //char json_str[2048];
   gme_info_t * track_info;
-  gme_track_info(track->album->emu, &track_info, track->number);
+  gme_track_info(emu, &track_info, track->number);
   sprintf(json_str, info_fmt, track_info->length,
     track_info->system, track_info->game, track_info->song, track_info->author,
     track_info->copyright, track_info->comment, track_info->dumper);
@@ -76,7 +75,6 @@ int track_count (Album * album) {
 
 PlayInfo * play_info (Track * track) {
   PlayInfo * playinfo = malloc(sizeof(PlayInfo));
-  playinfo->emu = track->album->emu;
   playinfo->album_builder = track->album->album_builder;
   playinfo->track = track;
   return playinfo;
@@ -84,13 +82,14 @@ PlayInfo * play_info (Track * track) {
 
 PlayInfo * track_start (Track * track) {
   PlayInfo * playinfo = play_info(track);
-  gme_start_track(track->album->emu, track->number);
+  gme_start_track(emu, track->number);
   return playinfo;
 }
 
-short * generate_sound_data (PlayInfo * playinfo) {
-  short audio_buffer[8192 * 2];
-  gme_play(playinfo->emu, playinfo->album_builder->buffer_size, audio_buffer);
+short * generate_sound_data (int buffer_size) {
+  gme_play(emu, buffer_size, audio_buffer);
+  printf("%d", buffer_size);
+  printf("%d", buffer_size);
   return audio_buffer;
 }
 /*

@@ -26,7 +26,7 @@
   
   var gmemujs = function () {
     this.audioContext = new AudioContext();
-    this.scriptProcessor = this.audioContext.createScriptProcessor();
+    this.scriptProcessor = this.audioContext.createScriptProcessor(8192, 2, 2);
     this.scriptProcessor.onaudioprocess = this._onaudioprocess.bind(this);
     this._c_albumBuilder = Module.initialize(this.audioContext.sampleRate, this.scriptProcessor.bufferSize);
   };
@@ -39,13 +39,21 @@
 
     _onaudioprocess : function (e) {
       if (this._c_playInfo) {
-        var buffer = Module.generateSoundData(this._c_playInfo);
         var bufferSize = this.scriptProcessor.bufferSize;
-        var channels = [e.outputBuffer.getChannelData(0), e.outputBuffer.getChannelData(1)];
-        console.log(bufferSize);
-        for (var i = 0; i < bufferSize; i++)
-          for (var n = 0; n < e.outputBuffer.numberOfChannels; n++)
-            channels[n][i] = Module.getValue(buffer + i * e.outputBuffer.numberOfChannels * 2 + n * 4, "i32") / INT16_MAX;
+        var buffer = Module.generateSoundData(bufferSize);
+        //var channels = [e.outputBuffer.getChannelData(0), e.outputBuffer.getChannelData(1)];
+        //console.log(buffer);
+                var left = e.outputBuffer.getChannelData(0);
+                var right = e.outputBuffer.getChannelData(1);
+        //console.log(e.outputBuffer.numberOfChannels);
+         for (var i = 0; i < bufferSize; i++) {
+         
+            left[i] = Module.getValue(buffer + (i * 4), 'i16');
+            right[i] = Module.getValue(buffer + (i * 4) + 2, 'i16');
+            if (left[i] + right[1]) {
+            console.log(i + ": " + left[i] + ", " + right[i]);
+          }
+          }
       }
     },
     read : function (data) {
@@ -54,6 +62,7 @@
     play : function (track) {
       this._c_playInfo = Module.trackStart(track._c_track);
       this.scriptProcessor.connect(this.audioContext.destination);
+      console.log('play begin');
     }
   };
 
@@ -95,8 +104,17 @@
     _c_track : undefined,
     _info : undefined,
     info : function (field) {
-      this._info =  this._info || JSON.parse(Module.trackInfo(this.number));
-      return this._info[field];
+      this._info =  this._info || JSON.parse(Module.trackInfo(this._c_track));
+      return field ? this._info[field] : {
+        "length": this._info.length,
+        "system": this._info.system,
+        "game": this._info.game,
+        "song": this._info.song,
+        "author": this._info.author,
+        "copyright": this._info.copyright,
+        "comment": this._info.comment,
+        "dumper": this._info.dumper
+      };
     },
     play : function () {
       this.album.gme.play(this);
