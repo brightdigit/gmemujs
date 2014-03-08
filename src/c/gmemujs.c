@@ -3,6 +3,15 @@
 #include <stdio.h>
 #include "gme.h"
 
+/*
+int length;     /* total length, if file specifies it */
+//  int intro_length; /* length of song up to looping section */
+//  int loop_length;  /* length of looping section */
+  
+  /* Length if available, otherwise intro_length+loop_length*2 if available,
+  otherwise a default of 150000 (2.5 minutes). */
+//  int play_length;
+
 const char* info_fmt = "{\"length\": %d, \"system\": \"%s\", \"game\": \"%s\", \"song\": \"%s\", \"author\": \"%s\", \"copyright\": \"%s\", \"comment\": \"%s\", \"dumper\": \"%s\"}";
 
 static char json_str[2048];
@@ -62,7 +71,7 @@ char* track_info (Track * track) {
   //char json_str[2048];
   gme_info_t * track_info;
   gme_track_info(emu, &track_info, track->number);
-  sprintf(json_str, info_fmt, track_info->length,
+  sprintf(json_str, info_fmt, track_info->play_length,
     track_info->system, track_info->game, track_info->song, track_info->author,
     track_info->copyright, track_info->comment, track_info->dumper);
   return json_str;

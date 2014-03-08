@@ -11,6 +11,7 @@
       return Module;
     }();
     
+
     return {
       helloWorld : _Module.cwrap('gmemujs_test', "string", []),
       initialize : _Module.cwrap('initialize', "number", ["number", "number"]),
@@ -24,9 +25,13 @@
     };
   }();
   
+  var audioContext = new AudioContext();
+  var scriptProcessor = audioContext.createScriptProcessor(8192, 2, 2);
+  scriptProcessor.connect(audioContext.destination);
+    
   var gmemujs = function () {
-    this.audioContext = new AudioContext();
-    this.scriptProcessor = this.audioContext.createScriptProcessor(8192, 2, 2);
+    this.audioContext = audioContext;
+    this.scriptProcessor = scriptProcessor;
     this.scriptProcessor.onaudioprocess = this._onaudioprocess.bind(this);
       this.scriptProcessor.connect(this.audioContext.destination);
     this._c_albumBuilder = Module.initialize(this.audioContext.sampleRate, this.scriptProcessor.bufferSize);
@@ -70,6 +75,10 @@
   gmemujs.read = function (data) {
     var _instance = new gmemujs ();
     return _instance.read(data);
+  };
+
+  gmemujs.init = function () {
+
   };
 
   var Album = function (gme, data) {
