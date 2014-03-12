@@ -20,7 +20,8 @@ module.exports = function (grunt) {
   var yeomanConfig = {
     app: 'app',
     dist: 'dist',
-    bower: 'bower_components'
+    bower: 'bower_components',
+    tmp: '.tmp'
   };
 
   grunt.initConfig({
@@ -88,6 +89,7 @@ module.exports = function (grunt) {
           dot: true,
           src: [
             '.tmp',
+            '.tmp/scripts',
             '<%= yeoman.dist %>/*',
             '!<%= yeoman.dist %>/.git*'
           ]
@@ -120,7 +122,7 @@ module.exports = function (grunt) {
           compile: true
         },
         files: {
-          '<%= yeoman.app %>/styles/main.css': ['<%= yeoman.app %>/styles/main.less']
+          '<%= yeoman.tmp %>/styles/main.css': ['<%= yeoman.app %>/styles/main.less']
         }
       }
     },
@@ -185,7 +187,7 @@ module.exports = function (grunt) {
         files: {
           '<%= yeoman.dist %>/styles/main.css': [
             '.tmp/styles/{,*/}*.css',
-            '<%= yeoman.app %>/styles/{,*/}*.css'
+            '<%= yeoman.tmp %>/styles/{,*/}*.css'
           ]
         }
       }
@@ -224,6 +226,15 @@ module.exports = function (grunt) {
             '.htaccess',
             'images/{,*/}*.{webp,gif}'
           ]
+        }, {
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.tmp %>',
+          dest: '<%= yeoman.dist %>',
+          src: [
+            'fonts/*',
+            'scripts/*'
+          ]
         }]
       },
       server: {
@@ -231,7 +242,7 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: '<%= yeoman.bower %>/font-awesome/font/',
-          dest: '<%= yeoman.app %>/fonts/',
+          dest: '<%= yeoman.tmp %>/fonts/',
           src: ['*']
         }]
       }
@@ -246,7 +257,7 @@ module.exports = function (grunt) {
     },
     bower: {
       target: {
-        rjsConfig:  'app/scripts/config.js'
+        rjsConfig:  '<%= yeoman.tmp %>/config.js'
       }
     },
     'bower-install': {
@@ -255,9 +266,9 @@ module.exports = function (grunt) {
     requirejs: {
       compile: {
         options: {
-          mainConfigFile: 'app/scripts/config.js',
-          name: 'main', // assumes a production build using almond
-          out: 'app/scripts/gmemujs-demo.js'
+          mainConfigFile: '<%= yeoman.tmp %>/config.js',
+          name: '../app/scripts/main', // assumes a production build using almond
+          out: '<%= yeoman.tmp %>/scripts/gmemujs-demo.js'
         }
       }
     }
@@ -292,14 +303,15 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'copy:server',
+    'bower-install',
+    'bower',
+    'requirejs',
     'useminPrepare',
     'concurrent',
     'cssmin',
-    'concat',
-    'uglify',
+    //'concat',
+    //'uglify',
     'copy',
-    'bower',
-    'requirejs',
     'rev',
     'usemin'
   ]);
