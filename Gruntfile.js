@@ -20,7 +20,22 @@ module.exports = function(grunt) {
         flatten: true,
         cwd: '.'
       }
-    }
+    },
+    uglify: {
+      gmemu : {
+        files: {
+          'dist/gmemu.min.js': ['dist/gmemu.js']
+        }
+      }
+    },
+    copy: {
+      main: {
+        expand: true,
+        cwd: 'dist/',
+        src: '**',
+        dest: 'demo/app/scripts/',
+      },
+    },
   });
 
    grunt.registerTask('compile', 'Compile the C libraries with emscripten.', function(outfile) {
@@ -59,14 +74,9 @@ module.exports = function(grunt) {
         });
     });
 
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-svn-export');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-includes');
-  grunt.registerTask('default', ['clean', 'compile', 'includes']);
+  grunt.registerTask('default', ['clean', 'compile', 'includes', 'uglify', 'copy']);
 };
-
-/*
-emconfigure cmake ../src
-emmake make
-emcc gme/libgme.so
-*/
