@@ -245,8 +245,22 @@ module.exports = function (grunt) {
       ]
     },
     bower: {
-      files : {}
+      target: {
+        rjsConfig:  'app/scripts/config.js'
+      }
     },
+    'bower-install': {
+
+    },
+    requirejs: {
+      compile: {
+        options: {
+          mainConfigFile: 'app/scripts/config.js',
+          name: 'main', // assumes a production build using almond
+          out: 'app/scripts/gmemujs-demo.js'
+        }
+      }
+    }
   });
 
   grunt.renameTask('regarde', 'watch');
@@ -284,12 +298,14 @@ module.exports = function (grunt) {
     'concat',
     'uglify',
     'copy',
+    'bower',
+    'requirejs',
     'rev',
     'usemin'
   ]);
 
   grunt.registerTask('default', [
-    'bower',
+    'bower-install',
     'jshint',
     'test',
     'build'
