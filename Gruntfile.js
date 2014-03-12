@@ -5,14 +5,6 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     clean : ["tmp/build"],
-    svn_export: {
-      dev: {
-        options: {
-          repository: 'http://game-music-emu.googlecode.com/svn/trunk',
-          output: 'tmp/src'
-        }
-      }
-    },
     includes: {
       files: {
         src: ['src/js/*.js'], // Source files
@@ -33,8 +25,8 @@ module.exports = function(grunt) {
         expand: true,
         cwd: 'dist/',
         src: '**',
-        dest: 'demo/gmemujs/',
-      },
+        dest: 'demo/gmemujs/'
+      }
     },
   });
 

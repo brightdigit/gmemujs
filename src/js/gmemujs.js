@@ -72,6 +72,10 @@
     }
   };
 
+  gmemujs.helloWorld = function () {
+    return Module.helloWorld();
+  };
+
   gmemujs.read = function (data) {
     var _instance = new gmemujs ();
     return _instance.read(data);
