@@ -24,7 +24,7 @@ module.exports = function(grunt) {
     uglify: {
       gmemu : {
         files: {
-          'dist/gmemu.min.js': ['dist/gmemu.js']
+          'dist/gmemujs.min.js': ['dist/gmemujs.js']
         }
       }
     },
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         expand: true,
         cwd: 'dist/',
         src: '**',
-        dest: 'demo/app/scripts/',
+        dest: 'demo/gmemujs/',
       },
     },
   });
