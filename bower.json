@@ -9,5 +9,7 @@
     "requirejs": "~2.1.11"
   },
   "devDependencies": {},
-  "install" : {"sources" : []}
+  "install": {
+    "sources": []
+  }
 }

@@ -244,6 +244,12 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.bower %>/font-awesome/font/',
           dest: '<%= yeoman.tmp %>/fonts/',
           src: ['*']
+        }, {
+          expand: true,
+          dot: true,
+          cwd: 'gmemujs/',
+          dest: '<%= yeoman.tmp %>',
+          src: ['*']
         }]
       }
     },

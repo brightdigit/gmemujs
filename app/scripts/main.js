@@ -1,1 +1,5 @@
-console.log('\'Allo \'Allo!');
+'use strict';
+
+require(['gmemujs'], function () {
+  console.log('\'Allo \'Allo!');
+});
