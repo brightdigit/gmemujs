@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     includes: {
       files: {
         src: ['src/js/*.js'], // Source files
-        dest: 'tmp', // Destination directory
+        dest: 'dist', // Destination directory
         flatten: true,
         cwd: '.'
       }
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         var cb = this.async();
 
         var emcc = process.env.EMCC_BIN || grunt.option('emcc') || 'emcc';
-        var gme_dir = path.join('tmp', 'src', 'gme');
+        var gme_dir = path.join('src', 'game-music-emu', 'gme');
         var gme_files = grunt.file.expand(gme_dir + '/*.cpp');
 
         var import_flags = [];
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-svn-export');
   grunt.loadNpmTasks('grunt-includes');
-  grunt.registerTask('default', ['clean',/* 'svn_export', */'compile', 'includes']);
+  grunt.registerTask('default', ['clean', 'compile', 'includes']);
 };
 
 /*
