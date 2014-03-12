@@ -53,7 +53,7 @@ module.exports = function (grunt) {
             return [
               lrSnippet,
               mountFolder(connect, '.tmp'),
-              mountFolder(connect, 'app')
+              mountFolder(connect, 'dist')
             ];
           }
         }
@@ -229,6 +229,14 @@ module.exports = function (grunt) {
         }, {
           expand: true,
           dot: true,
+          cwd: '<%= yeoman.bower %>/requirejs/',
+          dest: '<%= yeoman.dist %>/scripts',
+          src: [
+            '*.js'
+          ]
+        }, {
+          expand: true,
+          dot: true,
           cwd: '<%= yeoman.tmp %>',
           dest: '<%= yeoman.dist %>',
           src: [
@@ -274,7 +282,8 @@ module.exports = function (grunt) {
         options: {
           mainConfigFile: '<%= yeoman.tmp %>/config.js',
           name: '../app/scripts/main', // assumes a production build using almond
-          out: '<%= yeoman.tmp %>/scripts/gmemujs-demo.js'
+          out: '<%= yeoman.tmp %>/scripts/gmemujs-demo.js',
+          optimize: 'none'
         }
       }
     }

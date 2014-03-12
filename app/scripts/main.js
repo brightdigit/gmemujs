@@ -1,5 +1,5 @@
 'use strict';
 
-require(['gmemujs'], function () {
-  console.log('\'Allo \'Allo!');
+require(['gmemujs'], function (gmemujs) {
+  console.log(gmemujs.helloWorld());
 });
