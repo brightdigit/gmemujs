@@ -6,7 +6,9 @@
     "font-awesome": "~3.2.1",
     "modernizr": "~2.6.2",
     "jquery": "~1.9.1",
-    "requirejs": "~2.1.11"
+    "requirejs": "~2.1.11",
+    "string": "~1.8.0",
+    "async": "~0.2.10"
   },
   "devDependencies": {},
   "install": {
