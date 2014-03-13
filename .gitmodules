@@ -4,3 +4,6 @@
 [submodule "src/game-music-emu"]
 	path = src/game-music-emu
 	url = https://github.com/kode54/Game_Music_Emu.git
+[submodule "gh-pages"]
+	path = gh-pages
+	url = https://github.com/leogdion/gmemujs.git
