@@ -11,21 +11,9 @@ require(['gmemujs', 'string', 'jquery', 'async'], function (gmemujs, S, $, async
         cb();
       }, function (error) {
         gameButtons.find('button').click(function () {
-          console.log($(this).data('href'));
-          /*
-           var xhr = new XMLHttpRequest();
-            xhr.open("GET", 'nsf/megaman2.nsf', true);
-            xhr.responseType = "arraybuffer";
-            xhr.onload = function(e) {
-              var payload = new Uint8Array(this.response);
-              var file = gmemujs.read(payload);
-              var track = file.track(9);
-              console.log(track.info());
-              console.log('start');
-              track.play();
-            };
-            xhr.send();
-            */
+          gmemujs.load($(this).data('href'), function () {
+            this.track(1).play();
+          });
         });
       })
     });
