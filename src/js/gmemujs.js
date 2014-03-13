@@ -72,6 +72,20 @@
     }
   };
 
+  gmemujs.load = function (file, cb) {
+    var _instance = new gmemujs();
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", file, true);
+    xhr.responseType = "arraybuffer";
+    xhr.onload = function(e) {
+      var payload = new Uint8Array(this.response);
+      var file = gmemujs.read(payload);
+      cb.call(file, e, _instance, xhr);
+    };
+    xhr.send();
+    return xhr;
+  };
+
   gmemujs.helloWorld = function () {
     return Module.helloWorld();
   };

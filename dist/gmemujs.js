@@ -7094,6 +7094,172 @@
         $284 = $283&255;
         L6: do {
          switch ($279|0) {
+         case 127: case 109: case 100: case 91: case 82: case 73: case 64: case 0:  {
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 8:  {
+          $285 = HEAP8[$60]|0;
+          $286 = HEAP8[$61]|0;
+          HEAP8[$60] = $286;
+          HEAP8[$61] = $285;
+          $287 = HEAP8[$62]|0;
+          $288 = $287&255;
+          $289 = $flags$053&255;
+          HEAP8[$62] = $289;
+          $flags$0$be = $288;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 211:  {
+          $290 = (($$in) + 2)|0;
+          $291 = HEAP32[$63>>2]|0;
+          $292 = (($291) + ($278))|0;
+          $293 = HEAP8[$64]|0;
+          $294 = $293&255;
+          $295 = $294 << 8;
+          $296 = $295 | $284;
+          __Z10ay_cpu_outP6Ay_Cpulji($this,$292,$296,$294);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $290;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 46:  {
+          $297 = (($$in) + 2)|0;
+          HEAP8[$65] = $283;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $297;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 62:  {
+          $298 = (($$in) + 2)|0;
+          HEAP8[$66] = $283;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $298;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 58:  {
+          $299 = (__Z8get_le16PKv($282)|0);
+          $300 = (($$in) + 3)|0;
+          $301 = (($32) + ($299)|0);
+          $302 = HEAP8[$301]|0;
+          HEAP8[$67] = $302;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $300;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 32:  {
+          $303 = (($$in) + 2)|0;
+          $304 = $flags$053 & 64;
+          $305 = ($304|0)==(0);
+          if (!($305)) {
+           $pc$0 = $303;
+           label = 3;
+           break L6;
+          }
+          $306 = $283 << 24 >> 24;
+          $307 = (($306) + ($303))|0;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $307;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 40:  {
+          $308 = (($$in) + 2)|0;
+          $309 = $flags$053 & 64;
+          $310 = ($309|0)==(0);
+          if ($310) {
+           $pc$0 = $308;
+           label = 3;
+           break L6;
+          }
+          $311 = $283 << 24 >> 24;
+          $312 = (($311) + ($308))|0;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $312;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 48:  {
+          $313 = (($$in) + 2)|0;
+          $314 = $flags$053 & 1;
+          $315 = ($314|0)==(0);
+          if (!($315)) {
+           $pc$0 = $313;
+           label = 3;
+           break L6;
+          }
+          $316 = $283 << 24 >> 24;
+          $317 = (($316) + ($313))|0;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $317;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 56:  {
+          $318 = (($$in) + 2)|0;
+          $319 = $flags$053 & 1;
+          $320 = ($319|0)==(0);
+          if ($320) {
+           $pc$0 = $318;
+           label = 3;
+           break L6;
+          }
+          $321 = $283 << 24 >> 24;
+          $322 = (($321) + ($318))|0;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $322;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 24:  {
+          $323 = $283 << 24 >> 24;
+          $324 = (($$in) + 2)|0;
+          $325 = (($324) + ($323))|0;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $325;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 16:  {
+          $326 = HEAP8[$68]|0;
+          $327 = $326&255;
+          $328 = (($327) + -1)|0;
+          $329 = $328&255;
+          HEAP8[$68] = $329;
+          $330 = (($$in) + 2)|0;
+          $331 = ($328|0)==(0);
+          if ($331) {
+           $pc$0 = $330;
+           label = 3;
+           break L6;
+          }
+          $332 = $283 << 24 >> 24;
+          $333 = (($332) + ($330))|0;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $333;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 194:  {
+          $334 = $flags$053 & 64;
+          $335 = ($334|0)==(0);
+          if (!($335)) {
+           $s_time$0 = $278;
+           label = 6;
+           break L6;
+          }
+          $336 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $336;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 202:  {
+          $337 = $flags$053 & 64;
+          $338 = ($337|0)==(0);
+          if ($338) {
+           $s_time$0 = $278;
+           label = 6;
+           break L6;
+          }
+          $339 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $339;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 210:  {
+          $340 = $flags$053 & 1;
+          $341 = ($340|0)==(0);
+          if (!($341)) {
+           $s_time$0 = $278;
+           label = 6;
+           break L6;
+          }
+          $342 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $342;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
          case 218:  {
           $343 = $flags$053 & 1;
           $344 = ($343|0)==(0);
@@ -7106,6 +7272,65 @@
           $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $345;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
           break;
          }
+         case 226:  {
+          $346 = $flags$053 & 4;
+          $347 = ($346|0)==(0);
+          if (!($347)) {
+           $s_time$0 = $278;
+           label = 6;
+           break L6;
+          }
+          $348 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $348;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 234:  {
+          $349 = $flags$053 & 4;
+          $350 = ($349|0)==(0);
+          if ($350) {
+           $s_time$0 = $278;
+           label = 6;
+           break L6;
+          }
+          $351 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $351;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 242:  {
+          $352 = $flags$053 & 128;
+          $353 = ($352|0)==(0);
+          if (!($353)) {
+           $s_time$0 = $278;
+           label = 6;
+           break L6;
+          }
+          $354 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $354;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 250:  {
+          $355 = $flags$053 & 128;
+          $356 = ($355|0)==(0);
+          if ($356) {
+           $s_time$0 = $278;
+           label = 6;
+           break L6;
+          }
+          $357 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $357;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 195:  {
+          $358 = (__Z8get_le16PKv($282)|0);
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $358;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 233:  {
+          $359 = HEAP16[$70>>1]|0;
+          $360 = $359&65535;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $360;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
          case 192:  {
           $361 = $flags$053 & 64;
           $362 = ($361|0)==(0);
@@ -7116,17 +7341,6 @@
           }
           $363 = (($278) + -6)|0;
           $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $363;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 233:  {
-          $359 = HEAP16[$70>>1]|0;
-          $360 = $359&65535;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $360;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 195:  {
-          $358 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $358;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
           break;
          }
          case 200:  {
@@ -7336,25 +7550,6 @@
           label = 73;
           break;
          }
-         case 241:  {
-          $426 = (($32) + ($sp$089)|0);
-          $427 = HEAP8[$426]|0;
-          $428 = $427&255;
-          $429 = (($sp$089) + 1)|0;
-          $430 = (($32) + ($429)|0);
-          $431 = HEAP8[$430]|0;
-          HEAP8[$74] = $431;
-          $432 = (($sp$089) + 2)|0;
-          $433 = $432 & 65535;
-          $flags$0$be = $428;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $433;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 134: case 150:  {
-          $442 = $flags$053 & -2;
-          $flags$1 = $442;
-          label = 77;
-          break;
-         }
          case 225: case 209: case 193:  {
           $434 = (($32) + ($sp$089)|0);
           $435 = (__Z8get_le16PKv($434)|0);
@@ -7366,6 +7561,12 @@
           $440 = (($sp$089) + 2)|0;
           $441 = $440 & 65535;
           $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $441;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 134: case 150:  {
+          $442 = $flags$053 & -2;
+          $flags$1 = $442;
+          label = 77;
           break;
          }
          case 142: case 158:  {
@@ -7393,120 +7594,6 @@
          case 143: case 141: case 140: case 139: case 138: case 137: case 136: case 159: case 157: case 156: case 155: case 154: case 153: case 152:  {
           $flags$3 = $flags$053;
           label = 81;
-          break;
-         }
-         case 190:  {
-          $480 = HEAP16[$82>>1]|0;
-          $481 = $480&65535;
-          $482 = (($32) + ($481)|0);
-          $483 = HEAP8[$482]|0;
-          $484 = $483&255;
-          $data$2 = $484;$pc$4 = $281;$s_time$5 = $278;
-          label = 86;
-          break;
-         }
-         case 254:  {
-          $485 = (($$in) + 2)|0;
-          $data$2 = $284;$pc$4 = $485;$s_time$5 = $278;
-          label = 86;
-          break;
-         }
-         case 191: case 189: case 188: case 187: case 186: case 185: case 184:  {
-          $486 = $279 ^ 1;
-          $487 = (($85) + ($486)|0);
-          $488 = HEAP8[$487]|0;
-          $489 = $488&255;
-          $data$2 = $489;$pc$4 = $281;$s_time$5 = $278;
-          label = 86;
-          break;
-         }
-         case 41: case 25: case 9:  {
-          $508 = $279 >>> 3;
-          $$sum7 = (($508) + -1)|0;
-          $509 = (($88) + ($$sum7)|0);
-          $510 = $509;
-          $511 = HEAP16[$510>>1]|0;
-          $512 = $511&65535;
-          $data$3 = $512;
-          label = 88;
-          break;
-         }
-         case 57:  {
-          $data$3 = $sp$089;
-          label = 88;
-          break;
-         }
-         case 39:  {
-          $528 = HEAP8[$89]|0;
-          $529 = $528&255;
-          $530 = ($528&255)>(153);
-          $531 = $530&1;
-          $$flags$0 = $531 | $flags$053;
-          $532 = $$flags$0 & 1;
-          $533 = (0 - ($532))|0;
-          $534 = $533 & 96;
-          $535 = $flags$053 & 16;
-          $536 = ($535|0)==(0);
-          if ($536) {
-           $537 = $529 & 14;
-           $538 = ($537>>>0)>(9);
-           if ($538) {
-            label = 91;
-           } else {
-            $adjust$0 = $534;
-           }
-          } else {
-           label = 91;
-          }
-          if ((label|0) == 91) {
-           label = 0;
-           $539 = $534 | 6;
-           $adjust$0 = $539;
-          }
-          $540 = $flags$053 & 2;
-          $541 = ($540|0)==(0);
-          $542 = (0 - ($adjust$0))|0;
-          $adjust$0$ = $541 ? $adjust$0 : $542;
-          $543 = (($adjust$0$) + ($529))|0;
-          $544 = $$flags$0 & 3;
-          $545 = HEAP8[$89]|0;
-          $546 = $545&255;
-          $547 = $546 ^ $543;
-          $548 = $547 & 16;
-          $549 = $543&255;
-          $550 = $543 & 255;
-          $551 = (($this) + ($550)|0);
-          $552 = HEAP8[$551]|0;
-          $553 = $552&255;
-          $554 = $553 | $544;
-          $555 = $554 | $548;
-          HEAP8[$89] = $549;
-          $flags$0$be = $555;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 52:  {
-          $556 = HEAP16[$91>>1]|0;
-          $557 = $556&65535;
-          $558 = (($32) + ($557)|0);
-          $559 = HEAP8[$558]|0;
-          $560 = $559&255;
-          $561 = (($560) + 1)|0;
-          $562 = $561&255;
-          HEAP8[$558] = $562;
-          $data$4 = $561;$ix$1 = $ix$074;$iy$1 = $iy$059;$pc$5 = $281;$s_time$6 = $278;
-          label = 95;
-          break;
-         }
-         case 60: case 44: case 36: case 28: case 20: case 12: case 4:  {
-          $563 = $279 >>> 3;
-          $564 = $563 ^ 1;
-          $565 = (($92) + ($564)|0);
-          $566 = HEAP8[$565]|0;
-          $567 = (($566) + 1)<<24>>24;
-          HEAP8[$565] = $567;
-          $568 = $567&255;
-          $data$4 = $568;$ix$1 = $ix$074;$iy$1 = $iy$059;$pc$5 = $281;$s_time$6 = $278;
-          label = 95;
           break;
          }
          case 53:  {
@@ -7617,6 +7704,144 @@
           label = 110;
           break;
          }
+         case 119: case 117: case 116: case 115: case 114: case 113: case 112:  {
+          $675 = $279 ^ 1;
+          $676 = (($114) + ($675)|0);
+          $677 = HEAP8[$676]|0;
+          $678 = HEAP16[$116>>1]|0;
+          $679 = $678&65535;
+          $680 = (($32) + ($679)|0);
+          HEAP8[$680] = $677;
+          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 41: case 25: case 9:  {
+          $508 = $279 >>> 3;
+          $$sum7 = (($508) + -1)|0;
+          $509 = (($88) + ($$sum7)|0);
+          $510 = $509;
+          $511 = HEAP16[$510>>1]|0;
+          $512 = $511&65535;
+          $data$3 = $512;
+          label = 88;
+          break;
+         }
+         case 57:  {
+          $data$3 = $sp$089;
+          label = 88;
+          break;
+         }
+         case 39:  {
+          $528 = HEAP8[$89]|0;
+          $529 = $528&255;
+          $530 = ($528&255)>(153);
+          $531 = $530&1;
+          $$flags$0 = $531 | $flags$053;
+          $532 = $$flags$0 & 1;
+          $533 = (0 - ($532))|0;
+          $534 = $533 & 96;
+          $535 = $flags$053 & 16;
+          $536 = ($535|0)==(0);
+          if ($536) {
+           $537 = $529 & 14;
+           $538 = ($537>>>0)>(9);
+           if ($538) {
+            label = 91;
+           } else {
+            $adjust$0 = $534;
+           }
+          } else {
+           label = 91;
+          }
+          if ((label|0) == 91) {
+           label = 0;
+           $539 = $534 | 6;
+           $adjust$0 = $539;
+          }
+          $540 = $flags$053 & 2;
+          $541 = ($540|0)==(0);
+          $542 = (0 - ($adjust$0))|0;
+          $adjust$0$ = $541 ? $adjust$0 : $542;
+          $543 = (($adjust$0$) + ($529))|0;
+          $544 = $$flags$0 & 3;
+          $545 = HEAP8[$89]|0;
+          $546 = $545&255;
+          $547 = $546 ^ $543;
+          $548 = $547 & 16;
+          $549 = $543&255;
+          $550 = $543 & 255;
+          $551 = (($this) + ($550)|0);
+          $552 = HEAP8[$551]|0;
+          $553 = $552&255;
+          $554 = $553 | $544;
+          $555 = $554 | $548;
+          HEAP8[$89] = $549;
+          $flags$0$be = $555;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
+         case 191: case 189: case 188: case 187: case 186: case 185: case 184:  {
+          $486 = $279 ^ 1;
+          $487 = (($85) + ($486)|0);
+          $488 = HEAP8[$487]|0;
+          $489 = $488&255;
+          $data$2 = $489;$pc$4 = $281;$s_time$5 = $278;
+          label = 86;
+          break;
+         }
+         case 254:  {
+          $485 = (($$in) + 2)|0;
+          $data$2 = $284;$pc$4 = $485;$s_time$5 = $278;
+          label = 86;
+          break;
+         }
+         case 190:  {
+          $480 = HEAP16[$82>>1]|0;
+          $481 = $480&65535;
+          $482 = (($32) + ($481)|0);
+          $483 = HEAP8[$482]|0;
+          $484 = $483&255;
+          $data$2 = $484;$pc$4 = $281;$s_time$5 = $278;
+          label = 86;
+          break;
+         }
+         case 52:  {
+          $556 = HEAP16[$91>>1]|0;
+          $557 = $556&65535;
+          $558 = (($32) + ($557)|0);
+          $559 = HEAP8[$558]|0;
+          $560 = $559&255;
+          $561 = (($560) + 1)|0;
+          $562 = $561&255;
+          HEAP8[$558] = $562;
+          $data$4 = $561;$ix$1 = $ix$074;$iy$1 = $iy$059;$pc$5 = $281;$s_time$6 = $278;
+          label = 95;
+          break;
+         }
+         case 60: case 44: case 36: case 28: case 20: case 12: case 4:  {
+          $563 = $279 >>> 3;
+          $564 = $563 ^ 1;
+          $565 = (($92) + ($564)|0);
+          $566 = HEAP8[$565]|0;
+          $567 = (($566) + 1)<<24>>24;
+          HEAP8[$565] = $567;
+          $568 = $567&255;
+          $data$4 = $568;$ix$1 = $ix$074;$iy$1 = $iy$059;$pc$5 = $281;$s_time$6 = $278;
+          label = 95;
+          break;
+         }
+         case 241:  {
+          $426 = (($32) + ($sp$089)|0);
+          $427 = HEAP8[$426]|0;
+          $428 = $427&255;
+          $429 = (($sp$089) + 1)|0;
+          $430 = (($32) + ($429)|0);
+          $431 = HEAP8[$430]|0;
+          HEAP8[$74] = $431;
+          $432 = (($sp$089) + 2)|0;
+          $433 = $432 & 65535;
+          $flags$0$be = $428;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $433;$warning$0$off0$be = $warning$0$off0107;
+          break;
+         }
          case 174:  {
           $657 = HEAP16[$109>>1]|0;
           $658 = $657&65535;
@@ -7640,17 +7865,6 @@
           $666 = $665&255;
           $data$8 = $666;$pc$9 = $281;$s_time$10 = $278;
           label = 114;
-          break;
-         }
-         case 119: case 117: case 116: case 115: case 114: case 113: case 112:  {
-          $675 = $279 ^ 1;
-          $676 = (($114) + ($675)|0);
-          $677 = HEAP8[$676]|0;
-          $678 = HEAP16[$116>>1]|0;
-          $679 = $678&65535;
-          $680 = (($32) + ($679)|0);
-          HEAP8[$680] = $677;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
           break;
          }
          case 125: case 124: case 123: case 122: case 121: case 120: case 111: case 108: case 107: case 106: case 105: case 104: case 103: case 101: case 99: case 98: case 97: case 96: case 95: case 93: case 92: case 90: case 89: case 88: case 87: case 85: case 84: case 83: case 81: case 80: case 79: case 77: case 76: case 75: case 74: case 72: case 71: case 69: case 68: case 67: case 66: case 65:  {
@@ -8252,17 +8466,6 @@
           $1099 = $1098 >>> 4;
           $1100 = (($1099) + ($278))|0;
           switch ($284|0) {
-          case 106: case 90: case 74: case 98: case 82: case 66:  {
-           $1101 = $284 >>> 3;
-           $1102 = $1101 & 6;
-           $1103 = (($201) + ($1102)|0);
-           $1104 = $1103;
-           $1105 = HEAP16[$1104>>1]|0;
-           $1106 = $1105&65535;
-           $temp47$0 = $1106;
-           label = 175;
-           break;
-          }
           case 122: case 114:  {
            $temp47$0 = $sp$089;
            label = 175;
@@ -8402,6 +8605,17 @@
            HEAP8[$218] = $1222;
            $flags$0$be = $1221;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $1095;$s_time$1$be = $1100;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
            break L6;
+           break;
+          }
+          case 106: case 90: case 74: case 98: case 82: case 66:  {
+           $1101 = $284 >>> 3;
+           $1102 = $1101 & 6;
+           $1103 = (($201) + ($1102)|0);
+           $1104 = $1103;
+           $1105 = HEAP16[$1104>>1]|0;
+           $1106 = $1105&65535;
+           $temp47$0 = $1106;
+           label = 175;
            break;
           }
           case 177: case 161:  {
@@ -8760,220 +8974,6 @@
           break L4;
           break;
          }
-         case 127: case 109: case 100: case 91: case 82: case 73: case 64: case 0:  {
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 8:  {
-          $285 = HEAP8[$60]|0;
-          $286 = HEAP8[$61]|0;
-          HEAP8[$60] = $286;
-          HEAP8[$61] = $285;
-          $287 = HEAP8[$62]|0;
-          $288 = $287&255;
-          $289 = $flags$053&255;
-          HEAP8[$62] = $289;
-          $flags$0$be = $288;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $281;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 211:  {
-          $290 = (($$in) + 2)|0;
-          $291 = HEAP32[$63>>2]|0;
-          $292 = (($291) + ($278))|0;
-          $293 = HEAP8[$64]|0;
-          $294 = $293&255;
-          $295 = $294 << 8;
-          $296 = $295 | $284;
-          __Z10ay_cpu_outP6Ay_Cpulji($this,$292,$296,$294);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $290;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 46:  {
-          $297 = (($$in) + 2)|0;
-          HEAP8[$65] = $283;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $297;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 62:  {
-          $298 = (($$in) + 2)|0;
-          HEAP8[$66] = $283;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $298;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 58:  {
-          $299 = (__Z8get_le16PKv($282)|0);
-          $300 = (($$in) + 3)|0;
-          $301 = (($32) + ($299)|0);
-          $302 = HEAP8[$301]|0;
-          HEAP8[$67] = $302;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $300;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 32:  {
-          $303 = (($$in) + 2)|0;
-          $304 = $flags$053 & 64;
-          $305 = ($304|0)==(0);
-          if (!($305)) {
-           $pc$0 = $303;
-           label = 3;
-           break L6;
-          }
-          $306 = $283 << 24 >> 24;
-          $307 = (($306) + ($303))|0;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $307;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 40:  {
-          $308 = (($$in) + 2)|0;
-          $309 = $flags$053 & 64;
-          $310 = ($309|0)==(0);
-          if ($310) {
-           $pc$0 = $308;
-           label = 3;
-           break L6;
-          }
-          $311 = $283 << 24 >> 24;
-          $312 = (($311) + ($308))|0;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $312;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 48:  {
-          $313 = (($$in) + 2)|0;
-          $314 = $flags$053 & 1;
-          $315 = ($314|0)==(0);
-          if (!($315)) {
-           $pc$0 = $313;
-           label = 3;
-           break L6;
-          }
-          $316 = $283 << 24 >> 24;
-          $317 = (($316) + ($313))|0;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $317;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 56:  {
-          $318 = (($$in) + 2)|0;
-          $319 = $flags$053 & 1;
-          $320 = ($319|0)==(0);
-          if ($320) {
-           $pc$0 = $318;
-           label = 3;
-           break L6;
-          }
-          $321 = $283 << 24 >> 24;
-          $322 = (($321) + ($318))|0;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $322;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 24:  {
-          $323 = $283 << 24 >> 24;
-          $324 = (($$in) + 2)|0;
-          $325 = (($324) + ($323))|0;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $325;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 16:  {
-          $326 = HEAP8[$68]|0;
-          $327 = $326&255;
-          $328 = (($327) + -1)|0;
-          $329 = $328&255;
-          HEAP8[$68] = $329;
-          $330 = (($$in) + 2)|0;
-          $331 = ($328|0)==(0);
-          if ($331) {
-           $pc$0 = $330;
-           label = 3;
-           break L6;
-          }
-          $332 = $283 << 24 >> 24;
-          $333 = (($332) + ($330))|0;
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $333;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 194:  {
-          $334 = $flags$053 & 64;
-          $335 = ($334|0)==(0);
-          if (!($335)) {
-           $s_time$0 = $278;
-           label = 6;
-           break L6;
-          }
-          $336 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $336;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 202:  {
-          $337 = $flags$053 & 64;
-          $338 = ($337|0)==(0);
-          if ($338) {
-           $s_time$0 = $278;
-           label = 6;
-           break L6;
-          }
-          $339 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $339;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 210:  {
-          $340 = $flags$053 & 1;
-          $341 = ($340|0)==(0);
-          if (!($341)) {
-           $s_time$0 = $278;
-           label = 6;
-           break L6;
-          }
-          $342 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $342;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 226:  {
-          $346 = $flags$053 & 4;
-          $347 = ($346|0)==(0);
-          if (!($347)) {
-           $s_time$0 = $278;
-           label = 6;
-           break L6;
-          }
-          $348 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $348;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 234:  {
-          $349 = $flags$053 & 4;
-          $350 = ($349|0)==(0);
-          if ($350) {
-           $s_time$0 = $278;
-           label = 6;
-           break L6;
-          }
-          $351 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $351;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 242:  {
-          $352 = $flags$053 & 128;
-          $353 = ($352|0)==(0);
-          if (!($353)) {
-           $s_time$0 = $278;
-           label = 6;
-           break L6;
-          }
-          $354 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $354;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
-         case 250:  {
-          $355 = $flags$053 & 128;
-          $356 = ($355|0)==(0);
-          if ($356) {
-           $s_time$0 = $278;
-           label = 6;
-           break L6;
-          }
-          $357 = (__Z8get_le16PKv($282)|0);
-          $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $357;$s_time$1$be = $278;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-          break;
-         }
          default: {
           label = 264;
           break L4;
@@ -9074,6 +9074,11 @@
           $1358 = $1357 & 15;
           $1359 = (($1358) + ($278))|0;
           switch ($284|0) {
+          case 109: case 100:  {
+           $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $1351;$s_time$1$be = $1359;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
+           break L186;
+           break;
+          }
           case 229:  {
            $data$0 = $ixy$0;$pc$2 = $1351;$s_time$3 = $1359;
            label = 73;
@@ -9561,11 +9566,6 @@
            $1557 = (__Z8get_le16PKv($1556)|0);
            __Z8set_le16Pvj($1556,$ixy$0);
            $flags$11 = $flags$053;$ixy$1 = $1557;$pc$23 = $1351;$sp$1 = $sp$089;
-           break;
-          }
-          case 109: case 100:  {
-           $flags$0$be = $flags$053;$ix$0$be = $ix$074;$iy$0$be = $iy$059;$pc$1$be = $1351;$s_time$1$be = $1359;$sp$0$be = $sp$089;$warning$0$off0$be = $warning$0$off0107;
-           break L186;
            break;
           }
           default: {
@@ -10702,20 +10702,20 @@
        do {
         if ($3) {
          $4 = $addr & 65279;
-         if ((($4|0) == 65277)) {
-          $5 = (($this) + 940|0);
-          HEAP8[$5] = 1;
-          $6 = $data & 15;
-          $7 = (($this) + 932|0);
-          HEAP32[$7>>2] = $6;
-          STACKTOP = sp;return;
-         } else if ((($4|0) == 48893)) {
+         if ((($4|0) == 48893)) {
           $8 = (($this) + 940|0);
           HEAP8[$8] = 1;
           $9 = (($this) + 66992|0);
           $10 = (($this) + 932|0);
           $11 = HEAP32[$10>>2]|0;
           __ZN6Ay_Apu5writeEiii($9,$time,$11,$data);
+          STACKTOP = sp;return;
+         } else if ((($4|0) == 65277)) {
+          $5 = (($this) + 940|0);
+          HEAP8[$5] = 1;
+          $6 = $data & 15;
+          $7 = (($this) + 932|0);
+          HEAP32[$7>>2] = $6;
           STACKTOP = sp;return;
          } else {
           break;
@@ -18970,7 +18970,18 @@
        var $27 = 0, $28 = 0, $29 = 0, $3 = 0, $4 = 0, $5 = 0, $6 = 0, $7 = 0, $8 = 0, $9 = 0, label = 0, sp = 0;
        sp = STACKTOP;
        do {
-        if ((($reg|0) == 4)) {
+        if ((($reg|0) == 1)) {
+         $1 = (($this) + 24|0);
+         $2 = HEAP32[$1>>2]|0;
+         $3 = (($2) + 1|0);
+         $4 = HEAP8[$3]|0;
+         $5 = $4&255;
+         $6 = $5 & 63;
+         $7 = (64 - ($6))|0;
+         $8 = (($this) + 40|0);
+         HEAP32[$8>>2] = $7;
+         $$0 = 0;
+        } else if ((($reg|0) == 4)) {
          $11 = $data & 128;
          $12 = ($11|0)==(0);
          if ($12) {
@@ -19011,17 +19022,6 @@
          }
          $10 = (($this) + 44|0);
          HEAP32[$10>>2] = 0;
-         $$0 = 0;
-        } else if ((($reg|0) == 1)) {
-         $1 = (($this) + 24|0);
-         $2 = HEAP32[$1>>2]|0;
-         $3 = (($2) + 1|0);
-         $4 = HEAP8[$3]|0;
-         $5 = $4&255;
-         $6 = $5 & 63;
-         $7 = (64 - ($6))|0;
-         $8 = (($this) + 40|0);
-         HEAP32[$8>>2] = $7;
          $$0 = 0;
         } else {
          $$0 = 0;
@@ -19478,7 +19478,16 @@
        $1 = Math_imul($index, -5)|0;
        $2 = (($1) + ($reg))|0;
        $3 = (($this) + 112|0);
-       if ((($index|0) == 3)) {
+       if ((($index|0) == 1)) {
+        $sq$0 = $3;
+       } else if ((($index|0) == 2)) {
+        $20 = (($this) + 180|0);
+        __ZN7Gb_Wave14write_registerEii($20,$2,$data);
+        STACKTOP = sp;return;
+       } else if ((($index|0) == 0)) {
+        $4 = (($this) + 44|0);
+        $sq$0 = $4;
+       } else if ((($index|0) == 3)) {
         $21 = (($this) + 268|0);
         $22 = (__ZN6Gb_Env14write_registerEii($21,$2,$data)|0);
         if (!($22)) {
@@ -19487,15 +19496,6 @@
         $23 = (($this) + 324|0);
         HEAP32[$23>>2] = 32767;
         STACKTOP = sp;return;
-       } else if ((($index|0) == 2)) {
-        $20 = (($this) + 180|0);
-        __ZN7Gb_Wave14write_registerEii($20,$2,$data);
-        STACKTOP = sp;return;
-       } else if ((($index|0) == 1)) {
-        $sq$0 = $3;
-       } else if ((($index|0) == 0)) {
-        $4 = (($this) + 44|0);
-        $sq$0 = $4;
        } else {
         STACKTOP = sp;return;
        }
@@ -19535,16 +19535,7 @@
        var $5 = 0, $6 = 0, $7 = 0, $8 = 0, $9 = 0, label = 0, sp = 0;
        sp = STACKTOP;
        do {
-        if ((($reg|0) == 1)) {
-         $4 = (($this) + 24|0);
-         $5 = HEAP32[$4>>2]|0;
-         $6 = (($5) + 1|0);
-         $7 = HEAP8[$6]|0;
-         $8 = $7&255;
-         $9 = (256 - ($8))|0;
-         $10 = (($this) + 40|0);
-         HEAP32[$10>>2] = $9;
-        } else if ((($reg|0) == 2)) {
+        if ((($reg|0) == 2)) {
          $11 = $data >>> 5;
          $12 = $11 & 3;
          $13 = (($this) + 36|0);
@@ -19579,6 +19570,15 @@
           break;
          }
          HEAP32[$23>>2] = 256;
+        } else if ((($reg|0) == 1)) {
+         $4 = (($this) + 24|0);
+         $5 = HEAP32[$4>>2]|0;
+         $6 = (($5) + 1|0);
+         $7 = HEAP8[$6]|0;
+         $8 = $7&255;
+         $9 = (256 - ($8))|0;
+         $10 = (($this) + 40|0);
+         HEAP32[$10>>2] = $9;
         }
        } while(0);
        STACKTOP = sp;return;
@@ -21272,14 +21272,14 @@
            $2 = (($$01) + 1|0);
            $3 = HEAP8[$$01]|0;
            $4 = $3&255;
-           if ((($4|0) == 2) | (($4|0) == 1)) {
-            $7 = (($$01) + 3|0);
-            $$0$be = $7;
-           } else if ((($4|0) == 0)) {
+           if ((($4|0) == 0)) {
             break;
            } else if ((($4|0) == 3)) {
             $8 = (($$01) + 2|0);
             $$0$be = $8;
+           } else if ((($4|0) == 2) | (($4|0) == 1)) {
+            $7 = (($$01) + 3|0);
+            $$0$be = $7;
            } else {
             $$0$be = $2;
            }
@@ -21744,15 +21744,15 @@
              }
              __ZN10Ym2612_Emu6write0Eii($12,$24,$27);
              $pos$0$be = $25;
-            } else if ((($20<<24>>24) == 3)) {
-             __ZN7Sms_Apu10write_dataEii($15,0,$24);
-             $pos$0$be = $22;
             } else if ((($20<<24>>24) == 2)) {
              $35 = (($pos$04) + 3|0);
              $36 = HEAP8[$22]|0;
              $37 = $36&255;
              __ZN10Ym2612_Emu6write1Eii($14,$24,$37);
              $pos$0$be = $35;
+            } else if ((($20<<24>>24) == 3)) {
+             __ZN7Sms_Apu10write_dataEii($15,0,$24);
+             $pos$0$be = $22;
             } else {
              $pos$0$be = $21;
             }
@@ -22525,37 +22525,6 @@
          STACKTOP = sp;return;
          break;
         }
-        case 2050:  {
-         $19 = ((($this) + (($15*88)|0)|0) + 48|0);
-         $20 = HEAP32[$19>>2]|0;
-         $21 = $20 & 3840;
-         $22 = $21 | $data;
-         HEAP32[$19>>2] = $22;
-         STACKTOP = sp;return;
-         break;
-        }
-        case 2051:  {
-         $23 = ((($this) + (($15*88)|0)|0) + 48|0);
-         $24 = HEAP32[$23>>2]|0;
-         $25 = $24 & 255;
-         $26 = $data << 8;
-         $27 = $26 & 3840;
-         $28 = $25 | $27;
-         HEAP32[$23>>2] = $28;
-         STACKTOP = sp;return;
-         break;
-        }
-        case 2055:  {
-         $60 = ($15|0)>(3);
-         if (!($60)) {
-          STACKTOP = sp;return;
-         }
-         $61 = $data&255;
-         $62 = ((($this) + (($15*88)|0)|0) + 52|0);
-         HEAP8[$62] = $61;
-         STACKTOP = sp;return;
-         break;
-        }
         case 2054:  {
          $40 = $data & 31;
          $41 = ((($this) + (($15*88)|0)|0) + 84|0);
@@ -22594,6 +22563,37 @@
          $39 = ((($this) + (($15*88)|0)|0) + 54|0);
          HEAP8[$39] = $38;
          __ZN7Hes_Apu15balance_changedER7Hes_Osc($this,$17);
+         STACKTOP = sp;return;
+         break;
+        }
+        case 2051:  {
+         $23 = ((($this) + (($15*88)|0)|0) + 48|0);
+         $24 = HEAP32[$23>>2]|0;
+         $25 = $24 & 255;
+         $26 = $data << 8;
+         $27 = $26 & 3840;
+         $28 = $25 | $27;
+         HEAP32[$23>>2] = $28;
+         STACKTOP = sp;return;
+         break;
+        }
+        case 2055:  {
+         $60 = ($15|0)>(3);
+         if (!($60)) {
+          STACKTOP = sp;return;
+         }
+         $61 = $data&255;
+         $62 = ((($this) + (($15*88)|0)|0) + 52|0);
+         HEAP8[$62] = $61;
+         STACKTOP = sp;return;
+         break;
+        }
+        case 2050:  {
+         $19 = ((($this) + (($15*88)|0)|0) + 48|0);
+         $20 = HEAP32[$19>>2]|0;
+         $21 = $20 & 3840;
+         $22 = $21 | $data;
+         HEAP32[$19>>2] = $22;
          STACKTOP = sp;return;
          break;
         }
@@ -23042,182 +23042,6 @@
           $153 = $152&255;
           L5: do {
            switch ($144|0) {
-           case 104:  {
-            $982 = (($this) + ($sp$0)|0);
-            $983 = HEAP8[$982]|0;
-            $984 = $983&255;
-            $985 = (($sp$0) + -255)|0;
-            $986 = $985 | 256;
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0 = $984;$nz$0 = $984;$sp$0 = $986;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;
-            continue L1;
-            break;
-           }
-           case 250:  {
-            $987 = (($this) + ($sp$0)|0);
-            $988 = HEAP8[$987]|0;
-            $989 = $988&255;
-            $990 = (($sp$0) + -255)|0;
-            $991 = $990 | 256;
-            $y$0$phi = $y$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $989;$sp$0 = $991;$x$0 = $989;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 122:  {
-            $992 = (($this) + ($sp$0)|0);
-            $993 = HEAP8[$992]|0;
-            $994 = $993&255;
-            $995 = (($sp$0) + -255)|0;
-            $996 = $995 | 256;
-            $x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $994;$sp$0 = $996;$y$0 = $994;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 40:  {
-            $997 = (($this) + ($sp$0)|0);
-            $998 = HEAP8[$997]|0;
-            $999 = $998&255;
-            $1000 = (($sp$0) + -255)|0;
-            $1001 = $1000 | 256;
-            $1002 = $999 ^ $status$0;
-            $1003 = $999 & 76;
-            $1004 = $999 << 8;
-            $1005 = $999 & 2;
-            $1006 = $1005 | $1004;
-            $1007 = $1006 ^ 2;
-            $1008 = $1002 & 4;
-            $1009 = ($1008|0)==(0);
-            if ($1009) {
-             $y$0$phi = $y$0;$x$0$phi = $x$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$a$0$phi = $a$0;$c$0 = $1004;$nz$0 = $1007;$sp$0 = $1001;$status$0 = $1003;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$a$0 = $a$0$phi;
-             continue L1;
-            }
-            $1010 = $999 & 4;
-            $1011 = ($1010|0)==(0);
-            if ($1011) {
-             $c$8 = $1004;$nz$11 = $1007;$sp$2 = $1001;$status$1 = $1003;
-             label = 246;
-            } else {
-             $c$9 = $1004;$nz$12 = $1007;$sp$3 = $1001;$status$2 = $1003;
-             label = 252;
-            }
-            break;
-           }
-           case 24:  {
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$a$0$phi = $a$0;$c$0 = 0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 8:  {
-            $1012 = $status$0 & 76;
-            $1013 = $nz$0 >>> 8;
-            $1014 = $1013 | $nz$0;
-            $1015 = $1014 & 128;
-            $1016 = $1012 | $1015;
-            $1017 = $c$0 >>> 8;
-            $1018 = $1017 & 1;
-            $1019 = $1016 | $1018;
-            $1020 = $nz$0 & 255;
-            $1021 = ($1020|0)==(0);
-            $1022 = $1019 | 2;
-            $$28 = $1021 ? $1022 : $1019;
-            $1023 = (($sp$0) + -1)|0;
-            $1024 = $1023 | 256;
-            $1025 = $$28 | 16;
-            $1026 = $1025&255;
-            $1027 = (($this) + ($1024)|0);
-            HEAP8[$1027] = $1026;
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $1024;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 56:  {
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$a$0$phi = $a$0;$c$0 = -1;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 120:  {
-            if ($136) {
-             $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-             continue L1;
-            }
-            $1042 = $status$0 | 4;
-            $c$9 = $c$0;$nz$12 = $nz$0;$sp$3 = $sp$0;$status$2 = $1042;
-            label = 252;
-            break;
-           }
-           case 83:  {
-            $1048 = $153 & 1;
-            $1049 = ($1048|0)==(0);
-            if (!($1049)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,0,$a$0);
-            }
-            $1050 = $153 & 2;
-            $1051 = ($1050|0)==(0);
-            if (!($1051)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,1,$a$0);
-            }
-            $1158 = $153 & 4;
-            $1159 = ($1158|0)==(0);
-            if (!($1159)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,2,$a$0);
-            }
-            $1160 = $153 & 8;
-            $1161 = ($1160|0)==(0);
-            if (!($1161)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,3,$a$0);
-            }
-            $1162 = $153 & 16;
-            $1163 = ($1162|0)==(0);
-            if (!($1163)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,4,$a$0);
-            }
-            $1164 = $153 & 32;
-            $1165 = ($1164|0)==(0);
-            if (!($1165)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,5,$a$0);
-            }
-            $1166 = $153 & 64;
-            $1167 = ($1166|0)==(0);
-            if (!($1167)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,6,$a$0);
-            }
-            $1168 = $153 & 128;
-            $1169 = ($1168|0)==(0);
-            if (!($1169)) {
-             __ZN7Hes_Cpu7set_mmrEii($this,7,$a$0);
-            }
-            $1170 = (($pc$1) + 2)|0;
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $1170;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 184:  {
-            $1028 = $status$0 & -65;
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $1028;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 216:  {
-            $1029 = $status$0 & -9;
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $1029;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 248:  {
-            $1030 = $status$0 | 8;
-            $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $1030;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-            continue L1;
-            break;
-           }
-           case 88:  {
-            if (!($136)) {
-             $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-             continue L1;
-            }
-            $1031 = $status$0 & -5;
-            $c$8 = $c$0;$nz$11 = $nz$0;$sp$2 = $sp$0;$status$1 = $1031;
-            label = 246;
-            break;
-           }
            case 212: case 234:  {
             $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
             continue L1;
@@ -23495,6 +23319,13 @@
             continue L1;
             break;
            }
+           case 149:  {
+            $296 = (($153) + ($x$0))|0;
+            $297 = $296 & 255;
+            $data$1 = $297;
+            label = 39;
+            break;
+           }
            case 133:  {
             $data$1 = $153;
             label = 39;
@@ -23533,6 +23364,13 @@
             continue L1;
             break;
            }
+           case 129:  {
+            $331 = (($153) + ($x$0))|0;
+            $332 = $331 & 255;
+            $data$2 = $332;
+            label = 45;
+            break;
+           }
            case 145:  {
             $319 = (($153) + 1)|0;
             $320 = $319 & 255;
@@ -23550,22 +23388,15 @@
             label = 48;
             break;
            }
-           case 129:  {
-            $331 = (($153) + ($x$0))|0;
-            $332 = $331 & 255;
-            $data$2 = $332;
-            label = 45;
+           case 153:  {
+            $344 = (($153) + ($y$0))|0;
+            $data$3 = $344;
+            label = 47;
             break;
            }
            case 146:  {
             $data$2 = $153;
             label = 45;
-            break;
-           }
-           case 153:  {
-            $344 = (($153) + ($y$0))|0;
-            $data$3 = $344;
-            label = 47;
             break;
            }
            case 141:  {
@@ -23585,6 +23416,12 @@
             label = 53;
             break;
            }
+           case 185:  {
+            $386 = (($153) + ($y$0))|0;
+            $data$5 = $386;
+            label = 56;
+            break;
+           }
            case 177:  {
             $374 = (($this) + ($153)|0);
             $375 = HEAP8[$374]|0;
@@ -23600,12 +23437,6 @@
             $385 = (($pc$1) + 2)|0;
             $addr15$0 = $384;$pc$3 = $385;
             label = 57;
-            break;
-           }
-           case 185:  {
-            $386 = (($153) + ($y$0))|0;
-            $data$5 = $386;
-            label = 56;
             break;
            }
            case 173:  {
@@ -23920,6 +23751,13 @@
             label = 103;
             break;
            }
+           case 213:  {
+            $597 = (($153) + ($x$0))|0;
+            $598 = $597 & 255;
+            $data$21 = $598;
+            label = 106;
+            break;
+           }
            case 209:  {
             $586 = (($this) + ($153)|0);
             $587 = HEAP8[$586]|0;
@@ -23935,13 +23773,6 @@
             HEAP32[$5>>2] = $149;
             $data$2332 = $596;$pc$934 = $145;
             label = 111;
-            break;
-           }
-           case 213:  {
-            $597 = (($153) + ($x$0))|0;
-            $598 = $597 & 255;
-            $data$21 = $598;
-            label = 106;
             break;
            }
            case 197:  {
@@ -23983,6 +23814,13 @@
             label = 115;
             break;
            }
+           case 53:  {
+            $640 = (($153) + ($x$0))|0;
+            $641 = $640 & 255;
+            $data$26 = $641;
+            label = 118;
+            break;
+           }
            case 49:  {
             $629 = (($this) + ($153)|0);
             $630 = HEAP8[$629]|0;
@@ -23998,13 +23836,6 @@
             HEAP32[$5>>2] = $149;
             $data$2837 = $639;$pc$1139 = $145;
             label = 123;
-            break;
-           }
-           case 53:  {
-            $640 = (($153) + ($x$0))|0;
-            $641 = $640 & 255;
-            $data$26 = $641;
-            label = 118;
             break;
            }
            case 37:  {
@@ -24046,6 +23877,13 @@
             label = 127;
             break;
            }
+           case 85:  {
+            $681 = (($153) + ($x$0))|0;
+            $682 = $681 & 255;
+            $data$31 = $682;
+            label = 130;
+            break;
+           }
            case 81:  {
             $670 = (($this) + ($153)|0);
             $671 = HEAP8[$670]|0;
@@ -24061,13 +23899,6 @@
             HEAP32[$5>>2] = $149;
             $data$3342 = $680;$pc$1344 = $145;
             label = 135;
-            break;
-           }
-           case 85:  {
-            $681 = (($153) + ($x$0))|0;
-            $682 = $681 & 255;
-            $data$31 = $682;
-            label = 130;
             break;
            }
            case 69:  {
@@ -24109,6 +23940,13 @@
             label = 139;
             break;
            }
+           case 21:  {
+            $722 = (($153) + ($x$0))|0;
+            $723 = $722 & 255;
+            $data$36 = $723;
+            label = 142;
+            break;
+           }
            case 17:  {
             $711 = (($this) + ($153)|0);
             $712 = HEAP8[$711]|0;
@@ -24124,13 +23962,6 @@
             HEAP32[$5>>2] = $149;
             $data$3847 = $721;$pc$1549 = $145;
             label = 147;
-            break;
-           }
-           case 21:  {
-            $722 = (($153) + ($x$0))|0;
-            $723 = $722 & 255;
-            $data$36 = $723;
-            label = 142;
             break;
            }
            case 5:  {
@@ -24172,6 +24003,13 @@
             label = 151;
             break;
            }
+           case 245:  {
+            $763 = (($153) + ($x$0))|0;
+            $764 = $763 & 255;
+            $data$41 = $764;
+            label = 154;
+            break;
+           }
            case 241:  {
             $752 = (($this) + ($153)|0);
             $753 = HEAP8[$752]|0;
@@ -24187,13 +24025,6 @@
             HEAP32[$5>>2] = $149;
             $data$4352 = $762;$pc$1754 = $145;
             label = 159;
-            break;
-           }
-           case 245:  {
-            $763 = (($153) + ($x$0))|0;
-            $764 = $763 & 255;
-            $data$41 = $764;
-            label = 154;
             break;
            }
            case 229:  {
@@ -24235,6 +24066,13 @@
             label = 163;
             break;
            }
+           case 117:  {
+            $803 = (($153) + ($x$0))|0;
+            $804 = $803 & 255;
+            $data$46 = $804;
+            label = 166;
+            break;
+           }
            case 113:  {
             $792 = (($this) + ($153)|0);
             $793 = HEAP8[$792]|0;
@@ -24250,13 +24088,6 @@
             HEAP32[$5>>2] = $149;
             $data$4857 = $802;$pc$1959 = $145;
             label = 171;
-            break;
-           }
-           case 117:  {
-            $803 = (($153) + ($x$0))|0;
-            $804 = $803 & 255;
-            $data$46 = $804;
-            label = 166;
             break;
            }
            case 101:  {
@@ -24523,13 +24354,6 @@
             continue L1;
             break;
            }
-           case 149:  {
-            $296 = (($153) + ($x$0))|0;
-            $297 = $296 & 255;
-            $data$1 = $297;
-            label = 39;
-            break;
-           }
            case 186:  {
             $934 = (($sp$0) + 255)|0;
             $935 = $934 & 255;
@@ -24645,6 +24469,182 @@
             $980 = (($149) - ($new_time$0))|0;
             $981 = (($980) + ($979))|0;
             $y$0$phi = $y$0;$x$0$phi = $x$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$a$0$phi = $a$0;$c$0 = $966;$nz$0 = $969;$pc$1 = $962;$s_time$0 = $981;$sp$0 = $964;$status$0 = $965;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 104:  {
+            $982 = (($this) + ($sp$0)|0);
+            $983 = HEAP8[$982]|0;
+            $984 = $983&255;
+            $985 = (($sp$0) + -255)|0;
+            $986 = $985 | 256;
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0 = $984;$nz$0 = $984;$sp$0 = $986;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;
+            continue L1;
+            break;
+           }
+           case 250:  {
+            $987 = (($this) + ($sp$0)|0);
+            $988 = HEAP8[$987]|0;
+            $989 = $988&255;
+            $990 = (($sp$0) + -255)|0;
+            $991 = $990 | 256;
+            $y$0$phi = $y$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $989;$sp$0 = $991;$x$0 = $989;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 122:  {
+            $992 = (($this) + ($sp$0)|0);
+            $993 = HEAP8[$992]|0;
+            $994 = $993&255;
+            $995 = (($sp$0) + -255)|0;
+            $996 = $995 | 256;
+            $x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $994;$sp$0 = $996;$y$0 = $994;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 40:  {
+            $997 = (($this) + ($sp$0)|0);
+            $998 = HEAP8[$997]|0;
+            $999 = $998&255;
+            $1000 = (($sp$0) + -255)|0;
+            $1001 = $1000 | 256;
+            $1002 = $999 ^ $status$0;
+            $1003 = $999 & 76;
+            $1004 = $999 << 8;
+            $1005 = $999 & 2;
+            $1006 = $1005 | $1004;
+            $1007 = $1006 ^ 2;
+            $1008 = $1002 & 4;
+            $1009 = ($1008|0)==(0);
+            if ($1009) {
+             $y$0$phi = $y$0;$x$0$phi = $x$0;$s_time$0$phi = $149;$pc$1$phi = $145;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$a$0$phi = $a$0;$c$0 = $1004;$nz$0 = $1007;$sp$0 = $1001;$status$0 = $1003;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$a$0 = $a$0$phi;
+             continue L1;
+            }
+            $1010 = $999 & 4;
+            $1011 = ($1010|0)==(0);
+            if ($1011) {
+             $c$8 = $1004;$nz$11 = $1007;$sp$2 = $1001;$status$1 = $1003;
+             label = 246;
+            } else {
+             $c$9 = $1004;$nz$12 = $1007;$sp$3 = $1001;$status$2 = $1003;
+             label = 252;
+            }
+            break;
+           }
+           case 56:  {
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$a$0$phi = $a$0;$c$0 = -1;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 24:  {
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$a$0$phi = $a$0;$c$0 = 0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 8:  {
+            $1012 = $status$0 & 76;
+            $1013 = $nz$0 >>> 8;
+            $1014 = $1013 | $nz$0;
+            $1015 = $1014 & 128;
+            $1016 = $1012 | $1015;
+            $1017 = $c$0 >>> 8;
+            $1018 = $1017 & 1;
+            $1019 = $1016 | $1018;
+            $1020 = $nz$0 & 255;
+            $1021 = ($1020|0)==(0);
+            $1022 = $1019 | 2;
+            $$28 = $1021 ? $1022 : $1019;
+            $1023 = (($sp$0) + -1)|0;
+            $1024 = $1023 | 256;
+            $1025 = $$28 | 16;
+            $1026 = $1025&255;
+            $1027 = (($this) + ($1024)|0);
+            HEAP8[$1027] = $1026;
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $1024;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 184:  {
+            $1028 = $status$0 & -65;
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $1028;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 216:  {
+            $1029 = $status$0 & -9;
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $1029;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 248:  {
+            $1030 = $status$0 | 8;
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $1030;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+            continue L1;
+            break;
+           }
+           case 88:  {
+            if (!($136)) {
+             $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+             continue L1;
+            }
+            $1031 = $status$0 & -5;
+            $c$8 = $c$0;$nz$11 = $nz$0;$sp$2 = $sp$0;$status$1 = $1031;
+            label = 246;
+            break;
+           }
+           case 120:  {
+            if ($136) {
+             $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$pc$1$phi = $145;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+             continue L1;
+            }
+            $1042 = $status$0 | 4;
+            $c$9 = $c$0;$nz$12 = $nz$0;$sp$3 = $sp$0;$status$2 = $1042;
+            label = 252;
+            break;
+           }
+           case 83:  {
+            $1048 = $153 & 1;
+            $1049 = ($1048|0)==(0);
+            if (!($1049)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,0,$a$0);
+            }
+            $1050 = $153 & 2;
+            $1051 = ($1050|0)==(0);
+            if (!($1051)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,1,$a$0);
+            }
+            $1158 = $153 & 4;
+            $1159 = ($1158|0)==(0);
+            if (!($1159)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,2,$a$0);
+            }
+            $1160 = $153 & 8;
+            $1161 = ($1160|0)==(0);
+            if (!($1161)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,3,$a$0);
+            }
+            $1162 = $153 & 16;
+            $1163 = ($1162|0)==(0);
+            if (!($1163)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,4,$a$0);
+            }
+            $1164 = $153 & 32;
+            $1165 = ($1164|0)==(0);
+            if (!($1165)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,5,$a$0);
+            }
+            $1166 = $153 & 64;
+            $1167 = ($1166|0)==(0);
+            if (!($1167)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,6,$a$0);
+            }
+            $1168 = $153 & 128;
+            $1169 = ($1168|0)==(0);
+            if (!($1169)) {
+             __ZN7Hes_Cpu7set_mmrEii($this,7,$a$0);
+            }
+            $1170 = (($pc$1) + 2)|0;
+            $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $149;$nz$0$phi = $nz$0;$illegal_encountered$0$off0$phi = $illegal_encountered$0$off0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $1170;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$illegal_encountered$0$off0 = $illegal_encountered$0$off0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
             continue L1;
             break;
            }
@@ -26580,31 +26580,6 @@
        }
        L5: do {
         switch ($addr|0) {
-        case 3: case 2: case 0:  {
-         __ZN7Hes_Emu13cpu_write_vdpEii($this,$addr,$data);
-         STACKTOP = sp;return;
-         break;
-        }
-        case 3072:  {
-         __ZN7Hes_Emu9run_untilEl($this,$5);
-         $10 = $data & 127;
-         $11 = (($10) + 1)|0;
-         $12 = (($this) + 8720|0);
-         HEAP32[$12>>2] = $11;
-         __ZN7Hes_Emu17recalc_timer_loadEv($this);
-         $13 = (($this) + 8716|0);
-         $14 = HEAP32[$13>>2]|0;
-         $15 = (($this) + 8712|0);
-         HEAP32[$15>>2] = $14;
-         break;
-        }
-        case 5122:  {
-         __ZN7Hes_Emu9run_untilEl($this,$5);
-         $26 = $data&255;
-         $27 = (($this) + 8744|0);
-         HEAP8[$27] = $26;
-         break;
-        }
         case 3073:  {
          $16 = $data & 1;
          $17 = (($this) + 8724|0);
@@ -26627,6 +26602,26 @@
          HEAP32[$25>>2] = $24;
          break;
         }
+        case 3072:  {
+         __ZN7Hes_Emu9run_untilEl($this,$5);
+         $10 = $data & 127;
+         $11 = (($10) + 1)|0;
+         $12 = (($this) + 8720|0);
+         HEAP32[$12>>2] = $11;
+         __ZN7Hes_Emu17recalc_timer_loadEv($this);
+         $13 = (($this) + 8716|0);
+         $14 = HEAP32[$13>>2]|0;
+         $15 = (($this) + 8712|0);
+         HEAP32[$15>>2] = $14;
+         break;
+        }
+        case 5122:  {
+         __ZN7Hes_Emu9run_untilEl($this,$5);
+         $26 = $data&255;
+         $27 = (($this) + 8744|0);
+         HEAP8[$27] = $26;
+         break;
+        }
         case 5123:  {
          __ZN7Hes_Emu9run_untilEl($this,$5);
          $28 = (($this) + 8724|0);
@@ -26640,6 +26635,11 @@
          }
          $34 = (($this) + 8725|0);
          HEAP8[$34] = 0;
+         break;
+        }
+        case 3: case 2: case 0:  {
+         __ZN7Hes_Emu13cpu_write_vdpEii($this,$addr,$data);
+         STACKTOP = sp;return;
          break;
         }
         default: {
@@ -26679,13 +26679,6 @@
        $4 = $addr & 8191;
        L1: do {
         switch ($4|0) {
-        case 5122:  {
-         $14 = (($this) + 8744|0);
-         $15 = HEAP8[$14]|0;
-         $16 = $15&255;
-         $$0 = $16;
-         break;
-        }
         case 0:  {
          $5 = (($this) + 8740|0);
          $6 = HEAP32[$5>>2]|0;
@@ -26698,6 +26691,21 @@
          __ZN7Hes_Emu9run_untilEl($this,$3);
          __ZN7Hes_Emu11irq_changedEv($this);
          $$0 = 32;
+         break;
+        }
+        case 3: case 2:  {
+         $$0 = 0;
+         break;
+        }
+        case 3072: case 3073:  {
+         __ZN7Hes_Emu9run_untilEl($this,$3);
+         $8 = (($this) + 8712|0);
+         $9 = HEAP32[$8>>2]|0;
+         $10 = (($9) + -1)|0;
+         $11 = (($this) + 8704|0);
+         $12 = HEAP32[$11>>2]|0;
+         $13 = (($10>>>0) / ($12>>>0))&-1;
+         $$0 = $13;
          break;
         }
         case 5123:  {
@@ -26713,19 +26721,11 @@
          $$0 = $status$1;
          break;
         }
-        case 3072: case 3073:  {
-         __ZN7Hes_Emu9run_untilEl($this,$3);
-         $8 = (($this) + 8712|0);
-         $9 = HEAP32[$8>>2]|0;
-         $10 = (($9) + -1)|0;
-         $11 = (($this) + 8704|0);
-         $12 = HEAP32[$11>>2]|0;
-         $13 = (($10>>>0) / ($12>>>0))&-1;
-         $$0 = $13;
-         break;
-        }
-        case 3: case 2:  {
-         $$0 = 0;
+        case 5122:  {
+         $14 = (($this) + 8744|0);
+         $15 = HEAP8[$14]|0;
+         $16 = $15&255;
+         $$0 = $16;
          break;
         }
         default: {
@@ -28153,6 +28153,12 @@
           continue L1;
           break;
          }
+         case 134: case 150:  {
+          $463 = $flags$0 & -2;
+          $flags$1 = $463;
+          label = 75;
+          break;
+         }
          case 225: case 209: case 193:  {
           $451 = $sp$0 & 8191;
           $452 = $sp$0 >>> 13;
@@ -28169,12 +28175,6 @@
           $462 = $461 & 65535;
           $warning$0$off0$phi = $warning$0$off0;$s_time$1$phi = $264;$pc$1$phi = $260;$iy$0$phi = $iy$0;$ix$0$phi = $ix$0;$flags$0$phi = $flags$0;$sp$0 = $462;$warning$0$off0 = $warning$0$off0$phi;$s_time$1 = $s_time$1$phi;$pc$1 = $pc$1$phi;$iy$0 = $iy$0$phi;$ix$0 = $ix$0$phi;$flags$0 = $flags$0$phi;
           continue L1;
-          break;
-         }
-         case 134: case 150:  {
-          $463 = $flags$0 & -2;
-          $flags$1 = $463;
-          label = 75;
           break;
          }
          case 142: case 158:  {
@@ -31670,6 +31670,13 @@
          __ZN7Sms_Apu10write_dataEii($21,$time,$1);
          break;
         }
+        case 160:  {
+         $3 = $data & 15;
+         $4 = (($cpu) + 708|0);
+         $5 = $4;
+         HEAP32[$5>>2] = $3;
+         break;
+        }
         case 161:  {
          $6 = (($cpu) + 66504|0);
          $7 = $6;
@@ -31677,13 +31684,6 @@
          $9 = $8;
          $10 = HEAP32[$9>>2]|0;
          __ZN6Ay_Apu5writeEiii($7,$time,$10,$1);
-         break;
-        }
-        case 160:  {
-         $3 = $data & 15;
-         $4 = (($cpu) + 708|0);
-         $5 = $4;
-         HEAP32[$5>>2] = $3;
          break;
         }
         default: {
@@ -33934,51 +33934,7 @@
         HEAP32[$28>>2] = (7);
         STACKTOP = sp;return;
        }
-       if ((($addr|0) == 16407)) {
-        $39 = (($this) + 1976|0);
-        HEAP32[$39>>2] = $data;
-        $40 = $data & 64;
-        $$lobit = $40 >>> 6;
-        $41 = $$lobit ^ 1;
-        $42 = (($this) + 1980|0);
-        $43 = HEAP8[$42]|0;
-        $44 = $43&255;
-        $45 = $44 & $41;
-        $46 = $45&255;
-        HEAP8[$42] = $46;
-        $47 = (($this) + 1956|0);
-        HEAP32[$47>>2] = 1073741824;
-        $48 = (($this) + 1964|0);
-        $49 = HEAP32[$48>>2]|0;
-        $50 = $49 & 1;
-        HEAP32[$48>>2] = $50;
-        $51 = (($this) + 1968|0);
-        HEAP32[$51>>2] = 0;
-        $52 = $data & 128;
-        $53 = ($52|0)==(0);
-        do {
-         if ($53) {
-          $54 = ($40|0)==(0);
-          HEAP32[$51>>2] = 1;
-          $55 = (($this) + 1960|0);
-          $56 = HEAP32[$55>>2]|0;
-          $57 = HEAP32[$48>>2]|0;
-          $58 = (($57) + ($56))|0;
-          HEAP32[$48>>2] = $58;
-          if (!($54)) {
-           break;
-          }
-          $59 = HEAP32[$55>>2]|0;
-          $60 = ($59*3)|0;
-          $61 = (($time) + 1)|0;
-          $62 = (($61) + ($58))|0;
-          $63 = (($62) + ($60))|0;
-          HEAP32[$47>>2] = $63;
-         }
-        } while(0);
-        __ZN7Nes_Apu11irq_changedEv($this);
-        STACKTOP = sp;return;
-       } else if ((($addr|0) == 16405)) {
+       if ((($addr|0) == 16405)) {
         $29 = $data & 16;
         $30 = ($29|0)==(0);
         if ($30) {
@@ -34043,6 +33999,50 @@
            break;
           }
           STACKTOP = sp;return;
+         }
+        } while(0);
+        __ZN7Nes_Apu11irq_changedEv($this);
+        STACKTOP = sp;return;
+       } else if ((($addr|0) == 16407)) {
+        $39 = (($this) + 1976|0);
+        HEAP32[$39>>2] = $data;
+        $40 = $data & 64;
+        $$lobit = $40 >>> 6;
+        $41 = $$lobit ^ 1;
+        $42 = (($this) + 1980|0);
+        $43 = HEAP8[$42]|0;
+        $44 = $43&255;
+        $45 = $44 & $41;
+        $46 = $45&255;
+        HEAP8[$42] = $46;
+        $47 = (($this) + 1956|0);
+        HEAP32[$47>>2] = 1073741824;
+        $48 = (($this) + 1964|0);
+        $49 = HEAP32[$48>>2]|0;
+        $50 = $49 & 1;
+        HEAP32[$48>>2] = $50;
+        $51 = (($this) + 1968|0);
+        HEAP32[$51>>2] = 0;
+        $52 = $data & 128;
+        $53 = ($52|0)==(0);
+        do {
+         if ($53) {
+          $54 = ($40|0)==(0);
+          HEAP32[$51>>2] = 1;
+          $55 = (($this) + 1960|0);
+          $56 = HEAP32[$55>>2]|0;
+          $57 = HEAP32[$48>>2]|0;
+          $58 = (($57) + ($56))|0;
+          HEAP32[$48>>2] = $58;
+          if (!($54)) {
+           break;
+          }
+          $59 = HEAP32[$55>>2]|0;
+          $60 = ($59*3)|0;
+          $61 = (($time) + 1)|0;
+          $62 = (($61) + ($58))|0;
+          $63 = (($62) + ($60))|0;
+          HEAP32[$47>>2] = $63;
          }
         } while(0);
         __ZN7Nes_Apu11irq_changedEv($this);
@@ -34167,7 +34167,18 @@
         $43 = (($42) + 1)|0;
         HEAP32[$15>>2] = $43;
         do {
-         if ((($42|0) == 3)) {
+         if ((($42|0) == 2)) {
+          label = 11;
+         } else if ((($42|0) == 1)) {
+          $57 = HEAP8[$27]|0;
+          $58 = ($57<<24>>24)==(0);
+          if (!($58)) {
+           break;
+          }
+          $59 = HEAP32[$9>>2]|0;
+          $60 = (($59) + -2)|0;
+          HEAP32[$9>>2] = $60;
+         } else if ((($42|0) == 3)) {
           HEAP32[$15>>2] = 0;
           $61 = HEAP32[$28>>2]|0;
           $62 = $61 & 128;
@@ -34197,17 +34208,6 @@
           $50 = (($49) + ($48))|0;
           HEAP32[$20>>2] = $50;
           HEAP8[$21] = 1;
-          label = 11;
-         } else if ((($42|0) == 1)) {
-          $57 = HEAP8[$27]|0;
-          $58 = ($57<<24>>24)==(0);
-          if (!($58)) {
-           break;
-          }
-          $59 = HEAP32[$9>>2]|0;
-          $60 = (($59) + -2)|0;
-          HEAP32[$9>>2] = $60;
-         } else if ((($42|0) == 2)) {
           label = 11;
          }
         } while(0);
@@ -34560,14 +34560,14 @@
           $$0 = $16;
           break;
          }
-         if ((($addr|0) == 18432)) {
-          label = 6;
-         } else if ((($addr|0) == 16405)) {
+         if ((($addr|0) == 16405)) {
           $18 = (($this) + 2640|0);
           $19 = (__ZNK7Nes_Cpu4timeEv($3)|0);
           $20 = (__ZN7Nes_Apu11read_statusEl($18,$19)|0);
           $$0 = $20;
           break;
+         } else if ((($addr|0) == 18432)) {
+          label = 6;
          }
          do {
           if ((label|0) == 6) {
@@ -34992,622 +34992,9 @@
         $97 = $96&255;
         L6: do {
          switch ($88|0) {
-         case 126:  {
-          $743 = (($97) + ($x$0))|0;
-          $c$2 = $c$0;$data$42 = $743;
-          label = 135;
-          break;
-         }
-         case 118:  {
-          $744 = (($97) + ($x$0))|0;
-          $745 = $744 & 255;
-          $c$5 = $c$0;$data$47 = $745;
-          label = 145;
-          break;
-         }
-         case 86:  {
-          $746 = (($97) + ($x$0))|0;
-          $747 = $746 & 255;
-          $data$46 = $747;
-          label = 144;
-          break;
-         }
-         case 250: case 218: case 122: case 90: case 58: case 26: case 234:  {
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 181:  {
-          $99 = (($97) + ($x$0))|0;
-          $100 = $99 & 255;
-          $101 = (($this) + ($100)|0);
-          $102 = HEAP8[$101]|0;
-          $103 = $102&255;
-          $104 = (($pc$1) + 2)|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$c$0$phi = $c$0;$a$0 = $103;$nz$0 = $103;$pc$1 = $104;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$c$0 = $c$0$phi;
-          continue L1;
-          break;
-         }
-         case 165:  {
-          $105 = (($this) + ($97)|0);
-          $106 = HEAP8[$105]|0;
-          $107 = $106&255;
-          $108 = (($pc$1) + 2)|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$c$0$phi = $c$0;$a$0 = $107;$nz$0 = $107;$pc$1 = $108;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$c$0 = $c$0$phi;
-          continue L1;
-          break;
-         }
-         case 208:  {
-          $109 = $96 << 24 >> 24;
-          $110 = (($pc$1) + 2)|0;
-          $111 = $nz$0&255;
-          $112 = ($111<<24>>24)==(0);
-          if ($112) {
-           $pc$0 = $110;
-           label = 2;
-           break L6;
-          }
-          $113 = $110 & 255;
-          $114 = (($109) + ($113))|0;
-          $115 = (($109) + ($110))|0;
-          $116 = $115 & 65535;
-          $117 = $114 >>> 8;
-          $118 = $117 & 1;
-          $119 = (($118) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $116;$s_time$0 = $119;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 32:  {
-          $120 = (($pc$1) + 2)|0;
-          $121 = (__Z8get_le16PKv($86)|0);
-          $122 = $120 >>> 8;
-          $123 = $122&255;
-          $124 = (($sp$0) + -1)|0;
-          $125 = $124 | 256;
-          $126 = (($this) + ($125)|0);
-          HEAP8[$126] = $123;
-          $127 = (($sp$0) + -2)|0;
-          $128 = $127 | 256;
-          $129 = $120&255;
-          $130 = (($this) + ($128)|0);
-          HEAP8[$130] = $129;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $121;$sp$0 = $128;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 76:  {
-          $131 = (__Z8get_le16PKv($86)|0);
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $131;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 232:  {
-          $132 = (($x$0) + 1)|0;
-          $133 = $132 & 255;
-          $y$0$phi = $y$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $132;$x$0 = $133;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 16:  {
-          $134 = $96 << 24 >> 24;
-          $135 = (($pc$1) + 2)|0;
-          $136 = $nz$0 & 32896;
-          $137 = ($136|0)==(0);
-          if (!($137)) {
-           $pc$0 = $135;
-           label = 2;
-           break L6;
-          }
-          $138 = $135 & 255;
-          $139 = (($134) + ($138))|0;
-          $140 = (($134) + ($135))|0;
-          $141 = $140 & 65535;
-          $142 = $139 >>> 8;
-          $143 = $142 & 1;
-          $144 = (($143) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $141;$s_time$0 = $144;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 193:  {
-          $145 = (($97) + ($x$0))|0;
-          $146 = (($145) + 1)|0;
-          $147 = $146 & 255;
-          $148 = (($this) + ($147)|0);
-          $149 = HEAP8[$148]|0;
-          $150 = $149&255;
-          $151 = $150 << 8;
-          $152 = $145 & 255;
-          $153 = (($this) + ($152)|0);
-          $154 = HEAP8[$153]|0;
-          $155 = $154&255;
-          $156 = $151 | $155;
-          $data$3 = $156;$pc$2 = $89;$s_time$2 = $93;
-          label = 22;
-          break;
-         }
-         case 209:  {
-          $157 = (($this) + ($97)|0);
-          $158 = HEAP8[$157]|0;
-          $159 = $158&255;
-          $160 = (($159) + ($y$0))|0;
-          $161 = (($97) + 1)|0;
-          $162 = $161 & 255;
-          $163 = (($this) + ($162)|0);
-          $164 = HEAP8[$163]|0;
-          $165 = $164&255;
-          $166 = $165 << 8;
-          $167 = (($166) + ($160))|0;
-          $168 = $160 >>> 8;
-          $169 = (($168) + ($93))|0;
-          $data$3 = $167;$pc$2 = $89;$s_time$2 = $169;
-          label = 22;
-          break;
-         }
-         case 213:  {
-          $170 = (($97) + ($x$0))|0;
-          $171 = $170 & 255;
-          $data$0 = $171;
-          label = 18;
-          break;
-         }
-         case 197:  {
-          $data$0 = $97;
-          label = 18;
-          break;
-         }
-         case 221:  {
-          $x$0$pn16 = $x$0;
-          label = 20;
-          break;
-         }
-         case 217:  {
-          $x$0$pn16 = $y$0;
-          label = 20;
-          break;
-         }
-         case 205:  {
-          $data$2 = $97;$s_time$1 = $93;
-          label = 21;
-          break;
-         }
-         case 201:  {
-          $data$4 = $97;$pc$3 = $89;$s_time$3 = $93;
-          label = 23;
-          break;
-         }
-         case 48:  {
-          $189 = $96 << 24 >> 24;
-          $190 = (($pc$1) + 2)|0;
-          $191 = $nz$0 & 32896;
-          $192 = ($191|0)==(0);
-          if ($192) {
-           $pc$0 = $190;
-           label = 2;
-           break L6;
-          }
-          $193 = $190 & 255;
-          $194 = (($189) + ($193))|0;
-          $195 = (($189) + ($190))|0;
-          $196 = $195 & 65535;
-          $197 = $194 >>> 8;
-          $198 = $197 & 1;
-          $199 = (($198) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $196;$s_time$0 = $199;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 240:  {
-          $200 = $96 << 24 >> 24;
-          $201 = (($pc$1) + 2)|0;
-          $202 = $nz$0&255;
-          $203 = ($202<<24>>24)==(0);
-          if (!($203)) {
-           $pc$0 = $201;
-           label = 2;
-           break L6;
-          }
-          $204 = $201 & 255;
-          $205 = (($200) + ($204))|0;
-          $206 = (($200) + ($201))|0;
-          $207 = $206 & 65535;
-          $208 = $205 >>> 8;
-          $209 = $208 & 1;
-          $210 = (($209) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $207;$s_time$0 = $210;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 149:  {
-          $211 = (($97) + ($x$0))|0;
-          $212 = $211 & 255;
-          $data$5 = $212;
-          label = 29;
-          break;
-         }
-         case 133:  {
-          $data$5 = $97;
-          label = 29;
-          break;
-         }
-         case 200:  {
-          $216 = (($y$0) + 1)|0;
-          $217 = $216 & 255;
-          $x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $216;$y$0 = $217;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 168:  {
-          $y$0$phi = $a$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$nz$0$phi = $a$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 152:  {
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$nz$0$phi = $y$0;$c$0$phi = $c$0;$a$0$phi = $y$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 173:  {
-          $218 = (__Z8get_le16PKv($86)|0);
-          $219 = (($pc$1) + 3)|0;
-          HEAP32[$5>>2] = $93;
-          $220 = (__ZN7Nsf_Emu8cpu_readEj($36,$218)|0);
-          $221 = HEAP32[$5>>2]|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $220;$nz$0 = $220;$pc$1 = $219;$s_time$0 = $221;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
-          continue L1;
-          break;
-         }
-         case 96:  {
-          $222 = (($this) + ($sp$0)|0);
-          $223 = HEAP8[$222]|0;
-          $224 = $223&255;
-          $225 = (($224) + 1)|0;
-          $226 = (($sp$0) + -255)|0;
-          $227 = $226 | 256;
-          $228 = (($this) + ($227)|0);
-          $229 = HEAP8[$228]|0;
-          $230 = $229&255;
-          $231 = $230 << 8;
-          $232 = (($225) + ($231))|0;
-          $233 = (($sp$0) + -254)|0;
-          $234 = $233 | 256;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $232;$sp$0 = $234;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 153:  {
-          $235 = (__Z8get_le16PKv($86)|0);
-          $236 = (($235) + ($y$0))|0;
-          $237 = (($pc$1) + 3)|0;
-          $238 = ($236>>>0)<(2048);
-          if (!($238)) {
-           $addr10$0 = $236;$pc$4 = $237;
-           label = 41;
-           break L6;
-          }
-          $239 = $a$0&255;
-          $240 = (($this) + ($236)|0);
-          HEAP8[$240] = $239;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $237;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 141:  {
-          $241 = (__Z8get_le16PKv($86)|0);
-          $242 = (($pc$1) + 3)|0;
-          $243 = ($241>>>0)<(2048);
-          if (!($243)) {
-           $addr10$0 = $241;$pc$4 = $242;
-           label = 41;
-           break L6;
-          }
-          $244 = $a$0&255;
-          $245 = (($this) + ($241)|0);
-          HEAP8[$245] = $244;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $242;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 157:  {
-          $246 = (__Z8get_le16PKv($86)|0);
-          $247 = (($246) + ($x$0))|0;
-          $248 = (($pc$1) + 3)|0;
-          $249 = ($247>>>0)<(2048);
-          if (!($249)) {
-           $addr10$0 = $247;$pc$4 = $248;
-           label = 41;
-           break L6;
-          }
-          $250 = $a$0&255;
-          $251 = (($this) + ($247)|0);
-          HEAP8[$251] = $250;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $248;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 145:  {
-          $253 = (($this) + ($97)|0);
-          $254 = HEAP8[$253]|0;
-          $255 = $254&255;
-          $256 = (($255) + ($y$0))|0;
-          $257 = (($97) + 1)|0;
-          $258 = $257 & 255;
-          $259 = (($this) + ($258)|0);
-          $260 = HEAP8[$259]|0;
-          $261 = $260&255;
-          $262 = $261 << 8;
-          $263 = (($256) + ($262))|0;
-          $264 = (($pc$1) + 2)|0;
-          $addr10$0 = $263;$pc$4 = $264;
-          label = 41;
-          break;
-         }
-         case 129:  {
-          $265 = (($97) + ($x$0))|0;
-          $266 = (($265) + 1)|0;
-          $267 = $266 & 255;
-          $268 = (($this) + ($267)|0);
-          $269 = HEAP8[$268]|0;
-          $270 = $269&255;
-          $271 = $270 << 8;
-          $272 = $265 & 255;
-          $273 = (($this) + ($272)|0);
-          $274 = HEAP8[$273]|0;
-          $275 = $274&255;
-          $276 = $271 | $275;
-          $277 = (($pc$1) + 2)|0;
-          $addr10$0 = $276;$pc$4 = $277;
-          label = 41;
-          break;
-         }
-         case 169:  {
-          $278 = (($pc$1) + 2)|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$c$0$phi = $c$0;$a$0 = $97;$nz$0 = $97;$pc$1 = $278;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$c$0 = $c$0$phi;
-          continue L1;
-          break;
-         }
-         case 161:  {
-          $279 = (($97) + ($x$0))|0;
-          $280 = (($279) + 1)|0;
-          $281 = $280 & 255;
-          $282 = (($this) + ($281)|0);
-          $283 = HEAP8[$282]|0;
-          $284 = $283&255;
-          $285 = $284 << 8;
-          $286 = $279 & 255;
-          $287 = (($this) + ($286)|0);
-          $288 = HEAP8[$287]|0;
-          $289 = $288&255;
-          $290 = $285 | $289;
-          $291 = (($pc$1) + 2)|0;
-          $addr13$0 = $290;$pc$5 = $291;$s_time$4 = $93;
-          label = 49;
-          break;
-         }
-         case 177:  {
-          $292 = (($this) + ($97)|0);
-          $293 = HEAP8[$292]|0;
-          $294 = $293&255;
-          $295 = (($294) + ($y$0))|0;
-          $296 = $295 >>> 8;
-          $297 = (($296) + ($93))|0;
-          $298 = (($97) + 1)|0;
-          $299 = $298 & 255;
-          $300 = (($this) + ($299)|0);
-          $301 = HEAP8[$300]|0;
-          $302 = $301&255;
-          $303 = $302 << 8;
-          $304 = (($303) + ($295))|0;
-          $305 = (($pc$1) + 2)|0;
-          $306 = $304 & 2047;
-          $307 = $304 >>> 11;
-          $308 = (($s) + ($307<<2)|0);
-          $309 = HEAP32[$308>>2]|0;
-          $310 = (($309) + ($306)|0);
-          $311 = HEAP8[$310]|0;
-          $312 = $311&255;
-          $313 = $304 ^ 32768;
-          $314 = ($313>>>0)<(40960);
-          if ($314) {
-           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $312;$nz$0 = $312;$pc$1 = $305;$s_time$0 = $297;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
-           continue L1;
-          } else {
-           $addr13$0 = $304;$pc$5 = $305;$s_time$4 = $297;
-           label = 49;
-          }
-          break;
-         }
-         case 185:  {
-          $315 = (($97) + ($y$0))|0;
-          $316 = $315 >>> 8;
-          $317 = (($316) + ($93))|0;
-          $318 = (__Z8get_le16PKv($86)|0);
-          $319 = (($318) + ($y$0))|0;
-          $320 = (($pc$1) + 3)|0;
-          $321 = $319 & 2047;
-          $322 = $319 >>> 11;
-          $323 = (($s) + ($322<<2)|0);
-          $324 = HEAP32[$323>>2]|0;
-          $325 = (($324) + ($321)|0);
-          $326 = HEAP8[$325]|0;
-          $327 = $326&255;
-          $328 = $319 ^ 32768;
-          $329 = ($328>>>0)<(40960);
-          if ($329) {
-           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $327;$nz$0 = $327;$pc$1 = $320;$s_time$0 = $317;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
-           continue L1;
-          } else {
-           $addr13$0 = $319;$pc$5 = $320;$s_time$4 = $317;
-           label = 49;
-          }
-          break;
-         }
-         case 189:  {
-          $330 = (($97) + ($x$0))|0;
-          $331 = $330 >>> 8;
-          $332 = (($331) + ($93))|0;
-          $333 = (__Z8get_le16PKv($86)|0);
-          $334 = (($333) + ($x$0))|0;
-          $335 = (($pc$1) + 3)|0;
-          $336 = $334 & 2047;
-          $337 = $334 >>> 11;
-          $338 = (($s) + ($337<<2)|0);
-          $339 = HEAP32[$338>>2]|0;
-          $340 = (($339) + ($336)|0);
-          $341 = HEAP8[$340]|0;
-          $342 = $341&255;
-          $343 = $334 ^ 32768;
-          $344 = ($343>>>0)<(40960);
-          if ($344) {
-           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $342;$nz$0 = $342;$pc$1 = $335;$s_time$0 = $332;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
-           continue L1;
-          } else {
-           $addr13$0 = $334;$pc$5 = $335;$s_time$4 = $332;
-           label = 49;
-          }
-          break;
-         }
-         case 80:  {
-          $347 = $96 << 24 >> 24;
-          $348 = (($pc$1) + 2)|0;
-          $349 = $status$0 & 64;
-          $350 = ($349|0)==(0);
-          if (!($350)) {
-           $pc$0 = $348;
-           label = 2;
-           break L6;
-          }
-          $351 = $348 & 255;
-          $352 = (($347) + ($351))|0;
-          $353 = (($347) + ($348))|0;
-          $354 = $353 & 65535;
-          $355 = $352 >>> 8;
-          $356 = $355 & 1;
-          $357 = (($356) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $354;$s_time$0 = $357;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 112:  {
-          $358 = $96 << 24 >> 24;
-          $359 = (($pc$1) + 2)|0;
-          $360 = $status$0 & 64;
-          $361 = ($360|0)==(0);
-          if ($361) {
-           $pc$0 = $359;
-           label = 2;
-           break L6;
-          }
-          $362 = $359 & 255;
-          $363 = (($358) + ($362))|0;
-          $364 = (($358) + ($359))|0;
-          $365 = $364 & 65535;
-          $366 = $363 >>> 8;
-          $367 = $366 & 1;
-          $368 = (($367) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $365;$s_time$0 = $368;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 176:  {
-          $369 = $96 << 24 >> 24;
-          $370 = (($pc$1) + 2)|0;
-          $371 = $c$0 & 256;
-          $372 = ($371|0)==(0);
-          if ($372) {
-           $pc$0 = $370;
-           label = 2;
-           break L6;
-          }
-          $373 = $370 & 255;
-          $374 = (($369) + ($373))|0;
-          $375 = (($369) + ($370))|0;
-          $376 = $375 & 65535;
-          $377 = $374 >>> 8;
-          $378 = $377 & 1;
-          $379 = (($378) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $376;$s_time$0 = $379;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 144:  {
-          $380 = $96 << 24 >> 24;
-          $381 = (($pc$1) + 2)|0;
-          $382 = $c$0 & 256;
-          $383 = ($382|0)==(0);
-          if (!($383)) {
-           $pc$0 = $381;
-           label = 2;
-           break L6;
-          }
-          $384 = $381 & 255;
-          $385 = (($380) + ($384))|0;
-          $386 = (($380) + ($381))|0;
-          $387 = $386 & 65535;
-          $388 = $385 >>> 8;
-          $389 = $388 & 1;
-          $390 = (($389) + ($93))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $387;$s_time$0 = $390;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 148:  {
-          $391 = (($97) + ($x$0))|0;
-          $392 = $391 & 255;
-          $data$6 = $392;
-          label = 59;
-          break;
-         }
-         case 132:  {
-          $data$6 = $97;
-          label = 59;
-          break;
-         }
-         case 150:  {
-          $396 = (($97) + ($y$0))|0;
-          $397 = $396 & 255;
-          $data$7 = $397;
-          label = 61;
-          break;
-         }
-         case 134:  {
-          $data$7 = $97;
-          label = 61;
-          break;
-         }
-         case 182:  {
-          $401 = (($97) + ($y$0))|0;
-          $402 = $401 & 255;
-          $data$8 = $402;
-          label = 63;
-          break;
-         }
-         case 166:  {
-          $data$8 = $97;
-          label = 63;
-          break;
-         }
          case 162:  {
           $data$9 = $97;
           label = 64;
-          break;
-         }
-         case 180:  {
-          $407 = (($97) + ($x$0))|0;
-          $408 = $407 & 255;
-          $data$10 = $408;
-          label = 66;
-          break;
-         }
-         case 164:  {
-          $data$10 = $97;
-          label = 66;
-          break;
-         }
-         case 160:  {
-          $data$11 = $97;
-          label = 67;
           break;
          }
          case 188:  {
@@ -35631,29 +35018,19 @@
           label = 71;
           break;
          }
-         case 142:  {
-          $temp25$0 = $x$0;
-          label = 73;
-          break;
-         }
-         case 174:  {
-          $data$13 = $97;$s_time$6 = $93;
-          label = 71;
-          break;
-         }
          case 140:  {
           $temp25$0 = $y$0;
           label = 73;
           break;
          }
-         case 236:  {
-          $441 = (__Z8get_le16PKv($86)|0);
-          $442 = (($pc$1) + 2)|0;
-          HEAP32[$5>>2] = $93;
-          $443 = (__ZN7Nsf_Emu8cpu_readEj($48,$441)|0);
-          $444 = HEAP32[$5>>2]|0;
-          $data$14 = $443;$pc$6 = $442;$s_time$7 = $444;
-          label = 78;
+         case 160:  {
+          $data$11 = $97;
+          label = 67;
+          break;
+         }
+         case 164:  {
+          $data$10 = $97;
+          label = 66;
           break;
          }
          case 228:  {
@@ -35662,6 +35039,40 @@
           $447 = $446&255;
           $data$14 = $447;$pc$6 = $89;$s_time$7 = $93;
           label = 78;
+          break;
+         }
+         case 142:  {
+          $temp25$0 = $x$0;
+          label = 73;
+          break;
+         }
+         case 166:  {
+          $data$8 = $97;
+          label = 63;
+          break;
+         }
+         case 182:  {
+          $401 = (($97) + ($y$0))|0;
+          $402 = $401 & 255;
+          $data$8 = $402;
+          label = 63;
+          break;
+         }
+         case 33:  {
+          $463 = (($97) + ($x$0))|0;
+          $464 = (($463) + 1)|0;
+          $465 = $464 & 255;
+          $466 = (($this) + ($465)|0);
+          $467 = HEAP8[$466]|0;
+          $468 = $467&255;
+          $469 = $468 << 8;
+          $470 = $463 & 255;
+          $471 = (($this) + ($470)|0);
+          $472 = HEAP8[$471]|0;
+          $473 = $472&255;
+          $474 = $469 | $473;
+          $data$19 = $474;$pc$8 = $89;$s_time$10 = $93;
+          label = 89;
           break;
          }
          case 224:  {
@@ -35692,21 +35103,14 @@
           label = 81;
           break;
          }
-         case 33:  {
-          $463 = (($97) + ($x$0))|0;
-          $464 = (($463) + 1)|0;
-          $465 = $464 & 255;
-          $466 = (($this) + ($465)|0);
-          $467 = HEAP8[$466]|0;
-          $468 = $467&255;
-          $469 = $468 << 8;
-          $470 = $463 & 255;
-          $471 = (($this) + ($470)|0);
-          $472 = HEAP8[$471]|0;
-          $473 = $472&255;
-          $474 = $469 | $473;
-          $data$19 = $474;$pc$8 = $89;$s_time$10 = $93;
-          label = 89;
+         case 236:  {
+          $441 = (__Z8get_le16PKv($86)|0);
+          $442 = (($pc$1) + 2)|0;
+          HEAP32[$5>>2] = $93;
+          $443 = (__ZN7Nsf_Emu8cpu_readEj($48,$441)|0);
+          $444 = HEAP32[$5>>2]|0;
+          $data$14 = $443;$pc$6 = $442;$s_time$7 = $444;
+          label = 78;
           break;
          }
          case 49:  {
@@ -35727,6 +35131,23 @@
           label = 89;
           break;
          }
+         case 180:  {
+          $407 = (($97) + ($x$0))|0;
+          $408 = $407 & 255;
+          $data$10 = $408;
+          label = 66;
+          break;
+         }
+         case 174:  {
+          $data$13 = $97;$s_time$6 = $93;
+          label = 71;
+          break;
+         }
+         case 57:  {
+          $x$0$pn12 = $y$0;
+          label = 87;
+          break;
+         }
          case 53:  {
           $488 = (($97) + ($x$0))|0;
           $489 = $488 & 255;
@@ -35741,11 +35162,6 @@
          }
          case 61:  {
           $x$0$pn12 = $x$0;
-          label = 87;
-          break;
-         }
-         case 57:  {
-          $x$0$pn12 = $y$0;
           label = 87;
           break;
          }
@@ -36122,6 +35538,26 @@
          case 46:  {
           $c$3 = $c$0;$data$44 = $97;
           label = 139;
+          break;
+         }
+         case 126:  {
+          $743 = (($97) + ($x$0))|0;
+          $c$2 = $c$0;$data$42 = $743;
+          label = 135;
+          break;
+         }
+         case 118:  {
+          $744 = (($97) + ($x$0))|0;
+          $745 = $744 & 255;
+          $c$5 = $c$0;$data$47 = $745;
+          label = 145;
+          break;
+         }
+         case 86:  {
+          $746 = (($97) + ($x$0))|0;
+          $747 = $746 & 255;
+          $data$46 = $747;
+          label = 144;
           break;
          }
          case 70:  {
@@ -36532,6 +35968,570 @@
           continue L1;
           break;
          }
+         case 181:  {
+          $99 = (($97) + ($x$0))|0;
+          $100 = $99 & 255;
+          $101 = (($this) + ($100)|0);
+          $102 = HEAP8[$101]|0;
+          $103 = $102&255;
+          $104 = (($pc$1) + 2)|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$c$0$phi = $c$0;$a$0 = $103;$nz$0 = $103;$pc$1 = $104;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$c$0 = $c$0$phi;
+          continue L1;
+          break;
+         }
+         case 32:  {
+          $120 = (($pc$1) + 2)|0;
+          $121 = (__Z8get_le16PKv($86)|0);
+          $122 = $120 >>> 8;
+          $123 = $122&255;
+          $124 = (($sp$0) + -1)|0;
+          $125 = $124 | 256;
+          $126 = (($this) + ($125)|0);
+          HEAP8[$126] = $123;
+          $127 = (($sp$0) + -2)|0;
+          $128 = $127 | 256;
+          $129 = $120&255;
+          $130 = (($this) + ($128)|0);
+          HEAP8[$130] = $129;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $121;$sp$0 = $128;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 76:  {
+          $131 = (__Z8get_le16PKv($86)|0);
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $131;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 232:  {
+          $132 = (($x$0) + 1)|0;
+          $133 = $132 & 255;
+          $y$0$phi = $y$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $132;$x$0 = $133;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 16:  {
+          $134 = $96 << 24 >> 24;
+          $135 = (($pc$1) + 2)|0;
+          $136 = $nz$0 & 32896;
+          $137 = ($136|0)==(0);
+          if (!($137)) {
+           $pc$0 = $135;
+           label = 2;
+           break L6;
+          }
+          $138 = $135 & 255;
+          $139 = (($134) + ($138))|0;
+          $140 = (($134) + ($135))|0;
+          $141 = $140 & 65535;
+          $142 = $139 >>> 8;
+          $143 = $142 & 1;
+          $144 = (($143) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $141;$s_time$0 = $144;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 209:  {
+          $157 = (($this) + ($97)|0);
+          $158 = HEAP8[$157]|0;
+          $159 = $158&255;
+          $160 = (($159) + ($y$0))|0;
+          $161 = (($97) + 1)|0;
+          $162 = $161 & 255;
+          $163 = (($this) + ($162)|0);
+          $164 = HEAP8[$163]|0;
+          $165 = $164&255;
+          $166 = $165 << 8;
+          $167 = (($166) + ($160))|0;
+          $168 = $160 >>> 8;
+          $169 = (($168) + ($93))|0;
+          $data$3 = $167;$pc$2 = $89;$s_time$2 = $169;
+          label = 22;
+          break;
+         }
+         case 213:  {
+          $170 = (($97) + ($x$0))|0;
+          $171 = $170 & 255;
+          $data$0 = $171;
+          label = 18;
+          break;
+         }
+         case 197:  {
+          $data$0 = $97;
+          label = 18;
+          break;
+         }
+         case 205:  {
+          $data$2 = $97;$s_time$1 = $93;
+          label = 21;
+          break;
+         }
+         case 201:  {
+          $data$4 = $97;$pc$3 = $89;$s_time$3 = $93;
+          label = 23;
+          break;
+         }
+         case 165:  {
+          $105 = (($this) + ($97)|0);
+          $106 = HEAP8[$105]|0;
+          $107 = $106&255;
+          $108 = (($pc$1) + 2)|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$c$0$phi = $c$0;$a$0 = $107;$nz$0 = $107;$pc$1 = $108;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$c$0 = $c$0$phi;
+          continue L1;
+          break;
+         }
+         case 208:  {
+          $109 = $96 << 24 >> 24;
+          $110 = (($pc$1) + 2)|0;
+          $111 = $nz$0&255;
+          $112 = ($111<<24>>24)==(0);
+          if ($112) {
+           $pc$0 = $110;
+           label = 2;
+           break L6;
+          }
+          $113 = $110 & 255;
+          $114 = (($109) + ($113))|0;
+          $115 = (($109) + ($110))|0;
+          $116 = $115 & 65535;
+          $117 = $114 >>> 8;
+          $118 = $117 & 1;
+          $119 = (($118) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $116;$s_time$0 = $119;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 221:  {
+          $x$0$pn16 = $x$0;
+          label = 20;
+          break;
+         }
+         case 217:  {
+          $x$0$pn16 = $y$0;
+          label = 20;
+          break;
+         }
+         case 193:  {
+          $145 = (($97) + ($x$0))|0;
+          $146 = (($145) + 1)|0;
+          $147 = $146 & 255;
+          $148 = (($this) + ($147)|0);
+          $149 = HEAP8[$148]|0;
+          $150 = $149&255;
+          $151 = $150 << 8;
+          $152 = $145 & 255;
+          $153 = (($this) + ($152)|0);
+          $154 = HEAP8[$153]|0;
+          $155 = $154&255;
+          $156 = $151 | $155;
+          $data$3 = $156;$pc$2 = $89;$s_time$2 = $93;
+          label = 22;
+          break;
+         }
+         case 48:  {
+          $189 = $96 << 24 >> 24;
+          $190 = (($pc$1) + 2)|0;
+          $191 = $nz$0 & 32896;
+          $192 = ($191|0)==(0);
+          if ($192) {
+           $pc$0 = $190;
+           label = 2;
+           break L6;
+          }
+          $193 = $190 & 255;
+          $194 = (($189) + ($193))|0;
+          $195 = (($189) + ($190))|0;
+          $196 = $195 & 65535;
+          $197 = $194 >>> 8;
+          $198 = $197 & 1;
+          $199 = (($198) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $196;$s_time$0 = $199;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 250: case 218: case 122: case 90: case 58: case 26: case 234:  {
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 240:  {
+          $200 = $96 << 24 >> 24;
+          $201 = (($pc$1) + 2)|0;
+          $202 = $nz$0&255;
+          $203 = ($202<<24>>24)==(0);
+          if (!($203)) {
+           $pc$0 = $201;
+           label = 2;
+           break L6;
+          }
+          $204 = $201 & 255;
+          $205 = (($200) + ($204))|0;
+          $206 = (($200) + ($201))|0;
+          $207 = $206 & 65535;
+          $208 = $205 >>> 8;
+          $209 = $208 & 1;
+          $210 = (($209) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $207;$s_time$0 = $210;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 149:  {
+          $211 = (($97) + ($x$0))|0;
+          $212 = $211 & 255;
+          $data$5 = $212;
+          label = 29;
+          break;
+         }
+         case 133:  {
+          $data$5 = $97;
+          label = 29;
+          break;
+         }
+         case 200:  {
+          $216 = (($y$0) + 1)|0;
+          $217 = $216 & 255;
+          $x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $216;$y$0 = $217;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 168:  {
+          $y$0$phi = $a$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$nz$0$phi = $a$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 152:  {
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$pc$1$phi = $89;$nz$0$phi = $y$0;$c$0$phi = $c$0;$a$0$phi = $y$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 173:  {
+          $218 = (__Z8get_le16PKv($86)|0);
+          $219 = (($pc$1) + 3)|0;
+          HEAP32[$5>>2] = $93;
+          $220 = (__ZN7Nsf_Emu8cpu_readEj($36,$218)|0);
+          $221 = HEAP32[$5>>2]|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $220;$nz$0 = $220;$pc$1 = $219;$s_time$0 = $221;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
+          continue L1;
+          break;
+         }
+         case 96:  {
+          $222 = (($this) + ($sp$0)|0);
+          $223 = HEAP8[$222]|0;
+          $224 = $223&255;
+          $225 = (($224) + 1)|0;
+          $226 = (($sp$0) + -255)|0;
+          $227 = $226 | 256;
+          $228 = (($this) + ($227)|0);
+          $229 = HEAP8[$228]|0;
+          $230 = $229&255;
+          $231 = $230 << 8;
+          $232 = (($225) + ($231))|0;
+          $233 = (($sp$0) + -254)|0;
+          $234 = $233 | 256;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $232;$sp$0 = $234;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 153:  {
+          $235 = (__Z8get_le16PKv($86)|0);
+          $236 = (($235) + ($y$0))|0;
+          $237 = (($pc$1) + 3)|0;
+          $238 = ($236>>>0)<(2048);
+          if (!($238)) {
+           $addr10$0 = $236;$pc$4 = $237;
+           label = 41;
+           break L6;
+          }
+          $239 = $a$0&255;
+          $240 = (($this) + ($236)|0);
+          HEAP8[$240] = $239;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $237;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 141:  {
+          $241 = (__Z8get_le16PKv($86)|0);
+          $242 = (($pc$1) + 3)|0;
+          $243 = ($241>>>0)<(2048);
+          if (!($243)) {
+           $addr10$0 = $241;$pc$4 = $242;
+           label = 41;
+           break L6;
+          }
+          $244 = $a$0&255;
+          $245 = (($this) + ($241)|0);
+          HEAP8[$245] = $244;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $242;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 157:  {
+          $246 = (__Z8get_le16PKv($86)|0);
+          $247 = (($246) + ($x$0))|0;
+          $248 = (($pc$1) + 3)|0;
+          $249 = ($247>>>0)<(2048);
+          if (!($249)) {
+           $addr10$0 = $247;$pc$4 = $248;
+           label = 41;
+           break L6;
+          }
+          $250 = $a$0&255;
+          $251 = (($this) + ($247)|0);
+          HEAP8[$251] = $250;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $248;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 145:  {
+          $253 = (($this) + ($97)|0);
+          $254 = HEAP8[$253]|0;
+          $255 = $254&255;
+          $256 = (($255) + ($y$0))|0;
+          $257 = (($97) + 1)|0;
+          $258 = $257 & 255;
+          $259 = (($this) + ($258)|0);
+          $260 = HEAP8[$259]|0;
+          $261 = $260&255;
+          $262 = $261 << 8;
+          $263 = (($256) + ($262))|0;
+          $264 = (($pc$1) + 2)|0;
+          $addr10$0 = $263;$pc$4 = $264;
+          label = 41;
+          break;
+         }
+         case 129:  {
+          $265 = (($97) + ($x$0))|0;
+          $266 = (($265) + 1)|0;
+          $267 = $266 & 255;
+          $268 = (($this) + ($267)|0);
+          $269 = HEAP8[$268]|0;
+          $270 = $269&255;
+          $271 = $270 << 8;
+          $272 = $265 & 255;
+          $273 = (($this) + ($272)|0);
+          $274 = HEAP8[$273]|0;
+          $275 = $274&255;
+          $276 = $271 | $275;
+          $277 = (($pc$1) + 2)|0;
+          $addr10$0 = $276;$pc$4 = $277;
+          label = 41;
+          break;
+         }
+         case 169:  {
+          $278 = (($pc$1) + 2)|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$c$0$phi = $c$0;$a$0 = $97;$nz$0 = $97;$pc$1 = $278;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$c$0 = $c$0$phi;
+          continue L1;
+          break;
+         }
+         case 161:  {
+          $279 = (($97) + ($x$0))|0;
+          $280 = (($279) + 1)|0;
+          $281 = $280 & 255;
+          $282 = (($this) + ($281)|0);
+          $283 = HEAP8[$282]|0;
+          $284 = $283&255;
+          $285 = $284 << 8;
+          $286 = $279 & 255;
+          $287 = (($this) + ($286)|0);
+          $288 = HEAP8[$287]|0;
+          $289 = $288&255;
+          $290 = $285 | $289;
+          $291 = (($pc$1) + 2)|0;
+          $addr13$0 = $290;$pc$5 = $291;$s_time$4 = $93;
+          label = 49;
+          break;
+         }
+         case 177:  {
+          $292 = (($this) + ($97)|0);
+          $293 = HEAP8[$292]|0;
+          $294 = $293&255;
+          $295 = (($294) + ($y$0))|0;
+          $296 = $295 >>> 8;
+          $297 = (($296) + ($93))|0;
+          $298 = (($97) + 1)|0;
+          $299 = $298 & 255;
+          $300 = (($this) + ($299)|0);
+          $301 = HEAP8[$300]|0;
+          $302 = $301&255;
+          $303 = $302 << 8;
+          $304 = (($303) + ($295))|0;
+          $305 = (($pc$1) + 2)|0;
+          $306 = $304 & 2047;
+          $307 = $304 >>> 11;
+          $308 = (($s) + ($307<<2)|0);
+          $309 = HEAP32[$308>>2]|0;
+          $310 = (($309) + ($306)|0);
+          $311 = HEAP8[$310]|0;
+          $312 = $311&255;
+          $313 = $304 ^ 32768;
+          $314 = ($313>>>0)<(40960);
+          if ($314) {
+           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $312;$nz$0 = $312;$pc$1 = $305;$s_time$0 = $297;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
+           continue L1;
+          } else {
+           $addr13$0 = $304;$pc$5 = $305;$s_time$4 = $297;
+           label = 49;
+          }
+          break;
+         }
+         case 185:  {
+          $315 = (($97) + ($y$0))|0;
+          $316 = $315 >>> 8;
+          $317 = (($316) + ($93))|0;
+          $318 = (__Z8get_le16PKv($86)|0);
+          $319 = (($318) + ($y$0))|0;
+          $320 = (($pc$1) + 3)|0;
+          $321 = $319 & 2047;
+          $322 = $319 >>> 11;
+          $323 = (($s) + ($322<<2)|0);
+          $324 = HEAP32[$323>>2]|0;
+          $325 = (($324) + ($321)|0);
+          $326 = HEAP8[$325]|0;
+          $327 = $326&255;
+          $328 = $319 ^ 32768;
+          $329 = ($328>>>0)<(40960);
+          if ($329) {
+           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $327;$nz$0 = $327;$pc$1 = $320;$s_time$0 = $317;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
+           continue L1;
+          } else {
+           $addr13$0 = $319;$pc$5 = $320;$s_time$4 = $317;
+           label = 49;
+          }
+          break;
+         }
+         case 189:  {
+          $330 = (($97) + ($x$0))|0;
+          $331 = $330 >>> 8;
+          $332 = (($331) + ($93))|0;
+          $333 = (__Z8get_le16PKv($86)|0);
+          $334 = (($333) + ($x$0))|0;
+          $335 = (($pc$1) + 3)|0;
+          $336 = $334 & 2047;
+          $337 = $334 >>> 11;
+          $338 = (($s) + ($337<<2)|0);
+          $339 = HEAP32[$338>>2]|0;
+          $340 = (($339) + ($336)|0);
+          $341 = HEAP8[$340]|0;
+          $342 = $341&255;
+          $343 = $334 ^ 32768;
+          $344 = ($343>>>0)<(40960);
+          if ($344) {
+           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$c$0$phi = $c$0;$a$0 = $342;$nz$0 = $342;$pc$1 = $335;$s_time$0 = $332;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$c$0 = $c$0$phi;
+           continue L1;
+          } else {
+           $addr13$0 = $334;$pc$5 = $335;$s_time$4 = $332;
+           label = 49;
+          }
+          break;
+         }
+         case 80:  {
+          $347 = $96 << 24 >> 24;
+          $348 = (($pc$1) + 2)|0;
+          $349 = $status$0 & 64;
+          $350 = ($349|0)==(0);
+          if (!($350)) {
+           $pc$0 = $348;
+           label = 2;
+           break L6;
+          }
+          $351 = $348 & 255;
+          $352 = (($347) + ($351))|0;
+          $353 = (($347) + ($348))|0;
+          $354 = $353 & 65535;
+          $355 = $352 >>> 8;
+          $356 = $355 & 1;
+          $357 = (($356) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $354;$s_time$0 = $357;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 112:  {
+          $358 = $96 << 24 >> 24;
+          $359 = (($pc$1) + 2)|0;
+          $360 = $status$0 & 64;
+          $361 = ($360|0)==(0);
+          if ($361) {
+           $pc$0 = $359;
+           label = 2;
+           break L6;
+          }
+          $362 = $359 & 255;
+          $363 = (($358) + ($362))|0;
+          $364 = (($358) + ($359))|0;
+          $365 = $364 & 65535;
+          $366 = $363 >>> 8;
+          $367 = $366 & 1;
+          $368 = (($367) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $365;$s_time$0 = $368;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 176:  {
+          $369 = $96 << 24 >> 24;
+          $370 = (($pc$1) + 2)|0;
+          $371 = $c$0 & 256;
+          $372 = ($371|0)==(0);
+          if ($372) {
+           $pc$0 = $370;
+           label = 2;
+           break L6;
+          }
+          $373 = $370 & 255;
+          $374 = (($369) + ($373))|0;
+          $375 = (($369) + ($370))|0;
+          $376 = $375 & 65535;
+          $377 = $374 >>> 8;
+          $378 = $377 & 1;
+          $379 = (($378) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $376;$s_time$0 = $379;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 144:  {
+          $380 = $96 << 24 >> 24;
+          $381 = (($pc$1) + 2)|0;
+          $382 = $c$0 & 256;
+          $383 = ($382|0)==(0);
+          if (!($383)) {
+           $pc$0 = $381;
+           label = 2;
+           break L6;
+          }
+          $384 = $381 & 255;
+          $385 = (($380) + ($384))|0;
+          $386 = (($380) + ($381))|0;
+          $387 = $386 & 65535;
+          $388 = $385 >>> 8;
+          $389 = $388 & 1;
+          $390 = (($389) + ($93))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $387;$s_time$0 = $390;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 148:  {
+          $391 = (($97) + ($x$0))|0;
+          $392 = $391 & 255;
+          $data$6 = $392;
+          label = 59;
+          break;
+         }
+         case 132:  {
+          $data$6 = $97;
+          label = 59;
+          break;
+         }
+         case 150:  {
+          $396 = (($97) + ($y$0))|0;
+          $397 = $396 & 255;
+          $data$7 = $397;
+          label = 61;
+          break;
+         }
+         case 134:  {
+          $data$7 = $97;
+          label = 61;
+          break;
+         }
          case 210: case 178: case 146: case 114: case 98: case 82: case 66: case 50: case 34: case 18: case 2:  {
           $pc$21 = $89;$s_time$27 = $93;
           label = 202;
@@ -36891,14 +36891,14 @@
           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$a$0$phi = $a$0;$c$0 = $c$10;$pc$1 = $931;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$a$0 = $a$0$phi;
           continue;
          }
-         if ((($919<<24>>24) == -73)) {
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$a$0$phi = $a$0;$c$0 = $c$10;$pc$1 = $931;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$a$0 = $a$0$phi;
-          continue;
-         } else if ((($919<<24>>24) == -77)) {
+         if ((($919<<24>>24) == -77)) {
           $935 = (($this) + ($97)|0);
           $936 = HEAP8[$935]|0;
           $937 = $936&255;
           $data$5721 = $937;
+         } else if ((($919<<24>>24) == -73)) {
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $93;$nz$0$phi = $nz$0;$a$0$phi = $a$0;$c$0 = $c$10;$pc$1 = $931;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$a$0 = $a$0$phi;
+          continue;
          } else {
           $data$5721 = $97;
          }
@@ -38529,29 +38529,7 @@
        var $1 = 0, $10 = 0, $11 = 0, $12 = 0, $13 = 0, $14 = 0, $15 = 0, $16 = 0, $17 = 0, $18 = 0, $19 = 0, $2 = 0, $20 = 0, $21 = 0, $22 = 0, $23 = 0, $24 = 0, $25 = 0, $26 = 0, $27 = 0;
        var $28 = 0, $29 = 0, $3 = 0, $30 = 0, $31 = 0, $32 = 0, $33 = 0, $4 = 0, $5 = 0, $6 = 0, $7 = 0, $8 = 0, $9 = 0, label = 0, sp = 0;
        sp = STACKTOP;
-       if ((($addr|0) == 1)) {
-        $19 = (($this) + 48|0);
-        $20 = HEAP32[$19>>2]|0;
-        $21 = $data & 127;
-        HEAP32[$19>>2] = $21;
-        $22 = (($this) + 59|0);
-        $23 = HEAP8[$22]|0;
-        $24 = ($23<<24>>24)==(0);
-        if (!($24)) {
-         STACKTOP = sp;return;
-        }
-        $25 = (45776 + ($20)|0);
-        $26 = (45776 + ($21)|0);
-        $27 = HEAP8[$25]|0;
-        $28 = HEAP8[$26]|0;
-        $29 = $28&255;
-        $30 = $27&255;
-        $31 = (($30) + ($21))|0;
-        $32 = (($31) - ($29))|0;
-        $33 = (($this) + 20|0);
-        HEAP32[$33>>2] = $32;
-        STACKTOP = sp;return;
-       } else if ((($addr|0) == 0)) {
+       if ((($addr|0) == 0)) {
         $1 = $data & 15;
         $2 = (($this) + 58|0);
         $3 = HEAP8[$2]|0;
@@ -38574,6 +38552,28 @@
         $18 = $17&255;
         HEAP8[$14] = $18;
         __ZN7Nes_Dmc10recalc_irqEv($this);
+        STACKTOP = sp;return;
+       } else if ((($addr|0) == 1)) {
+        $19 = (($this) + 48|0);
+        $20 = HEAP32[$19>>2]|0;
+        $21 = $data & 127;
+        HEAP32[$19>>2] = $21;
+        $22 = (($this) + 59|0);
+        $23 = HEAP8[$22]|0;
+        $24 = ($23<<24>>24)==(0);
+        if (!($24)) {
+         STACKTOP = sp;return;
+        }
+        $25 = (45776 + ($20)|0);
+        $26 = (45776 + ($21)|0);
+        $27 = HEAP8[$25]|0;
+        $28 = HEAP8[$26]|0;
+        $29 = $28&255;
+        $30 = $27&255;
+        $31 = (($30) + ($21))|0;
+        $32 = (($31) - ($29))|0;
+        $33 = (($this) + 20|0);
+        HEAP32[$33>>2] = $32;
         STACKTOP = sp;return;
        } else {
         STACKTOP = sp;return;
@@ -40945,7 +40945,11 @@
         }
         $49 = (__Z8get_le32PKv($19)|0);
         $50 = (__Z8get_le32PKv($20)|0);
-        if ((($50|0) == 1330007625)) {
+        if ((($50|0) == 1145980238)) {
+         $$3 = 0;
+         label = 34;
+         break;
+        } else if ((($50|0) == 1330007625)) {
          $51 = ($49|0)<(8);
          if ($51) {
           $$3 = (47640);
@@ -41151,10 +41155,6 @@
            break;
           }
          }
-        } else if ((($50|0) == 1145980238)) {
-         $$3 = 0;
-         label = 34;
-         break;
         } else {
          $121 = HEAP32[$21>>2]|0;
          $122 = (($121) + 20|0);
@@ -42611,46 +42611,6 @@
         $104 = $103&255;
         L6: do {
          switch ($94|0) {
-         case 228:  {
-          $426 = (($17) + ($104)|0);
-          $427 = HEAP8[$426]|0;
-          $428 = $427&255;
-          $data$14 = $428;$pc$6 = $95;
-          label = 78;
-          break;
-         }
-         case 224:  {
-          $data$14 = $104;$pc$6 = $95;
-          label = 78;
-          break;
-         }
-         case 41:  {
-          $data$20 = $104;$pc$9 = $95;$s_time$11 = $100;
-          label = 90;
-          break;
-         }
-         case 65:  {
-          $484 = (($104) + ($x$0))|0;
-          $485 = (($484) + 1)|0;
-          $486 = $485 & 255;
-          $487 = (($17) + ($486)|0);
-          $488 = HEAP8[$487]|0;
-          $489 = $488&255;
-          $490 = $489 << 8;
-          $491 = $484 & 255;
-          $492 = (($17) + ($491)|0);
-          $493 = HEAP8[$492]|0;
-          $494 = $493&255;
-          $495 = $490 | $494;
-          $data$24 = $495;$pc$10 = $95;$s_time$13 = $100;
-          label = 98;
-          break;
-         }
-         case 77:  {
-          $data$23 = $104;$s_time$12 = $100;
-          label = 97;
-          break;
-         }
          case 69:  {
           $data$21 = $104;
           label = 94;
@@ -42666,49 +42626,9 @@
           label = 96;
           break;
          }
-         case 49:  {
-          $455 = (($17) + ($104)|0);
-          $456 = HEAP8[$455]|0;
-          $457 = $456&255;
-          $458 = (($457) + ($y$0))|0;
-          $459 = (($104) + 1)|0;
-          $460 = $459 & 255;
-          $461 = (($17) + ($460)|0);
-          $462 = HEAP8[$461]|0;
-          $463 = $462&255;
-          $464 = $463 << 8;
-          $465 = (($464) + ($458))|0;
-          $466 = $458 >>> 8;
-          $467 = (($466) + ($100))|0;
-          $data$19 = $465;$pc$8 = $95;$s_time$10 = $467;
-          label = 89;
-          break;
-         }
-         case 53:  {
-          $468 = (($104) + ($x$0))|0;
-          $469 = $468 & 255;
-          $data$16 = $469;
-          label = 85;
-          break;
-         }
-         case 37:  {
-          $data$16 = $104;
-          label = 85;
-          break;
-         }
-         case 61:  {
-          $x$0$pn10 = $x$0;
-          label = 87;
-          break;
-         }
-         case 57:  {
-          $x$0$pn10 = $y$0;
-          label = 87;
-          break;
-         }
-         case 45:  {
-          $data$18 = $104;$s_time$9 = $100;
-          label = 88;
+         case 77:  {
+          $data$23 = $104;$s_time$12 = $100;
+          label = 97;
           break;
          }
          case 73:  {
@@ -42916,184 +42836,6 @@
           label = 127;
           break;
          }
-         case 117:  {
-          $650 = (($104) + ($x$0))|0;
-          $651 = $650 & 255;
-          $data$36 = $651;
-          label = 123;
-          break;
-         }
-         case 101:  {
-          $data$36 = $104;
-          label = 123;
-          break;
-         }
-         case 125:  {
-          $x$0$pn = $x$0;
-          label = 125;
-          break;
-         }
-         case 121:  {
-          $x$0$pn = $y$0;
-          label = 125;
-          break;
-         }
-         case 109:  {
-          $data$38 = $104;$s_time$21 = $100;
-          label = 126;
-          break;
-         }
-         case 74:  {
-          $c$1 = 0;
-          label = 130;
-          break;
-         }
-         case 105:  {
-          $data$40 = $104;$pc$17 = $95;$s_time$23 = $100;
-          break;
-         }
-         case 106:  {
-          $c$1 = $c$0;
-          label = 130;
-          break;
-         }
-         case 10:  {
-          $683 = $a$0 << 1;
-          $684 = $683 & 254;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$a$0 = $684;$c$0 = $683;$nz$0 = $683;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;
-          continue L1;
-          break;
-         }
-         case 42:  {
-          $685 = $a$0 << 1;
-          $686 = $c$0 >>> 8;
-          $687 = $686 & 1;
-          $688 = $685 | $687;
-          $689 = $688 & 255;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$a$0 = $689;$c$0 = $685;$nz$0 = $688;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;
-          continue L1;
-          break;
-         }
-         case 94:  {
-          $690 = (($104) + ($x$0))|0;
-          $data$41 = $690;
-          label = 134;
-          break;
-         }
-         case 78:  {
-          $data$41 = $104;
-          label = 134;
-          break;
-         }
-         case 110:  {
-          $c$2 = $c$0;$data$42 = $104;
-          label = 135;
-          break;
-         }
-         case 62:  {
-          $702 = (($104) + ($x$0))|0;
-          $c$3 = $c$0;$data$44 = $702;
-          label = 139;
-          break;
-         }
-         case 30:  {
-          $703 = (($104) + ($x$0))|0;
-          $data$43 = $703;
-          label = 138;
-          break;
-         }
-         case 14:  {
-          $data$43 = $104;
-          label = 138;
-          break;
-         }
-         case 46:  {
-          $c$3 = $c$0;$data$44 = $104;
-          label = 139;
-          break;
-         }
-         case 126:  {
-          $717 = (($104) + ($x$0))|0;
-          $c$2 = $c$0;$data$42 = $717;
-          label = 135;
-          break;
-         }
-         case 118:  {
-          $718 = (($104) + ($x$0))|0;
-          $719 = $718 & 255;
-          $c$5 = $c$0;$data$47 = $719;
-          label = 145;
-          break;
-         }
-         case 86:  {
-          $720 = (($104) + ($x$0))|0;
-          $721 = $720 & 255;
-          $data$46 = $721;
-          label = 144;
-          break;
-         }
-         case 70:  {
-          $data$46 = $104;
-          label = 144;
-          break;
-         }
-         case 102:  {
-          $c$5 = $c$0;$data$47 = $104;
-          label = 145;
-          break;
-         }
-         case 54:  {
-          $730 = (($104) + ($x$0))|0;
-          $731 = $730 & 255;
-          $c$6 = $c$0;$data$49 = $731;
-          label = 149;
-          break;
-         }
-         case 22:  {
-          $732 = (($104) + ($x$0))|0;
-          $733 = $732 & 255;
-          $data$48 = $733;
-          label = 148;
-          break;
-         }
-         case 6:  {
-          $data$48 = $104;
-          label = 148;
-          break;
-         }
-         case 38:  {
-          $c$6 = $c$0;$data$49 = $104;
-          label = 149;
-          break;
-         }
-         case 202:  {
-          $741 = (($x$0) + -1)|0;
-          $742 = $741 & 255;
-          $y$0$phi = $y$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $741;$x$0 = $742;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 136:  {
-          $743 = (($y$0) + -1)|0;
-          $744 = $743 & 255;
-          $x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $743;$y$0 = $744;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 246:  {
-          $745 = (($104) + ($x$0))|0;
-          $746 = $745 & 255;
-          $data$52 = $746;$nz$2 = 1;
-          label = 155;
-          break;
-         }
-         case 214:  {
-          $747 = (($104) + ($x$0))|0;
-          $748 = $747 & 255;
-          $data$51 = $748;
-          label = 154;
-          break;
-         }
          case 250: case 218: case 122: case 90: case 58: case 26: case 234:  {
           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
           continue L1;
@@ -43139,10 +42881,501 @@
           continue L1;
           break;
          }
-         case 76:  {
-          $137 = (__Z8get_le16PKv($96)|0);
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $137;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+         case 125:  {
+          $x$0$pn = $x$0;
+          label = 125;
+          break;
+         }
+         case 74:  {
+          $c$1 = 0;
+          label = 130;
+          break;
+         }
+         case 42:  {
+          $685 = $a$0 << 1;
+          $686 = $c$0 >>> 8;
+          $687 = $686 & 1;
+          $688 = $685 | $687;
+          $689 = $688 & 255;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$a$0 = $689;$c$0 = $685;$nz$0 = $688;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;
           continue L1;
+          break;
+         }
+         case 94:  {
+          $690 = (($104) + ($x$0))|0;
+          $data$41 = $690;
+          label = 134;
+          break;
+         }
+         case 109:  {
+          $data$38 = $104;$s_time$21 = $100;
+          label = 126;
+          break;
+         }
+         case 30:  {
+          $703 = (($104) + ($x$0))|0;
+          $data$43 = $703;
+          label = 138;
+          break;
+         }
+         case 14:  {
+          $data$43 = $104;
+          label = 138;
+          break;
+         }
+         case 10:  {
+          $683 = $a$0 << 1;
+          $684 = $683 & 254;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$a$0 = $684;$c$0 = $683;$nz$0 = $683;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;
+          continue L1;
+          break;
+         }
+         case 117:  {
+          $650 = (($104) + ($x$0))|0;
+          $651 = $650 & 255;
+          $data$36 = $651;
+          label = 123;
+          break;
+         }
+         case 78:  {
+          $data$41 = $104;
+          label = 134;
+          break;
+         }
+         case 101:  {
+          $data$36 = $104;
+          label = 123;
+          break;
+         }
+         case 102:  {
+          $c$5 = $c$0;$data$47 = $104;
+          label = 145;
+          break;
+         }
+         case 54:  {
+          $730 = (($104) + ($x$0))|0;
+          $731 = $730 & 255;
+          $c$6 = $c$0;$data$49 = $731;
+          label = 149;
+          break;
+         }
+         case 22:  {
+          $732 = (($104) + ($x$0))|0;
+          $733 = $732 & 255;
+          $data$48 = $733;
+          label = 148;
+          break;
+         }
+         case 106:  {
+          $c$1 = $c$0;
+          label = 130;
+          break;
+         }
+         case 46:  {
+          $c$3 = $c$0;$data$44 = $104;
+          label = 139;
+          break;
+         }
+         case 126:  {
+          $717 = (($104) + ($x$0))|0;
+          $c$2 = $c$0;$data$42 = $717;
+          label = 135;
+          break;
+         }
+         case 118:  {
+          $718 = (($104) + ($x$0))|0;
+          $719 = $718 & 255;
+          $c$5 = $c$0;$data$47 = $719;
+          label = 145;
+          break;
+         }
+         case 86:  {
+          $720 = (($104) + ($x$0))|0;
+          $721 = $720 & 255;
+          $data$46 = $721;
+          label = 144;
+          break;
+         }
+         case 70:  {
+          $data$46 = $104;
+          label = 144;
+          break;
+         }
+         case 6:  {
+          $data$48 = $104;
+          label = 148;
+          break;
+         }
+         case 38:  {
+          $c$6 = $c$0;$data$49 = $104;
+          label = 149;
+          break;
+         }
+         case 121:  {
+          $x$0$pn = $y$0;
+          label = 125;
+          break;
+         }
+         case 105:  {
+          $data$40 = $104;$pc$17 = $95;$s_time$23 = $100;
+          break;
+         }
+         case 202:  {
+          $741 = (($x$0) + -1)|0;
+          $742 = $741 & 255;
+          $y$0$phi = $y$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $741;$x$0 = $742;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 136:  {
+          $743 = (($y$0) + -1)|0;
+          $744 = $743 & 255;
+          $x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $743;$y$0 = $744;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 246:  {
+          $745 = (($104) + ($x$0))|0;
+          $746 = $745 & 255;
+          $data$52 = $746;$nz$2 = 1;
+          label = 155;
+          break;
+         }
+         case 214:  {
+          $747 = (($104) + ($x$0))|0;
+          $748 = $747 & 255;
+          $data$51 = $748;
+          label = 154;
+          break;
+         }
+         case 198:  {
+          $data$51 = $104;
+          label = 154;
+          break;
+         }
+         case 230:  {
+          $data$52 = $104;$nz$2 = 1;
+          label = 155;
+          break;
+         }
+         case 254:  {
+          $756 = (__Z8get_le16PKv($96)|0);
+          $757 = (($756) + ($x$0))|0;
+          $data$56 = $757;$nz$4 = 1;
+          label = 161;
+          break;
+         }
+         case 238:  {
+          $758 = (__Z8get_le16PKv($96)|0);
+          $data$56 = $758;$nz$4 = 1;
+          label = 161;
+          break;
+         }
+         case 222:  {
+          $759 = (__Z8get_le16PKv($96)|0);
+          $760 = (($759) + ($x$0))|0;
+          $data$56 = $760;$nz$4 = -1;
+          label = 161;
+          break;
+         }
+         case 206:  {
+          $761 = (__Z8get_le16PKv($96)|0);
+          $data$56 = $761;$nz$4 = -1;
+          label = 161;
+          break;
+         }
+         case 170:  {
+          $y$0$phi = $y$0;$x$0$phi = $a$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $a$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 138:  {
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $x$0;$c$0$phi = $c$0;$a$0$phi = $x$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 154:  {
+          $767 = (($x$0) + 1)|0;
+          $768 = $767 | 256;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $768;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 186:  {
+          $769 = (($sp$0) + 255)|0;
+          $770 = $769 & 255;
+          $y$0$phi = $y$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $770;$x$0 = $770;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 72:  {
+          $771 = (($sp$0) + -1)|0;
+          $772 = $771 | 256;
+          $773 = $a$0&255;
+          $774 = (($17) + ($772)|0);
+          HEAP8[$774] = $773;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $772;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 104:  {
+          $775 = (($17) + ($sp$0)|0);
+          $776 = HEAP8[$775]|0;
+          $777 = $776&255;
+          $778 = (($sp$0) + -255)|0;
+          $779 = $778 | 256;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0 = $777;$nz$0 = $777;$sp$0 = $779;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;
+          continue L1;
+          break;
+         }
+         case 64:  {
+          $780 = (($17) + ($sp$0)|0);
+          $781 = HEAP8[$780]|0;
+          $782 = $781&255;
+          $783 = (($sp$0) + -255)|0;
+          $784 = $783 | 256;
+          $785 = (($17) + ($784)|0);
+          $786 = HEAP8[$785]|0;
+          $787 = $786&255;
+          $788 = (($sp$0) + -254)|0;
+          $789 = $788 | 256;
+          $790 = (($17) + ($789)|0);
+          $791 = HEAP8[$790]|0;
+          $792 = $791&255;
+          $793 = $792 << 8;
+          $794 = $793 | $787;
+          $795 = (($sp$0) + -253)|0;
+          $796 = $795 | 256;
+          $797 = $782 & 76;
+          $798 = $782 << 8;
+          $799 = $782 & 2;
+          $800 = $799 | $798;
+          $801 = $800 ^ 2;
+          $802 = $797&255;
+          HEAP8[$35] = $802;
+          $803 = $782 ^ $status$0;
+          $804 = $803 & 4;
+          $805 = ($804|0)==(0);
+          if ($805) {
+           $y$0$phi = $y$0;$x$0$phi = $x$0;$s_time$0$phi = $100;$a$0$phi = $a$0;$c$0 = $798;$nz$0 = $801;$pc$1 = $794;$sp$0 = $796;$status$0 = $797;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$s_time$0 = $s_time$0$phi;$a$0 = $a$0$phi;
+           continue L1;
+          }
+          $806 = HEAP32[$43>>2]|0;
+          $807 = $782 & 4;
+          $808 = ($807|0)==(0);
+          if ($808) {
+           $809 = HEAP32[$82>>2]|0;
+           $810 = ($806|0)>($809|0);
+           $$16 = $810 ? $809 : $806;
+           $new_time$0 = $$16;
+          } else {
+           $new_time$0 = $806;
+          }
+          $811 = HEAP32[$83>>2]|0;
+          HEAP32[$83>>2] = $new_time$0;
+          $812 = (($100) - ($new_time$0))|0;
+          $813 = (($812) + ($811))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$a$0$phi = $a$0;$c$0 = $798;$nz$0 = $801;$pc$1 = $794;$s_time$0 = $813;$sp$0 = $796;$status$0 = $797;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 40:  {
+          $814 = (($17) + ($sp$0)|0);
+          $815 = HEAP8[$814]|0;
+          $816 = $815&255;
+          $817 = (($sp$0) + -255)|0;
+          $818 = $817 | 256;
+          $819 = $816 ^ $status$0;
+          $820 = $816 & 76;
+          $821 = $816 << 8;
+          $822 = $816 & 2;
+          $823 = $822 | $821;
+          $824 = $823 ^ 2;
+          $825 = $819 & 4;
+          $826 = ($825|0)==(0);
+          if ($826) {
+           $y$0$phi = $y$0;$x$0$phi = $x$0;$s_time$0$phi = $100;$pc$1$phi = $95;$a$0$phi = $a$0;$c$0 = $821;$nz$0 = $824;$sp$0 = $818;$status$0 = $820;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$a$0 = $a$0$phi;
+           continue L1;
+          }
+          $827 = $816 & 4;
+          $828 = ($827|0)==(0);
+          if ($828) {
+           $c$8 = $821;$nz$5 = $824;$sp$1 = $818;$status$1 = $820;
+           label = 183;
+          } else {
+           $c$9 = $821;$nz$6 = $824;$sp$2 = $818;$status$2 = $820;
+           label = 189;
+          }
+          break;
+         }
+         case 8:  {
+          $829 = $status$0 & 76;
+          $830 = $nz$0 >>> 8;
+          $831 = $830 | $nz$0;
+          $832 = $831 & 128;
+          $833 = $829 | $832;
+          $834 = $c$0 >>> 8;
+          $835 = $834 & 1;
+          $836 = $833 | $835;
+          $837 = $nz$0 & 255;
+          $838 = ($837|0)==(0);
+          $839 = $836 | 2;
+          $$17 = $838 ? $839 : $836;
+          $840 = (($sp$0) + -1)|0;
+          $841 = $840 | 256;
+          $842 = $$17 | 48;
+          $843 = $842&255;
+          $844 = (($17) + ($841)|0);
+          HEAP8[$844] = $843;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $841;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 56:  {
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$a$0$phi = $a$0;$c$0 = -1;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 108:  {
+          $845 = (__Z8get_le16PKv($96)|0);
+          $846 = (($17) + ($845)|0);
+          $847 = HEAP8[$846]|0;
+          $848 = $847&255;
+          $849 = $845 & 65280;
+          $850 = (($845) + 1)|0;
+          $851 = $850 & 255;
+          $852 = $851 | $849;
+          $853 = (($17) + ($852)|0);
+          $854 = HEAP8[$853]|0;
+          $855 = $854&255;
+          $856 = $855 << 8;
+          $857 = $856 | $848;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $857;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 24:  {
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$a$0$phi = $a$0;$c$0 = 0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 184:  {
+          $858 = $status$0 & -65;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $858;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 216:  {
+          $859 = $status$0 & -9;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $859;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 248:  {
+          $860 = $status$0 | 8;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $860;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 88:  {
+          if (!($91)) {
+           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+           continue L1;
+          }
+          $861 = $status$0 & -5;
+          $c$8 = $c$0;$nz$5 = $nz$0;$sp$1 = $sp$0;$status$1 = $861;
+          label = 183;
+          break;
+         }
+         case 120:  {
+          if ($91) {
+           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+           continue L1;
+          }
+          $872 = $status$0 | 4;
+          $c$9 = $c$0;$nz$6 = $nz$0;$sp$2 = $sp$0;$status$2 = $872;
+          label = 189;
+          break;
+         }
+         case 252: case 220: case 124: case 92: case 60: case 28:  {
+          $878 = (($104) + ($x$0))|0;
+          $879 = $878 >>> 8;
+          $880 = (($879) + ($100))|0;
+          $s_time$24 = $880;
+          label = 191;
+          break;
+         }
+         case 12:  {
+          $s_time$24 = $100;
+          label = 191;
+          break;
+         }
+         case 244: case 226: case 212: case 194: case 137: case 130: case 128: case 100: case 84: case 68: case 52: case 20: case 4: case 116:  {
+          $pc$19 = $95;$s_time$25 = $100;
+          label = 192;
+          break;
+         }
+         case 0:  {
+          $883 = ($pc$1>>>0)>(65278);
+          if ($883) {
+           $illegal_encountered$0$off0 = 0;$s_time$27 = $100;
+           label = 195;
+           break L1;
+          }
+          $884 = (($pc$1) + 2)|0;
+          $885 = $884 >>> 8;
+          $886 = $885&255;
+          $887 = (($sp$0) + -1)|0;
+          $888 = $887 | 256;
+          $889 = (($17) + ($888)|0);
+          HEAP8[$889] = $886;
+          $890 = $884&255;
+          $891 = (($sp$0) + -2)|0;
+          $892 = $891 | 256;
+          $893 = (($17) + ($892)|0);
+          HEAP8[$893] = $890;
+          $894 = (__Z8get_le16PKv($87)|0);
+          $895 = (($sp$0) + -3)|0;
+          $896 = $895 | 256;
+          $897 = $status$0 & 76;
+          $898 = $nz$0 >>> 8;
+          $899 = $898 | $nz$0;
+          $900 = $899 & 128;
+          $901 = $897 | $900;
+          $902 = $c$0 >>> 8;
+          $903 = $902 & 1;
+          $904 = $901 | $903;
+          $905 = $nz$0 & 255;
+          $906 = ($905|0)==(0);
+          $907 = $904 | 2;
+          $temp48$0 = $906 ? $907 : $904;
+          $908 = $temp48$0 | 48;
+          $909 = $908&255;
+          $910 = (($17) + ($896)|0);
+          HEAP8[$910] = $909;
+          $911 = $status$0 & -13;
+          $912 = $911 | 4;
+          $913 = $912&255;
+          HEAP8[$35] = $913;
+          $914 = HEAP32[$88>>2]|0;
+          $915 = HEAP32[$43>>2]|0;
+          HEAP32[$88>>2] = $915;
+          $916 = (($100) + 7)|0;
+          $917 = (($916) + ($914))|0;
+          $918 = (($917) - ($915))|0;
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $894;$s_time$0 = $918;$sp$0 = $896;$status$0 = $912;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 62:  {
+          $702 = (($104) + ($x$0))|0;
+          $c$3 = $c$0;$data$44 = $702;
+          label = 139;
+          break;
+         }
+         case 110:  {
+          $c$2 = $c$0;$data$42 = $104;
+          label = 135;
           break;
          }
          case 32:  {
@@ -43160,6 +43393,12 @@
           $136 = (($17) + ($134)|0);
           HEAP8[$136] = $135;
           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $127;$sp$0 = $134;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
+          continue L1;
+          break;
+         }
+         case 76:  {
+          $137 = (__Z8get_le16PKv($96)|0);
+          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $137;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
           continue L1;
           break;
          }
@@ -43715,6 +43954,19 @@
           label = 78;
           break;
          }
+         case 228:  {
+          $426 = (($17) + ($104)|0);
+          $427 = HEAP8[$426]|0;
+          $428 = $427&255;
+          $data$14 = $428;$pc$6 = $95;
+          label = 78;
+          break;
+         }
+         case 224:  {
+          $data$14 = $104;$pc$6 = $95;
+          label = 78;
+          break;
+         }
          case 204:  {
           $433 = (__Z8get_le16PKv($96)|0);
           $434 = (($pc$1) + 2)|0;
@@ -43737,9 +43989,88 @@
           label = 81;
           break;
          }
-         case 198:  {
-          $data$51 = $104;
-          label = 154;
+         case 33:  {
+          $443 = (($104) + ($x$0))|0;
+          $444 = (($443) + 1)|0;
+          $445 = $444 & 255;
+          $446 = (($17) + ($445)|0);
+          $447 = HEAP8[$446]|0;
+          $448 = $447&255;
+          $449 = $448 << 8;
+          $450 = $443 & 255;
+          $451 = (($17) + ($450)|0);
+          $452 = HEAP8[$451]|0;
+          $453 = $452&255;
+          $454 = $449 | $453;
+          $data$19 = $454;$pc$8 = $95;$s_time$10 = $100;
+          label = 89;
+          break;
+         }
+         case 49:  {
+          $455 = (($17) + ($104)|0);
+          $456 = HEAP8[$455]|0;
+          $457 = $456&255;
+          $458 = (($457) + ($y$0))|0;
+          $459 = (($104) + 1)|0;
+          $460 = $459 & 255;
+          $461 = (($17) + ($460)|0);
+          $462 = HEAP8[$461]|0;
+          $463 = $462&255;
+          $464 = $463 << 8;
+          $465 = (($464) + ($458))|0;
+          $466 = $458 >>> 8;
+          $467 = (($466) + ($100))|0;
+          $data$19 = $465;$pc$8 = $95;$s_time$10 = $467;
+          label = 89;
+          break;
+         }
+         case 53:  {
+          $468 = (($104) + ($x$0))|0;
+          $469 = $468 & 255;
+          $data$16 = $469;
+          label = 85;
+          break;
+         }
+         case 37:  {
+          $data$16 = $104;
+          label = 85;
+          break;
+         }
+         case 61:  {
+          $x$0$pn10 = $x$0;
+          label = 87;
+          break;
+         }
+         case 57:  {
+          $x$0$pn10 = $y$0;
+          label = 87;
+          break;
+         }
+         case 45:  {
+          $data$18 = $104;$s_time$9 = $100;
+          label = 88;
+          break;
+         }
+         case 41:  {
+          $data$20 = $104;$pc$9 = $95;$s_time$11 = $100;
+          label = 90;
+          break;
+         }
+         case 65:  {
+          $484 = (($104) + ($x$0))|0;
+          $485 = (($484) + 1)|0;
+          $486 = $485 & 255;
+          $487 = (($17) + ($486)|0);
+          $488 = HEAP8[$487]|0;
+          $489 = $488&255;
+          $490 = $489 << 8;
+          $491 = $484 & 255;
+          $492 = (($17) + ($491)|0);
+          $493 = HEAP8[$492]|0;
+          $494 = $493&255;
+          $495 = $490 | $494;
+          $data$24 = $495;$pc$10 = $95;$s_time$13 = $100;
+          label = 98;
           break;
          }
          case 81:  {
@@ -43765,337 +44096,6 @@
           $510 = $509 & 255;
           $data$21 = $510;
           label = 94;
-          break;
-         }
-         case 33:  {
-          $443 = (($104) + ($x$0))|0;
-          $444 = (($443) + 1)|0;
-          $445 = $444 & 255;
-          $446 = (($17) + ($445)|0);
-          $447 = HEAP8[$446]|0;
-          $448 = $447&255;
-          $449 = $448 << 8;
-          $450 = $443 & 255;
-          $451 = (($17) + ($450)|0);
-          $452 = HEAP8[$451]|0;
-          $453 = $452&255;
-          $454 = $449 | $453;
-          $data$19 = $454;$pc$8 = $95;$s_time$10 = $100;
-          label = 89;
-          break;
-         }
-         case 230:  {
-          $data$52 = $104;$nz$2 = 1;
-          label = 155;
-          break;
-         }
-         case 254:  {
-          $756 = (__Z8get_le16PKv($96)|0);
-          $757 = (($756) + ($x$0))|0;
-          $data$56 = $757;$nz$4 = 1;
-          label = 161;
-          break;
-         }
-         case 238:  {
-          $758 = (__Z8get_le16PKv($96)|0);
-          $data$56 = $758;$nz$4 = 1;
-          label = 161;
-          break;
-         }
-         case 222:  {
-          $759 = (__Z8get_le16PKv($96)|0);
-          $760 = (($759) + ($x$0))|0;
-          $data$56 = $760;$nz$4 = -1;
-          label = 161;
-          break;
-         }
-         case 206:  {
-          $761 = (__Z8get_le16PKv($96)|0);
-          $data$56 = $761;$nz$4 = -1;
-          label = 161;
-          break;
-         }
-         case 170:  {
-          $y$0$phi = $y$0;$x$0$phi = $a$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $a$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 138:  {
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $x$0;$c$0$phi = $c$0;$a$0$phi = $x$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 154:  {
-          $767 = (($x$0) + 1)|0;
-          $768 = $767 | 256;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $768;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 186:  {
-          $769 = (($sp$0) + 255)|0;
-          $770 = $769 & 255;
-          $y$0$phi = $y$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0$phi = $a$0;$nz$0 = $770;$x$0 = $770;$y$0 = $y$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 72:  {
-          $771 = (($sp$0) + -1)|0;
-          $772 = $771 | 256;
-          $773 = $a$0&255;
-          $774 = (($17) + ($772)|0);
-          HEAP8[$774] = $773;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $772;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 104:  {
-          $775 = (($17) + ($sp$0)|0);
-          $776 = HEAP8[$775]|0;
-          $777 = $776&255;
-          $778 = (($sp$0) + -255)|0;
-          $779 = $778 | 256;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$c$0$phi = $c$0;$a$0 = $777;$nz$0 = $777;$sp$0 = $779;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$c$0 = $c$0$phi;
-          continue L1;
-          break;
-         }
-         case 64:  {
-          $780 = (($17) + ($sp$0)|0);
-          $781 = HEAP8[$780]|0;
-          $782 = $781&255;
-          $783 = (($sp$0) + -255)|0;
-          $784 = $783 | 256;
-          $785 = (($17) + ($784)|0);
-          $786 = HEAP8[$785]|0;
-          $787 = $786&255;
-          $788 = (($sp$0) + -254)|0;
-          $789 = $788 | 256;
-          $790 = (($17) + ($789)|0);
-          $791 = HEAP8[$790]|0;
-          $792 = $791&255;
-          $793 = $792 << 8;
-          $794 = $793 | $787;
-          $795 = (($sp$0) + -253)|0;
-          $796 = $795 | 256;
-          $797 = $782 & 76;
-          $798 = $782 << 8;
-          $799 = $782 & 2;
-          $800 = $799 | $798;
-          $801 = $800 ^ 2;
-          $802 = $797&255;
-          HEAP8[$35] = $802;
-          $803 = $782 ^ $status$0;
-          $804 = $803 & 4;
-          $805 = ($804|0)==(0);
-          if ($805) {
-           $y$0$phi = $y$0;$x$0$phi = $x$0;$s_time$0$phi = $100;$a$0$phi = $a$0;$c$0 = $798;$nz$0 = $801;$pc$1 = $794;$sp$0 = $796;$status$0 = $797;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$s_time$0 = $s_time$0$phi;$a$0 = $a$0$phi;
-           continue L1;
-          }
-          $806 = HEAP32[$43>>2]|0;
-          $807 = $782 & 4;
-          $808 = ($807|0)==(0);
-          if ($808) {
-           $809 = HEAP32[$82>>2]|0;
-           $810 = ($806|0)>($809|0);
-           $$16 = $810 ? $809 : $806;
-           $new_time$0 = $$16;
-          } else {
-           $new_time$0 = $806;
-          }
-          $811 = HEAP32[$83>>2]|0;
-          HEAP32[$83>>2] = $new_time$0;
-          $812 = (($100) - ($new_time$0))|0;
-          $813 = (($812) + ($811))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$a$0$phi = $a$0;$c$0 = $798;$nz$0 = $801;$pc$1 = $794;$s_time$0 = $813;$sp$0 = $796;$status$0 = $797;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 40:  {
-          $814 = (($17) + ($sp$0)|0);
-          $815 = HEAP8[$814]|0;
-          $816 = $815&255;
-          $817 = (($sp$0) + -255)|0;
-          $818 = $817 | 256;
-          $819 = $816 ^ $status$0;
-          $820 = $816 & 76;
-          $821 = $816 << 8;
-          $822 = $816 & 2;
-          $823 = $822 | $821;
-          $824 = $823 ^ 2;
-          $825 = $819 & 4;
-          $826 = ($825|0)==(0);
-          if ($826) {
-           $y$0$phi = $y$0;$x$0$phi = $x$0;$s_time$0$phi = $100;$pc$1$phi = $95;$a$0$phi = $a$0;$c$0 = $821;$nz$0 = $824;$sp$0 = $818;$status$0 = $820;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$a$0 = $a$0$phi;
-           continue L1;
-          }
-          $827 = $816 & 4;
-          $828 = ($827|0)==(0);
-          if ($828) {
-           $c$8 = $821;$nz$5 = $824;$sp$1 = $818;$status$1 = $820;
-           label = 183;
-          } else {
-           $c$9 = $821;$nz$6 = $824;$sp$2 = $818;$status$2 = $820;
-           label = 189;
-          }
-          break;
-         }
-         case 8:  {
-          $829 = $status$0 & 76;
-          $830 = $nz$0 >>> 8;
-          $831 = $830 | $nz$0;
-          $832 = $831 & 128;
-          $833 = $829 | $832;
-          $834 = $c$0 >>> 8;
-          $835 = $834 & 1;
-          $836 = $833 | $835;
-          $837 = $nz$0 & 255;
-          $838 = ($837|0)==(0);
-          $839 = $836 | 2;
-          $$17 = $838 ? $839 : $836;
-          $840 = (($sp$0) + -1)|0;
-          $841 = $840 | 256;
-          $842 = $$17 | 48;
-          $843 = $842&255;
-          $844 = (($17) + ($841)|0);
-          HEAP8[$844] = $843;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$sp$0 = $841;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 56:  {
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$a$0$phi = $a$0;$c$0 = -1;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 108:  {
-          $845 = (__Z8get_le16PKv($96)|0);
-          $846 = (($17) + ($845)|0);
-          $847 = HEAP8[$846]|0;
-          $848 = $847&255;
-          $849 = $845 & 65280;
-          $850 = (($845) + 1)|0;
-          $851 = $850 & 255;
-          $852 = $851 | $849;
-          $853 = (($17) + ($852)|0);
-          $854 = HEAP8[$853]|0;
-          $855 = $854&255;
-          $856 = $855 << 8;
-          $857 = $856 | $848;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $857;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 24:  {
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$a$0$phi = $a$0;$c$0 = 0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 184:  {
-          $858 = $status$0 & -65;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $858;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 216:  {
-          $859 = $status$0 & -9;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $859;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 248:  {
-          $860 = $status$0 | 8;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$status$0 = $860;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
-          break;
-         }
-         case 88:  {
-          if (!($91)) {
-           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-           continue L1;
-          }
-          $861 = $status$0 & -5;
-          $c$8 = $c$0;$nz$5 = $nz$0;$sp$1 = $sp$0;$status$1 = $861;
-          label = 183;
-          break;
-         }
-         case 120:  {
-          if ($91) {
-           $y$0$phi = $y$0;$x$0$phi = $x$0;$status$0$phi = $status$0;$sp$0$phi = $sp$0;$s_time$0$phi = $100;$pc$1$phi = $95;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$status$0 = $status$0$phi;$sp$0 = $sp$0$phi;$s_time$0 = $s_time$0$phi;$pc$1 = $pc$1$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-           continue L1;
-          }
-          $872 = $status$0 | 4;
-          $c$9 = $c$0;$nz$6 = $nz$0;$sp$2 = $sp$0;$status$2 = $872;
-          label = 189;
-          break;
-         }
-         case 252: case 220: case 124: case 92: case 60: case 28:  {
-          $878 = (($104) + ($x$0))|0;
-          $879 = $878 >>> 8;
-          $880 = (($879) + ($100))|0;
-          $s_time$24 = $880;
-          label = 191;
-          break;
-         }
-         case 12:  {
-          $s_time$24 = $100;
-          label = 191;
-          break;
-         }
-         case 244: case 226: case 212: case 194: case 137: case 130: case 128: case 100: case 84: case 68: case 52: case 20: case 4: case 116:  {
-          $pc$19 = $95;$s_time$25 = $100;
-          label = 192;
-          break;
-         }
-         case 0:  {
-          $883 = ($pc$1>>>0)>(65278);
-          if ($883) {
-           $illegal_encountered$0$off0 = 0;$s_time$27 = $100;
-           label = 195;
-           break L1;
-          }
-          $884 = (($pc$1) + 2)|0;
-          $885 = $884 >>> 8;
-          $886 = $885&255;
-          $887 = (($sp$0) + -1)|0;
-          $888 = $887 | 256;
-          $889 = (($17) + ($888)|0);
-          HEAP8[$889] = $886;
-          $890 = $884&255;
-          $891 = (($sp$0) + -2)|0;
-          $892 = $891 | 256;
-          $893 = (($17) + ($892)|0);
-          HEAP8[$893] = $890;
-          $894 = (__Z8get_le16PKv($87)|0);
-          $895 = (($sp$0) + -3)|0;
-          $896 = $895 | 256;
-          $897 = $status$0 & 76;
-          $898 = $nz$0 >>> 8;
-          $899 = $898 | $nz$0;
-          $900 = $899 & 128;
-          $901 = $897 | $900;
-          $902 = $c$0 >>> 8;
-          $903 = $902 & 1;
-          $904 = $901 | $903;
-          $905 = $nz$0 & 255;
-          $906 = ($905|0)==(0);
-          $907 = $904 | 2;
-          $temp48$0 = $906 ? $907 : $904;
-          $908 = $temp48$0 | 48;
-          $909 = $908&255;
-          $910 = (($17) + ($896)|0);
-          HEAP8[$910] = $909;
-          $911 = $status$0 & -13;
-          $912 = $911 | 4;
-          $913 = $912&255;
-          HEAP8[$35] = $913;
-          $914 = HEAP32[$88>>2]|0;
-          $915 = HEAP32[$43>>2]|0;
-          HEAP32[$88>>2] = $915;
-          $916 = (($100) + 7)|0;
-          $917 = (($916) + ($914))|0;
-          $918 = (($917) - ($915))|0;
-          $y$0$phi = $y$0;$x$0$phi = $x$0;$nz$0$phi = $nz$0;$c$0$phi = $c$0;$a$0$phi = $a$0;$pc$1 = $894;$s_time$0 = $918;$sp$0 = $896;$status$0 = $912;$y$0 = $y$0$phi;$x$0 = $x$0$phi;$nz$0 = $nz$0$phi;$c$0 = $c$0$phi;$a$0 = $a$0$phi;
-          continue L1;
           break;
          }
          default: {
@@ -45090,11 +45090,11 @@
                $60 = HEAP8[$$2$lcssa]|0;
                $61 = $60&255;
                HEAP32[$15>>2] = $61;
-               if ((($61|0) == 68)) {
+               if ((($61|0) == 66) | (($61|0) == 67)) {
+                break;
+               } else if ((($61|0) == 68)) {
                 $$0$ph = (48936);
                 break L6;
-               } else if ((($61|0) == 66) | (($61|0) == 67)) {
-                break;
                } else {
                 $$0 = (48960);
                 label = 43;
@@ -45422,15 +45422,7 @@
        sp = STACKTOP;
        $1 = (($this) + 388|0);
        $2 = HEAP32[$1>>2]|0;
-       if ((($2|0) == 66)) {
-        $3 = $track&255;
-        $4 = (($this) + 338|0);
-        HEAP8[$4] = $3;
-        $5 = (($this) + 376|0);
-        $6 = HEAP32[$5>>2]|0;
-        __ZN7Sap_Emu11run_routineEj($this,$6);
-        STACKTOP = sp;return;
-       } else if ((($2|0) == 67)) {
+       if ((($2|0) == 67)) {
         $7 = (($this) + 338|0);
         HEAP8[$7] = 112;
         $8 = (($this) + 384|0);
@@ -45453,6 +45445,14 @@
         $20 = HEAP32[$16>>2]|0;
         $21 = (($20) + 3)|0;
         __ZN7Sap_Emu11run_routineEj($this,$21);
+        STACKTOP = sp;return;
+       } else if ((($2|0) == 66)) {
+        $3 = $track&255;
+        $4 = (($this) + 338|0);
+        HEAP8[$4] = $3;
+        $5 = (($this) + 376|0);
+        $6 = HEAP32[$5>>2]|0;
+        __ZN7Sap_Emu11run_routineEj($this,$6);
         STACKTOP = sp;return;
        } else {
         STACKTOP = sp;return;
@@ -45636,16 +45636,16 @@
        sp = STACKTOP;
        $1 = (($this) + 388|0);
        $2 = HEAP32[$1>>2]|0;
-       if ((($2|0) == 66)) {
-        $3 = (($this) + 380|0);
-        $4 = HEAP32[$3>>2]|0;
-        __ZN7Sap_Emu7cpu_jsrEj($this,$4);
-        STACKTOP = sp;return;
-       } else if ((($2|0) == 67)) {
+       if ((($2|0) == 67)) {
         $5 = (($this) + 380|0);
         $6 = HEAP32[$5>>2]|0;
         $7 = (($6) + 6)|0;
         __ZN7Sap_Emu7cpu_jsrEj($this,$7);
+        STACKTOP = sp;return;
+       } else if ((($2|0) == 66)) {
+        $3 = (($this) + 380|0);
+        $4 = HEAP32[$3>>2]|0;
+        __ZN7Sap_Emu7cpu_jsrEj($this,$4);
         STACKTOP = sp;return;
        } else {
         STACKTOP = sp;return;
@@ -47349,14 +47349,14 @@
          if (!($7)) {
           break;
          }
-         if ((($addr|0) == 124)) {
-          $10 = (($this) + 124|0);
-          HEAP8[$10] = 0;
-          break;
-         } else if ((($addr|0) == 76)) {
+         if ((($addr|0) == 76)) {
           $8 = $data & 255;
           $9 = (($this) + 300|0);
           HEAP32[$9>>2] = $8;
+          break;
+         } else if ((($addr|0) == 124)) {
+          $10 = (($this) + 124|0);
+          HEAP8[$10] = 0;
           break;
          } else {
           break;
@@ -47524,20 +47524,6 @@
        var sp = 0;
        sp = STACKTOP;
        switch ($addr|0) {
-       case 15: case 14: case 13:  {
-        $11 = ($data|0)<(4096);
-        if (!($11)) {
-         STACKTOP = sp;return;
-        }
-        $12 = (($addr) + -13)|0;
-        $13 = ((($this) + (($12*24)|0)|0) + 1868|0);
-        $14 = (($time) + -1)|0;
-        $15 = (__ZN8Snes_Spc9run_timerEPNS_5TimerEi(0,$13,$14)|0);
-        $16 = (($15) + 20|0);
-        HEAP32[$16>>2] = 0;
-        STACKTOP = sp;return;
-        break;
-       }
        case 1:  {
         $19 = $data & 16;
         $20 = ($19|0)==(0);
@@ -47622,13 +47608,6 @@
         STACKTOP = sp;return;
         break;
        }
-       case 9: case 8:  {
-        $17 = $data&255;
-        $18 = ((($this) + ($addr)|0) + 1956|0);
-        HEAP8[$18] = $17;
-        STACKTOP = sp;return;
-        break;
-       }
        case 12: case 11: case 10:  {
         $1 = (($addr) + -10)|0;
         $2 = (($data) + 255)|0;
@@ -47644,6 +47623,27 @@
         $9 = (__ZN8Snes_Spc9run_timerEPNS_5TimerEi(0,$8,$time)|0);
         $10 = (($9) + 8|0);
         HEAP32[$10>>2] = $4;
+        STACKTOP = sp;return;
+        break;
+       }
+       case 9: case 8:  {
+        $17 = $data&255;
+        $18 = ((($this) + ($addr)|0) + 1956|0);
+        HEAP8[$18] = $17;
+        STACKTOP = sp;return;
+        break;
+       }
+       case 15: case 14: case 13:  {
+        $11 = ($data|0)<(4096);
+        if (!($11)) {
+         STACKTOP = sp;return;
+        }
+        $12 = (($addr) + -13)|0;
+        $13 = ((($this) + (($12*24)|0)|0) + 1868|0);
+        $14 = (($time) + -1)|0;
+        $15 = (__ZN8Snes_Spc9run_timerEPNS_5TimerEi(0,$13,$14)|0);
+        $16 = (($15) + 20|0);
+        HEAP32[$16>>2] = 0;
         STACKTOP = sp;return;
         break;
        }
@@ -47716,17 +47716,7 @@
          if (!($16)) {
           break;
          }
-         if ((($2<<24>>24) == 76)) {
-          $17 = ($this);
-          $18 = (__ZNK7Spc_Dsp4readEi($17,92)|0);
-          $19 = $18 ^ -1;
-          $20 = $19 & $data;
-          $21 = (($this) + 2012|0);
-          $22 = HEAP32[$21>>2]|0;
-          $23 = $22 | $20;
-          HEAP32[$21>>2] = $23;
-          break;
-         } else if ((($2<<24>>24) == 92)) {
+         if ((($2<<24>>24) == 92)) {
           $24 = (($this) + 2016|0);
           $25 = HEAP32[$24>>2]|0;
           $26 = $25 | $data;
@@ -47736,6 +47726,16 @@
           $29 = HEAP32[$28>>2]|0;
           $30 = $29 & $27;
           HEAP32[$28>>2] = $30;
+          break;
+         } else if ((($2<<24>>24) == 76)) {
+          $17 = ($this);
+          $18 = (__ZNK7Spc_Dsp4readEi($17,92)|0);
+          $19 = $18 ^ -1;
+          $20 = $19 & $data;
+          $21 = (($this) + 2012|0);
+          $22 = HEAP32[$21>>2]|0;
+          $23 = $22 | $20;
+          HEAP32[$21>>2] = $23;
           break;
          } else {
           break;
@@ -48142,206 +48142,401 @@
           $79 = $78&255;
           L8: do {
            switch ($75|0) {
-           case 238:  {
-            $971 = (($sp$067) + 1|0);
-            $972 = HEAP8[$sp$067]|0;
-            $973 = $972&255;
-            $974 = $971;
-            $975 = (($974) - ($61))|0;
-            $976 = ($975|0)==(513);
-            if (!($976)) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $971;$x$1$be = $x$175;$y$1$be = $973;
-             break L8;
-            }
-            $977 = (($sp$067) + -256|0);
-            $978 = HEAP8[$977]|0;
-            $979 = $978&255;
-            $980 = (($sp$067) + -255|0);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $980;$x$1$be = $x$175;$y$1$be = $979;
+           case 92:  {
+            $c$2 = 0;
+            label = 182;
             break;
            }
-           case 242: case 210: case 178: case 146: case 114: case 82: case 50: case 18: case 226: case 194: case 162: case 130: case 98: case 66: case 34: case 2:  {
-            $981 = $75 >>> 5;
-            $982 = 1 << $981;
-            $983 = $982 ^ -1;
-            $984 = $75 & 16;
-            $985 = ($984|0)==(0);
-            $$26 = $985 ? $982 : 0;
-            $986 = $79 | $dp$060;
-            $987 = (($74) + -1)|0;
-            $988 = (__ZN8Snes_Spc8cpu_readEii($this,$986,$987)|0);
-            $989 = $988 & $983;
-            $990 = $989 | $$26;
-            __ZN8Snes_Spc9cpu_writeEiii($this,$990,$986,$74);
-            $a$0 = $a$188;$c$0 = $c$163;$nz$0 = $nz$161;$pc$1 = $77;$psw$0 = $psw$165;$rel_time$0 = $74;$x$0 = $x$175;$y$0 = $y$169;
+           case 124:  {
+            $c$2 = $c$163;
+            label = 182;
+            break;
+           }
+           case 28:  {
+            $c$3 = 0;
+            label = 184;
+            break;
+           }
+           case 220:  {
+            $534 = (($y$169) + -1)|0;
+            $535 = $534 & 255;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $534;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $535;
+            break;
+           }
+           case 187: case 155:  {
+            $536 = (($79) + ($x$175))|0;
+            $537 = $536 & 255;
+            $data$45 = $537;
+            label = 178;
+            break;
+           }
+           case 70:  {
+            $376 = (($x$175) + ($dp$060))|0;
+            $data$24 = $376;$pc$12 = $pc$268;
+            label = 128;
+            break;
+           }
+           case 87:  {
+            $377 = $79 | $dp$060;
+            $378 = ((($this) + ($377)|0) + 2716|0);
+            $379 = (__Z8get_le16PKv($378)|0);
+            $380 = (($379) + ($y$169))|0;
+            $data$24 = $380;$pc$12 = $77;
+            label = 128;
+            break;
+           }
+           case 71:  {
+            $381 = (($79) + ($x$175))|0;
+            $382 = $381 & 255;
+            $383 = $382 | $dp$060;
+            $384 = ((($this) + ($383)|0) + 2716|0);
+            $385 = (__Z8get_le16PKv($384)|0);
+            $data$24 = $385;$pc$12 = $77;
+            label = 128;
+            break;
+           }
+           case 171: case 139:  {
+            $data$45 = $79;
+            label = 178;
+            break;
+           }
+           case 172: case 140:  {
+            $539 = (__Z8get_le16PKv($77)|0);
+            $540 = (($pc$268) + 2|0);
+            $data$46 = $539;$pc$25 = $540;
+            label = 180;
+            break;
+           }
+           case 102:  {
+            $413 = (($x$175) + ($dp$060))|0;
+            $data$30 = $413;$pc$15 = $pc$268;
+            label = 142;
+            break;
+           }
+           case 183: case 151:  {
+            $486 = $79 | $dp$060;
+            $487 = ((($this) + ($486)|0) + 2716|0);
+            $488 = (__Z8get_le16PKv($487)|0);
+            $489 = (($488) + ($y$169))|0;
+            $data$41 = $489;$pc$22 = $77;
+            label = 167;
+            break;
+           }
+           case 167: case 135:  {
+            $490 = (($79) + ($x$175))|0;
+            $491 = $490 & 255;
+            $492 = $491 | $dp$060;
+            $493 = ((($this) + ($492)|0) + 2716|0);
+            $494 = (__Z8get_le16PKv($493)|0);
+            $data$41 = $494;$pc$22 = $77;
+            label = 167;
+            break;
+           }
+           case 182: case 150:  {
+            $495 = (($79) + ($y$169))|0;
+            $data$39 = $495;
+            label = 164;
+            break;
+           }
+           case 181: case 149:  {
+            $496 = (($79) + ($x$175))|0;
+            $data$39 = $496;
+            label = 164;
+            break;
+           }
+           case 165: case 133:  {
+            $data$39 = $79;
+            label = 164;
+            break;
+           }
+           case 180: case 148:  {
+            $502 = (($79) + ($x$175))|0;
+            $503 = $502 & 255;
+            $data$40 = $503;
+            label = 166;
+            break;
+           }
+           case 164: case 132:  {
+            $data$40 = $79;
+            label = 166;
+            break;
+           }
+           case 136: case 168:  {
+            $addr33$1 = -1;$data$43 = $79;$nz$2 = $a$188;$pc$24 = $77;
+            label = 168;
+            break;
+           }
+           case 188:  {
+            $524 = (($a$188) + 1)|0;
+            $525 = $524 & 255;
+            $a$1$be = $525;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $524;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 61:  {
+            $526 = (($x$175) + 1)|0;
+            $527 = $526 & 255;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $526;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $527;$y$1$be = $y$169;
+            break;
+           }
+           case 252:  {
+            $528 = (($y$169) + 1)|0;
+            $529 = $528 & 255;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $528;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $529;
+            break;
+           }
+           case 156:  {
+            $530 = (($a$188) + -1)|0;
+            $531 = $530 & 255;
+            $a$1$be = $531;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $530;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 29:  {
+            $532 = (($x$175) + -1)|0;
+            $533 = $532 & 255;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $532;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $533;$y$1$be = $y$169;
+            break;
+           }
+           case 69:  {
+            $data$22 = $79;
+            label = 125;
+            break;
+           }
+           case 84:  {
+            $393 = (($79) + ($x$175))|0;
+            $394 = $393 & 255;
+            $data$23 = $394;
+            label = 127;
+            break;
+           }
+           case 68:  {
+            $data$23 = $79;
+            label = 127;
+            break;
+           }
+           case 72:  {
+            $data$25 = $79;$pc$13 = $77;
+            label = 129;
+            break;
+           }
+           case 89:  {
+            $398 = (($y$169) + ($dp$060))|0;
+            $399 = (($74) + -2)|0;
+            $400 = (__ZN8Snes_Spc8cpu_readEii($this,$398,$399)|0);
+            $401 = (($x$175) + ($dp$060))|0;
+            $addr31$0 = $401;$data$27 = $400;$pc$14 = $77;
+            label = 133;
+            break;
+           }
+           case 73:  {
+            $402 = $79 | $dp$060;
+            $403 = (($74) + -3)|0;
+            $404 = (__ZN8Snes_Spc8cpu_readEii($this,$402,$403)|0);
+            $data$26 = $404;
+            label = 132;
+            break;
+           }
+           case 88:  {
+            $data$26 = $79;
+            label = 132;
+            break;
+           }
+           case 86:  {
+            $386 = (($79) + ($y$169))|0;
+            $data$22 = $386;
+            label = 125;
+            break;
+           }
+           case 85:  {
+            $387 = (($79) + ($x$175))|0;
+            $data$22 = $387;
+            label = 125;
+            break;
+           }
+           case 104:  {
+            $data$31 = $79;$pc$16 = $77;
+            label = 143;
+            break;
+           }
+           case 121:  {
+            $437 = (($y$169) + ($dp$060))|0;
+            $438 = (($74) + -2)|0;
+            $439 = (__ZN8Snes_Spc8cpu_readEii($this,$437,$438)|0);
+            $440 = (($x$175) + ($dp$060))|0;
+            $441 = (($74) + -1)|0;
+            $442 = (__ZN8Snes_Spc8cpu_readEii($this,$440,$441)|0);
+            $443 = (($442) - ($439))|0;
+            $444 = $443 ^ -1;
+            $445 = $443 & 255;
+            $a$1$be = $a$188;$c$1$be = $444;$dp$0$be = $dp$060;$nz$1$be = $445;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 118:  {
+            $423 = (($79) + ($y$169))|0;
+            $data$28 = $423;
+            label = 139;
+            break;
+           }
+           case 117:  {
+            $424 = (($79) + ($x$175))|0;
+            $data$28 = $424;
+            label = 139;
+            break;
+           }
+           case 101:  {
+            $data$28 = $79;
+            label = 139;
+            break;
+           }
+           case 116:  {
+            $430 = (($79) + ($x$175))|0;
+            $431 = $430 & 255;
+            $data$29 = $431;
+            label = 141;
+            break;
+           }
+           case 100:  {
+            $data$29 = $79;
+            label = 141;
+            break;
+           }
+           case 120:  {
+            $data$32 = $79;
+            label = 146;
+            break;
+           }
+           case 62:  {
+            $458 = $79 | $dp$060;
+            $data$33 = $458;$pc$17 = $77;
+            label = 149;
+            break;
+           }
+           case 30:  {
+            $459 = (__Z8get_le16PKv($77)|0);
+            $460 = (($pc$268) + 2|0);
+            $data$33 = $459;$pc$17 = $460;
+            label = 149;
+            break;
+           }
+           case 200:  {
+            $data$34 = $79;$pc$18 = $77;
+            label = 150;
+            break;
+           }
+           case 126:  {
+            $465 = $79 | $dp$060;
+            $data$35 = $465;$pc$19 = $77;
+            label = 153;
+            break;
+           }
+           case 94:  {
+            $466 = (__Z8get_le16PKv($77)|0);
+            $467 = (($pc$268) + 2|0);
+            $data$35 = $466;$pc$19 = $467;
+            label = 153;
+            break;
+           }
+           case 173:  {
+            $data$36 = $79;$pc$20 = $77;
+            label = 154;
+            break;
+           }
+           case 153: case 185:  {
+            $472 = (($y$169) + ($dp$060))|0;
+            $473 = (($74) + -2)|0;
+            $474 = (__ZN8Snes_Spc8cpu_readEii($this,$472,$473)|0);
+            $475 = (($x$175) + ($dp$060))|0;
+            $addr33$0 = $475;$data$38 = $474;$pc$21 = $pc$268;
+            label = 158;
+            break;
+           }
+           case 137: case 169:  {
+            $476 = $79 | $dp$060;
+            $477 = (($74) + -3)|0;
+            $478 = (__ZN8Snes_Spc8cpu_readEii($this,$476,$477)|0);
+            $data$37 = $478;
+            label = 157;
+            break;
+           }
+           case 152: case 184:  {
+            $data$37 = $79;
+            label = 157;
+            break;
+           }
+           case 166: case 134:  {
+            $485 = (($x$175) + ($dp$060))|0;
+            $data$41 = $485;$pc$22 = $pc$268;
+            label = 167;
+            break;
+           }
+           case 119:  {
+            $414 = $79 | $dp$060;
+            $415 = ((($this) + ($414)|0) + 2716|0);
+            $416 = (__Z8get_le16PKv($415)|0);
+            $417 = (($416) + ($y$169))|0;
+            $data$30 = $417;$pc$15 = $77;
+            label = 142;
+            break;
+           }
+           case 103:  {
+            $418 = (($79) + ($x$175))|0;
+            $419 = $418 & 255;
+            $420 = $419 | $dp$060;
+            $421 = ((($this) + ($420)|0) + 2716|0);
+            $422 = (__Z8get_le16PKv($421)|0);
+            $data$30 = $422;$pc$15 = $77;
+            label = 142;
+            break;
+           }
+           case 105:  {
+            $446 = $79 | $dp$060;
+            $447 = (($74) + -3)|0;
+            $448 = (__ZN8Snes_Spc8cpu_readEii($this,$446,$447)|0);
+            $data$32 = $448;
+            label = 146;
+            break;
+           }
+           case 60:  {
+            $c$3 = $c$163;
+            label = 184;
+            break;
+           }
+           case 232:  {
+            $a$0 = $79;$c$0 = $c$163;$nz$0 = $79;$pc$1 = $77;$psw$0 = $psw$165;$rel_time$0 = $74;$x$0 = $x$175;$y$0 = $y$169;
             label = 6;
             break;
            }
-           case 239:  {
-            label = 302;
-            break L6;
+           case 0:  {
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
-           case 32:  {
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = 0;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 106:  {
-            $1004 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$74)|0);
-            $1005 = $1004 ^ -1;
-            $1006 = $c$163 & $1005;
-            $1007 = (($pc$268) + 3|0);
-            $a$1$be = $a$188;$c$1$be = $1006;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1007;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 74:  {
-            $1001 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$74)|0);
-            $1002 = $1001 & $c$163;
-            $1003 = (($pc$268) + 3|0);
-            $a$1$be = $a$188;$c$1$be = $1002;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1003;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 128:  {
-            $a$1$be = $a$188;$c$1$be = -1;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 96:  {
-            $a$1$be = $a$188;$c$1$be = 0;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 78: case 14:  {
-            $991 = (__Z8get_le16PKv($77)|0);
-            $992 = (($pc$268) + 3|0);
-            $993 = (($74) + -2)|0;
-            $994 = (__ZN8Snes_Spc8cpu_readEii($this,$991,$993)|0);
-            $995 = (($a$188) - ($994))|0;
-            $996 = $995 & 255;
-            $997 = $a$188 ^ -1;
-            $998 = $994 & $997;
-            $999 = ($76<<24>>24)==(14);
-            $1000 = $999 ? $a$188 : 0;
-            $$27 = $998 | $1000;
-            __ZN8Snes_Spc9cpu_writeEiii($this,$$27,$991,$74);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $996;$pc$2$be = $992;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 138:  {
-            $1017 = (($74) + -1)|0;
-            $1018 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$1017)|0);
-            $1019 = $1018 ^ $c$163;
-            $1020 = (($pc$268) + 3|0);
-            $a$1$be = $a$188;$c$1$be = $1019;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1020;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 255:  {
-            $1049 = $77;
-            $1050 = (($1049) - ($62))|0;
-            $1051 = (($1050) + -1)|0;
-            $1052 = ($1051>>>0)>(65535);
-            if (!($1052)) {
-             label = 302;
-             break L6;
-            }
-            $1053 = $1051 & 65535;
-            $1054 = ((($this) + ($1053)|0) + 2716|0);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1054;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 160:  {
-            $1047 = $psw$165 | 4;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $1047;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 192:  {
-            $1048 = $psw$165 & -5;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $1048;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 10:  {
-            $1008 = (($74) + -1)|0;
-            $1009 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$1008)|0);
-            $1010 = $1009 | $c$163;
-            $1011 = (($pc$268) + 3|0);
-            $a$1$be = $a$188;$c$1$be = $1010;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1011;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 224:  {
-            $1046 = $psw$165 & -73;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $1046;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 42:  {
-            $1012 = (($74) + -1)|0;
-            $1013 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$1012)|0);
-            $1014 = $1013 ^ -1;
-            $1015 = $c$163 | $1014;
-            $1016 = (($pc$268) + 3|0);
-            $a$1$be = $a$188;$c$1$be = $1015;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1016;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 234:  {
-            $1021 = (__Z8get_le16PKv($77)|0);
-            $1022 = (($pc$268) + 3|0);
-            $1023 = $1021 & 8191;
-            $1024 = (($74) + -1)|0;
-            $1025 = (__ZN8Snes_Spc8cpu_readEii($this,$1023,$1024)|0);
-            $1026 = $1021 >>> 13;
-            $1027 = 1 << $1026;
-            $1028 = $1027 ^ $1025;
-            __ZN8Snes_Spc9cpu_writeEiii($this,$1028,$1023,$74);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1022;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 64:  {
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = 256;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 237:  {
-            $1045 = $c$163 ^ 256;
-            $a$1$be = $a$188;$c$1$be = $1045;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 202:  {
-            $1029 = (__Z8get_le16PKv($77)|0);
-            $1030 = (($pc$268) + 3|0);
-            $1031 = $1029 & 8191;
-            $1032 = (($74) + -2)|0;
-            $1033 = (__ZN8Snes_Spc8cpu_readEii($this,$1031,$1032)|0);
-            $1034 = $1029 >>> 13;
-            $1035 = 1 << $1034;
-            $1036 = $1035 ^ -1;
-            $1037 = $1033 & $1036;
-            $1038 = $c$163 >>> 8;
-            $1039 = $1038 & 1;
-            $1040 = $1039 << $1034;
-            $1041 = $1037 | $1040;
-            $1042 = (($1041) + 8192)|0;
-            __ZN8Snes_Spc9cpu_writeEiii($this,$1042,$1031,$74);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1030;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 170:  {
-            $1043 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$74)|0);
-            $1044 = (($pc$268) + 3|0);
-            $a$1$be = $a$188;$c$1$be = $1043;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1044;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 206:  {
-            $961 = (($sp$067) + 1|0);
-            $962 = HEAP8[$sp$067]|0;
-            $963 = $962&255;
-            $964 = $961;
-            $965 = (($964) - ($60))|0;
-            $966 = ($965|0)==(513);
-            if (!($966)) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $961;$x$1$be = $963;$y$1$be = $y$169;
+           case 240:  {
+            $80 = $78 << 24 >> 24;
+            $$sum19 = (($80) + 2)|0;
+            $81 = (($pc$268) + ($$sum19)|0);
+            $82 = $nz$161&255;
+            $83 = ($82<<24>>24)==(0);
+            if ($83) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $81;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
              break L8;
             }
-            $967 = (($sp$067) + -256|0);
-            $968 = HEAP8[$967]|0;
-            $969 = $968&255;
-            $970 = (($sp$067) + -255|0);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $970;$x$1$be = $969;$y$1$be = $y$169;
+            $84 = (($pc$268) + 2|0);
+            $85 = (($74) + -2)|0;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $84;$psw$1$be = $psw$165;$rel_time$1$be = $85;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 208:  {
+            $86 = $78 << 24 >> 24;
+            $$sum17 = (($86) + 2)|0;
+            $87 = (($pc$268) + ($$sum17)|0);
+            $88 = $nz$161&255;
+            $89 = ($88<<24>>24)==(0);
+            if (!($89)) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $87;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+             break L8;
+            }
+            $90 = (($pc$268) + 2|0);
+            $91 = (($74) + -2)|0;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $90;$psw$1$be = $psw$165;$rel_time$1$be = $91;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
            case 63:  {
@@ -48374,34 +48569,65 @@
             }
             break;
            }
-           case 196:  {
-            $174 = (($pc$268) + 2|0);
-            $175 = $79 | $dp$060;
-            $176 = $a$188&255;
-            $177 = ((($this) + ($175)|0) + 2716|0);
-            HEAP8[$177] = $176;
-            $178 = (($175) + -240)|0;
-            $179 = ($178>>>0)<(16);
-            if (!($179)) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+           case 111:  {
+            $109 = $sp$067;
+            $110 = (($109) - ($48))|0;
+            $111 = (__Z8get_le16PKv($sp$067)|0);
+            $112 = ((($this) + ($111)|0) + 2716|0);
+            $113 = (($sp$067) + 2|0);
+            $114 = ($110|0)<(511);
+            if ($114) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $112;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $113;$x$1$be = $x$175;$y$1$be = $y$169;
              break L8;
             }
-            $180 = (($175) + -242)|0;
-            $181 = ((($this) + ($178)|0) + 1940|0);
-            HEAP8[$181] = $176;
-            $182 = ($180|0)==(1);
-            if ($182) {
-             __ZN8Snes_Spc9dsp_writeEii($this,$a$188,$74);
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            $115 = (($sp$067) + -255|0);
+            $116 = HEAP8[$115]|0;
+            $117 = $116&255;
+            $118 = $117 << 8;
+            $119 = $110 & 255;
+            $120 = $119 | 256;
+            $121 = ((($this) + ($120)|0) + 2716|0);
+            $122 = HEAP8[$121]|0;
+            $123 = $122&255;
+            $124 = $118 | $123;
+            $125 = ((($this) + ($124)|0) + 2716|0);
+            $126 = (($sp$067) + -254|0);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $125;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $126;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 228:  {
+            $127 = (($pc$268) + 2|0);
+            $128 = $79 | $dp$060;
+            $129 = (($128) + -253)|0;
+            $130 = ($129>>>0)<(3);
+            if (!($130)) {
+             $138 = ((($this) + ($128)|0) + 2716|0);
+             $139 = HEAP8[$138]|0;
+             $140 = $139&255;
+             $141 = (($128) + -240)|0;
+             $142 = ($141>>>0)<(16);
+             if (!($142)) {
+              $a$1$be = $140;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $140;$pc$2$be = $127;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+              break L8;
+             }
+             $143 = (__ZN8Snes_Spc16cpu_read_smp_regEii($this,$141,$74)|0);
+             $a$1$be = $143;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $143;$pc$2$be = $127;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
              break L8;
             }
-            $183 = ($180>>>0)>(1);
-            if (!($183)) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-             break L8;
+            $131 = ((($this) + (($129*24)|0)|0) + 1868|0);
+            $132 = ($131);
+            $133 = HEAP32[$132>>2]|0;
+            $134 = ($74|0)<($133|0);
+            if ($134) {
+             $t$0 = $131;
+            } else {
+             $135 = (__ZN8Snes_Spc10run_timer_EPNS_5TimerEi(0,$131,$74)|0);
+             $t$0 = $135;
             }
-            __ZN8Snes_Spc18cpu_write_smp_reg_Eiii($this,$a$188,$74,$178);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            $136 = (($t$0) + 20|0);
+            $137 = HEAP32[$136>>2]|0;
+            HEAP32[$136>>2] = 0;
+            $a$1$be = $137;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $137;$pc$2$be = $127;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
            case 250:  {
@@ -48444,6 +48670,41 @@
             label = 31;
             break;
            }
+           case 143:  {
+            $data$0 = $79;
+            label = 31;
+            break;
+           }
+           case 196:  {
+            $174 = (($pc$268) + 2|0);
+            $175 = $79 | $dp$060;
+            $176 = $a$188&255;
+            $177 = ((($this) + ($175)|0) + 2716|0);
+            HEAP8[$177] = $176;
+            $178 = (($175) + -240)|0;
+            $179 = ($178>>>0)<(16);
+            if (!($179)) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+             break L8;
+            }
+            $180 = (($175) + -242)|0;
+            $181 = ((($this) + ($178)|0) + 1940|0);
+            HEAP8[$181] = $176;
+            $182 = ($180|0)==(1);
+            if ($182) {
+             __ZN8Snes_Spc9dsp_writeEii($this,$a$188,$74);
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+             break L8;
+            }
+            $183 = ($180>>>0)>(1);
+            if (!($183)) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+             break L8;
+            }
+            __ZN8Snes_Spc18cpu_write_smp_reg_Eiii($this,$a$188,$74,$178);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $174;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
            case 230:  {
             $184 = (($x$175) + ($dp$060))|0;
             $data$2 = $184;$pc$3 = $pc$268;
@@ -48457,41 +48718,6 @@
             $188 = (($187) + ($y$169))|0;
             $data$2 = $188;$pc$3 = $77;
             label = 46;
-            break;
-           }
-           case 228:  {
-            $127 = (($pc$268) + 2|0);
-            $128 = $79 | $dp$060;
-            $129 = (($128) + -253)|0;
-            $130 = ($129>>>0)<(3);
-            if (!($130)) {
-             $138 = ((($this) + ($128)|0) + 2716|0);
-             $139 = HEAP8[$138]|0;
-             $140 = $139&255;
-             $141 = (($128) + -240)|0;
-             $142 = ($141>>>0)<(16);
-             if (!($142)) {
-              $a$1$be = $140;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $140;$pc$2$be = $127;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-              break L8;
-             }
-             $143 = (__ZN8Snes_Spc16cpu_read_smp_regEii($this,$141,$74)|0);
-             $a$1$be = $143;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $143;$pc$2$be = $127;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-             break L8;
-            }
-            $131 = ((($this) + (($129*24)|0)|0) + 1868|0);
-            $132 = ($131);
-            $133 = HEAP32[$132>>2]|0;
-            $134 = ($74|0)<($133|0);
-            if ($134) {
-             $t$0 = $131;
-            } else {
-             $135 = (__ZN8Snes_Spc10run_timer_EPNS_5TimerEi(0,$131,$74)|0);
-             $t$0 = $135;
-            }
-            $136 = (($t$0) + 20|0);
-            $137 = HEAP32[$136>>2]|0;
-            HEAP32[$136>>2] = 0;
-            $a$1$be = $137;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $137;$pc$2$be = $127;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
            case 231:  {
@@ -48871,88 +49097,9 @@
             label = 113;
             break;
            }
-           case 85:  {
-            $387 = (($79) + ($x$175))|0;
-            $data$22 = $387;
-            label = 125;
-            break;
-           }
-           case 69:  {
-            $data$22 = $79;
-            label = 125;
-            break;
-           }
-           case 84:  {
-            $393 = (($79) + ($x$175))|0;
-            $394 = $393 & 255;
-            $data$23 = $394;
-            label = 127;
-            break;
-           }
-           case 68:  {
-            $data$23 = $79;
-            label = 127;
-            break;
-           }
-           case 72:  {
-            $data$25 = $79;$pc$13 = $77;
-            label = 129;
-            break;
-           }
-           case 89:  {
-            $398 = (($y$169) + ($dp$060))|0;
-            $399 = (($74) + -2)|0;
-            $400 = (__ZN8Snes_Spc8cpu_readEii($this,$398,$399)|0);
-            $401 = (($x$175) + ($dp$060))|0;
-            $addr31$0 = $401;$data$27 = $400;$pc$14 = $77;
-            label = 133;
-            break;
-           }
-           case 73:  {
-            $402 = $79 | $dp$060;
-            $403 = (($74) + -3)|0;
-            $404 = (__ZN8Snes_Spc8cpu_readEii($this,$402,$403)|0);
-            $data$26 = $404;
-            label = 132;
-            break;
-           }
-           case 88:  {
-            $data$26 = $79;
-            label = 132;
-            break;
-           }
-           case 120:  {
-            $data$32 = $79;
-            label = 146;
-            break;
-           }
-           case 62:  {
-            $458 = $79 | $dp$060;
-            $data$33 = $458;$pc$17 = $77;
-            label = 149;
-            break;
-           }
-           case 30:  {
-            $459 = (__Z8get_le16PKv($77)|0);
-            $460 = (($pc$268) + 2|0);
-            $data$33 = $459;$pc$17 = $460;
-            label = 149;
-            break;
-           }
-           case 71:  {
-            $381 = (($79) + ($x$175))|0;
-            $382 = $381 & 255;
-            $383 = $382 | $dp$060;
-            $384 = ((($this) + ($383)|0) + 2716|0);
-            $385 = (__Z8get_le16PKv($384)|0);
-            $data$24 = $385;$pc$12 = $77;
-            label = 128;
-            break;
-           }
-           case 86:  {
-            $386 = (($79) + ($y$169))|0;
-            $data$22 = $386;
-            label = 125;
+           case 8:  {
+            $data$19 = $79;$pc$10 = $77;
+            label = 115;
             break;
            }
            case 25:  {
@@ -48977,353 +49124,306 @@
             label = 118;
             break;
            }
-           case 70:  {
-            $376 = (($x$175) + ($dp$060))|0;
-            $data$24 = $376;$pc$12 = $pc$268;
-            label = 128;
+           case 13:  {
+            $914 = $psw$165 & -164;
+            $915 = $c$163 >>> 8;
+            $916 = $915 & 1;
+            $917 = $dp$060 >>> 3;
+            $918 = $nz$161 >>> 4;
+            $919 = $918 | $nz$161;
+            $920 = $919 & 128;
+            $921 = $916 | $917;
+            $922 = $921 | $914;
+            $923 = $922 | $920;
+            $924 = $nz$161&255;
+            $925 = ($924<<24>>24)==(0);
+            $926 = $923 | 2;
+            $$22 = $925 ? $926 : $923;
+            $927 = $$22&255;
+            $928 = (($sp$067) + -1|0);
+            HEAP8[$928] = $927;
+            $929 = $928;
+            $930 = (($929) - ($55))|0;
+            $931 = ($930|0)==(256);
+            $932 = (($sp$067) + 255|0);
+            $$30 = $931 ? $932 : $928;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$30;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
-           case 87:  {
-            $377 = $79 | $dp$060;
-            $378 = ((($this) + ($377)|0) + 2716|0);
-            $379 = (__Z8get_le16PKv($378)|0);
-            $380 = (($379) + ($y$169))|0;
-            $data$24 = $380;$pc$12 = $77;
-            label = 128;
+           case 45:  {
+            $933 = $a$188&255;
+            $934 = (($sp$067) + -1|0);
+            HEAP8[$934] = $933;
+            $935 = $934;
+            $936 = (($935) - ($56))|0;
+            $937 = ($936|0)==(256);
+            $938 = (($sp$067) + 255|0);
+            $$23 = $937 ? $938 : $934;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$23;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
-           case 121:  {
-            $437 = (($y$169) + ($dp$060))|0;
-            $438 = (($74) + -2)|0;
-            $439 = (__ZN8Snes_Spc8cpu_readEii($this,$437,$438)|0);
-            $440 = (($x$175) + ($dp$060))|0;
-            $441 = (($74) + -1)|0;
-            $442 = (__ZN8Snes_Spc8cpu_readEii($this,$440,$441)|0);
-            $443 = (($442) - ($439))|0;
-            $444 = $443 ^ -1;
-            $445 = $443 & 255;
-            $a$1$be = $a$188;$c$1$be = $444;$dp$0$be = $dp$060;$nz$1$be = $445;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+           case 77:  {
+            $939 = $x$175&255;
+            $940 = (($sp$067) + -1|0);
+            HEAP8[$940] = $939;
+            $941 = $940;
+            $942 = (($941) - ($57))|0;
+            $943 = ($942|0)==(256);
+            $944 = (($sp$067) + 255|0);
+            $$24 = $943 ? $944 : $940;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$24;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
-           case 105:  {
-            $446 = $79 | $dp$060;
-            $447 = (($74) + -3)|0;
-            $448 = (__ZN8Snes_Spc8cpu_readEii($this,$446,$447)|0);
-            $data$32 = $448;
-            label = 146;
+           case 109:  {
+            $945 = $y$169&255;
+            $946 = (($sp$067) + -1|0);
+            HEAP8[$946] = $945;
+            $947 = $946;
+            $948 = (($947) - ($58))|0;
+            $949 = ($948|0)==(256);
+            $950 = (($sp$067) + 255|0);
+            $$25 = $949 ? $950 : $946;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$25;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
-           case 102:  {
-            $413 = (($x$175) + ($dp$060))|0;
-            $data$30 = $413;$pc$15 = $pc$268;
-            label = 142;
+           case 174:  {
+            $951 = (($sp$067) + 1|0);
+            $952 = HEAP8[$sp$067]|0;
+            $953 = $952&255;
+            $954 = $951;
+            $955 = (($954) - ($59))|0;
+            $956 = ($955|0)==(513);
+            if (!($956)) {
+             $a$1$be = $953;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $951;$x$1$be = $x$175;$y$1$be = $y$169;
+             break L8;
+            }
+            $957 = (($sp$067) + -256|0);
+            $958 = HEAP8[$957]|0;
+            $959 = $958&255;
+            $960 = (($sp$067) + -255|0);
+            $a$1$be = $959;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $960;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
-           case 119:  {
-            $414 = $79 | $dp$060;
-            $415 = ((($this) + ($414)|0) + 2716|0);
-            $416 = (__Z8get_le16PKv($415)|0);
-            $417 = (($416) + ($y$169))|0;
-            $data$30 = $417;$pc$15 = $77;
-            label = 142;
+           case 206:  {
+            $961 = (($sp$067) + 1|0);
+            $962 = HEAP8[$sp$067]|0;
+            $963 = $962&255;
+            $964 = $961;
+            $965 = (($964) - ($60))|0;
+            $966 = ($965|0)==(513);
+            if (!($966)) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $961;$x$1$be = $963;$y$1$be = $y$169;
+             break L8;
+            }
+            $967 = (($sp$067) + -256|0);
+            $968 = HEAP8[$967]|0;
+            $969 = $968&255;
+            $970 = (($sp$067) + -255|0);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $970;$x$1$be = $969;$y$1$be = $y$169;
             break;
            }
-           case 103:  {
-            $418 = (($79) + ($x$175))|0;
-            $419 = $418 & 255;
-            $420 = $419 | $dp$060;
-            $421 = ((($this) + ($420)|0) + 2716|0);
-            $422 = (__Z8get_le16PKv($421)|0);
-            $data$30 = $422;$pc$15 = $77;
-            label = 142;
+           case 238:  {
+            $971 = (($sp$067) + 1|0);
+            $972 = HEAP8[$sp$067]|0;
+            $973 = $972&255;
+            $974 = $971;
+            $975 = (($974) - ($61))|0;
+            $976 = ($975|0)==(513);
+            if (!($976)) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $971;$x$1$be = $x$175;$y$1$be = $973;
+             break L8;
+            }
+            $977 = (($sp$067) + -256|0);
+            $978 = HEAP8[$977]|0;
+            $979 = $978&255;
+            $980 = (($sp$067) + -255|0);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $980;$x$1$be = $x$175;$y$1$be = $979;
             break;
            }
-           case 118:  {
-            $423 = (($79) + ($y$169))|0;
-            $data$28 = $423;
-            label = 139;
-            break;
-           }
-           case 117:  {
-            $424 = (($79) + ($x$175))|0;
-            $data$28 = $424;
-            label = 139;
-            break;
-           }
-           case 101:  {
-            $data$28 = $79;
-            label = 139;
-            break;
-           }
-           case 116:  {
-            $430 = (($79) + ($x$175))|0;
-            $431 = $430 & 255;
-            $data$29 = $431;
-            label = 141;
-            break;
-           }
-           case 100:  {
-            $data$29 = $79;
-            label = 141;
-            break;
-           }
-           case 104:  {
-            $data$31 = $79;$pc$16 = $77;
-            label = 143;
-            break;
-           }
-           case 200:  {
-            $data$34 = $79;$pc$18 = $77;
-            label = 150;
-            break;
-           }
-           case 126:  {
-            $465 = $79 | $dp$060;
-            $data$35 = $465;$pc$19 = $77;
-            label = 153;
-            break;
-           }
-           case 94:  {
-            $466 = (__Z8get_le16PKv($77)|0);
-            $467 = (($pc$268) + 2|0);
-            $data$35 = $466;$pc$19 = $467;
-            label = 153;
-            break;
-           }
-           case 173:  {
-            $data$36 = $79;$pc$20 = $77;
-            label = 154;
-            break;
-           }
-           case 153: case 185:  {
-            $472 = (($y$169) + ($dp$060))|0;
-            $473 = (($74) + -2)|0;
-            $474 = (__ZN8Snes_Spc8cpu_readEii($this,$472,$473)|0);
-            $475 = (($x$175) + ($dp$060))|0;
-            $addr33$0 = $475;$data$38 = $474;$pc$21 = $pc$268;
-            label = 158;
-            break;
-           }
-           case 137: case 169:  {
-            $476 = $79 | $dp$060;
-            $477 = (($74) + -3)|0;
-            $478 = (__ZN8Snes_Spc8cpu_readEii($this,$476,$477)|0);
-            $data$37 = $478;
-            label = 157;
-            break;
-           }
-           case 152: case 184:  {
-            $data$37 = $79;
-            label = 157;
-            break;
-           }
-           case 166: case 134:  {
-            $485 = (($x$175) + ($dp$060))|0;
-            $data$41 = $485;$pc$22 = $pc$268;
-            label = 167;
-            break;
-           }
-           case 183: case 151:  {
-            $486 = $79 | $dp$060;
-            $487 = ((($this) + ($486)|0) + 2716|0);
-            $488 = (__Z8get_le16PKv($487)|0);
-            $489 = (($488) + ($y$169))|0;
-            $data$41 = $489;$pc$22 = $77;
-            label = 167;
-            break;
-           }
-           case 167: case 135:  {
-            $490 = (($79) + ($x$175))|0;
-            $491 = $490 & 255;
-            $492 = $491 | $dp$060;
-            $493 = ((($this) + ($492)|0) + 2716|0);
-            $494 = (__Z8get_le16PKv($493)|0);
-            $data$41 = $494;$pc$22 = $77;
-            label = 167;
-            break;
-           }
-           case 182: case 150:  {
-            $495 = (($79) + ($y$169))|0;
-            $data$39 = $495;
-            label = 164;
-            break;
-           }
-           case 181: case 149:  {
-            $496 = (($79) + ($x$175))|0;
-            $data$39 = $496;
-            label = 164;
-            break;
-           }
-           case 165: case 133:  {
-            $data$39 = $79;
-            label = 164;
-            break;
-           }
-           case 180: case 148:  {
-            $502 = (($79) + ($x$175))|0;
-            $503 = $502 & 255;
-            $data$40 = $503;
-            label = 166;
-            break;
-           }
-           case 164: case 132:  {
-            $data$40 = $79;
-            label = 166;
-            break;
-           }
-           case 136: case 168:  {
-            $addr33$1 = -1;$data$43 = $79;$nz$2 = $a$188;$pc$24 = $77;
-            label = 168;
-            break;
-           }
-           case 188:  {
-            $524 = (($a$188) + 1)|0;
-            $525 = $524 & 255;
-            $a$1$be = $525;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $524;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 61:  {
-            $526 = (($x$175) + 1)|0;
-            $527 = $526 & 255;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $526;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $527;$y$1$be = $y$169;
-            break;
-           }
-           case 252:  {
-            $528 = (($y$169) + 1)|0;
-            $529 = $528 & 255;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $528;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $529;
-            break;
-           }
-           case 156:  {
-            $530 = (($a$188) + -1)|0;
-            $531 = $530 & 255;
-            $a$1$be = $531;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $530;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 29:  {
-            $532 = (($x$175) + -1)|0;
-            $533 = $532 & 255;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $532;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $533;$y$1$be = $y$169;
-            break;
-           }
-           case 220:  {
-            $534 = (($y$169) + -1)|0;
-            $535 = $534 & 255;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $534;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $535;
-            break;
-           }
-           case 187: case 155:  {
-            $536 = (($79) + ($x$175))|0;
-            $537 = $536 & 255;
-            $data$45 = $537;
-            label = 178;
-            break;
-           }
-           case 171: case 139:  {
-            $data$45 = $79;
-            label = 178;
-            break;
-           }
-           case 232:  {
-            $a$0 = $79;$c$0 = $c$163;$nz$0 = $79;$pc$1 = $77;$psw$0 = $psw$165;$rel_time$0 = $74;$x$0 = $x$175;$y$0 = $y$169;
+           case 242: case 210: case 178: case 146: case 114: case 82: case 50: case 18: case 226: case 194: case 162: case 130: case 98: case 66: case 34: case 2:  {
+            $981 = $75 >>> 5;
+            $982 = 1 << $981;
+            $983 = $982 ^ -1;
+            $984 = $75 & 16;
+            $985 = ($984|0)==(0);
+            $$26 = $985 ? $982 : 0;
+            $986 = $79 | $dp$060;
+            $987 = (($74) + -1)|0;
+            $988 = (__ZN8Snes_Spc8cpu_readEii($this,$986,$987)|0);
+            $989 = $988 & $983;
+            $990 = $989 | $$26;
+            __ZN8Snes_Spc9cpu_writeEiii($this,$990,$986,$74);
+            $a$0 = $a$188;$c$0 = $c$163;$nz$0 = $nz$161;$pc$1 = $77;$psw$0 = $psw$165;$rel_time$0 = $74;$x$0 = $x$175;$y$0 = $y$169;
             label = 6;
             break;
            }
-           case 0:  {
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+           case 78: case 14:  {
+            $991 = (__Z8get_le16PKv($77)|0);
+            $992 = (($pc$268) + 3|0);
+            $993 = (($74) + -2)|0;
+            $994 = (__ZN8Snes_Spc8cpu_readEii($this,$991,$993)|0);
+            $995 = (($a$188) - ($994))|0;
+            $996 = $995 & 255;
+            $997 = $a$188 ^ -1;
+            $998 = $994 & $997;
+            $999 = ($76<<24>>24)==(14);
+            $1000 = $999 ? $a$188 : 0;
+            $$27 = $998 | $1000;
+            __ZN8Snes_Spc9cpu_writeEiii($this,$$27,$991,$74);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $996;$pc$2$be = $992;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
             break;
            }
-           case 240:  {
-            $80 = $78 << 24 >> 24;
-            $$sum19 = (($80) + 2)|0;
-            $81 = (($pc$268) + ($$sum19)|0);
-            $82 = $nz$161&255;
-            $83 = ($82<<24>>24)==(0);
-            if ($83) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $81;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+           case 74:  {
+            $1001 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$74)|0);
+            $1002 = $1001 & $c$163;
+            $1003 = (($pc$268) + 3|0);
+            $a$1$be = $a$188;$c$1$be = $1002;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1003;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 106:  {
+            $1004 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$74)|0);
+            $1005 = $1004 ^ -1;
+            $1006 = $c$163 & $1005;
+            $1007 = (($pc$268) + 3|0);
+            $a$1$be = $a$188;$c$1$be = $1006;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1007;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 10:  {
+            $1008 = (($74) + -1)|0;
+            $1009 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$1008)|0);
+            $1010 = $1009 | $c$163;
+            $1011 = (($pc$268) + 3|0);
+            $a$1$be = $a$188;$c$1$be = $1010;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1011;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 42:  {
+            $1012 = (($74) + -1)|0;
+            $1013 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$1012)|0);
+            $1014 = $1013 ^ -1;
+            $1015 = $c$163 | $1014;
+            $1016 = (($pc$268) + 3|0);
+            $a$1$be = $a$188;$c$1$be = $1015;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1016;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 138:  {
+            $1017 = (($74) + -1)|0;
+            $1018 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$1017)|0);
+            $1019 = $1018 ^ $c$163;
+            $1020 = (($pc$268) + 3|0);
+            $a$1$be = $a$188;$c$1$be = $1019;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1020;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 234:  {
+            $1021 = (__Z8get_le16PKv($77)|0);
+            $1022 = (($pc$268) + 3|0);
+            $1023 = $1021 & 8191;
+            $1024 = (($74) + -1)|0;
+            $1025 = (__ZN8Snes_Spc8cpu_readEii($this,$1023,$1024)|0);
+            $1026 = $1021 >>> 13;
+            $1027 = 1 << $1026;
+            $1028 = $1027 ^ $1025;
+            __ZN8Snes_Spc9cpu_writeEiii($this,$1028,$1023,$74);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1022;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 202:  {
+            $1029 = (__Z8get_le16PKv($77)|0);
+            $1030 = (($pc$268) + 3|0);
+            $1031 = $1029 & 8191;
+            $1032 = (($74) + -2)|0;
+            $1033 = (__ZN8Snes_Spc8cpu_readEii($this,$1031,$1032)|0);
+            $1034 = $1029 >>> 13;
+            $1035 = 1 << $1034;
+            $1036 = $1035 ^ -1;
+            $1037 = $1033 & $1036;
+            $1038 = $c$163 >>> 8;
+            $1039 = $1038 & 1;
+            $1040 = $1039 << $1034;
+            $1041 = $1037 | $1040;
+            $1042 = (($1041) + 8192)|0;
+            __ZN8Snes_Spc9cpu_writeEiii($this,$1042,$1031,$74);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1030;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 170:  {
+            $1043 = (__ZN8Snes_Spc11CPU_mem_bitEPKhi($this,$77,$74)|0);
+            $1044 = (($pc$268) + 3|0);
+            $a$1$be = $a$188;$c$1$be = $1043;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1044;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 96:  {
+            $a$1$be = $a$188;$c$1$be = 0;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 128:  {
+            $a$1$be = $a$188;$c$1$be = -1;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 237:  {
+            $1045 = $c$163 ^ 256;
+            $a$1$be = $a$188;$c$1$be = $1045;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 224:  {
+            $1046 = $psw$165 & -73;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $1046;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 32:  {
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = 0;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 64:  {
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = 256;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 160:  {
+            $1047 = $psw$165 | 4;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $1047;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 192:  {
+            $1048 = $psw$165 & -5;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $1048;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 255:  {
+            $1049 = $77;
+            $1050 = (($1049) - ($62))|0;
+            $1051 = (($1050) + -1)|0;
+            $1052 = ($1051>>>0)>(65535);
+            if (!($1052)) {
+             label = 302;
+             break L6;
+            }
+            $1053 = $1051 & 65535;
+            $1054 = ((($this) + ($1053)|0) + 2716|0);
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $1054;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
+            break;
+           }
+           case 239:  {
+            label = 302;
+            break L6;
+            break;
+           }
+           case 142:  {
+            $896 = (($sp$067) + 1|0);
+            $897 = HEAP8[$sp$067]|0;
+            $898 = $897&255;
+            $899 = $896;
+            $900 = (($899) - ($54))|0;
+            $901 = ($900|0)==(513);
+            if (!($901)) {
+             $pc$29 = $77;$sp$2 = $896;$temp53$0 = $898;
+             label = 271;
              break L8;
             }
-            $84 = (($pc$268) + 2|0);
-            $85 = (($74) + -2)|0;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $84;$psw$1$be = $psw$165;$rel_time$1$be = $85;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 208:  {
-            $86 = $78 << 24 >> 24;
-            $$sum17 = (($86) + 2)|0;
-            $87 = (($pc$268) + ($$sum17)|0);
-            $88 = $nz$161&255;
-            $89 = ($88<<24>>24)==(0);
-            if (!($89)) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $87;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-             break L8;
-            }
-            $90 = (($pc$268) + 2|0);
-            $91 = (($74) + -2)|0;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $90;$psw$1$be = $psw$165;$rel_time$1$be = $91;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 111:  {
-            $109 = $sp$067;
-            $110 = (($109) - ($48))|0;
-            $111 = (__Z8get_le16PKv($sp$067)|0);
-            $112 = ((($this) + ($111)|0) + 2716|0);
-            $113 = (($sp$067) + 2|0);
-            $114 = ($110|0)<(511);
-            if ($114) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $112;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $113;$x$1$be = $x$175;$y$1$be = $y$169;
-             break L8;
-            }
-            $115 = (($sp$067) + -255|0);
-            $116 = HEAP8[$115]|0;
-            $117 = $116&255;
-            $118 = $117 << 8;
-            $119 = $110 & 255;
-            $120 = $119 | 256;
-            $121 = ((($this) + ($120)|0) + 2716|0);
-            $122 = HEAP8[$121]|0;
-            $123 = $122&255;
-            $124 = $118 | $123;
-            $125 = ((($this) + ($124)|0) + 2716|0);
-            $126 = (($sp$067) + -254|0);
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $125;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $126;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 8:  {
-            $data$19 = $79;$pc$10 = $77;
-            label = 115;
-            break;
-           }
-           case 143:  {
-            $data$0 = $79;
-            label = 31;
-            break;
-           }
-           case 172: case 140:  {
-            $539 = (__Z8get_le16PKv($77)|0);
-            $540 = (($pc$268) + 2|0);
-            $data$46 = $539;$pc$25 = $540;
-            label = 180;
-            break;
-           }
-           case 92:  {
-            $c$2 = 0;
-            label = 182;
-            break;
-           }
-           case 124:  {
-            $c$2 = $c$163;
-            label = 182;
-            break;
-           }
-           case 28:  {
-            $c$3 = 0;
-            label = 184;
-            break;
-           }
-           case 60:  {
-            $c$3 = $c$163;
-            label = 184;
+            $902 = (($sp$067) + -256|0);
+            $903 = HEAP8[$902]|0;
+            $904 = $903&255;
+            $905 = (($sp$067) + -255|0);
+            $pc$29 = $77;$sp$2 = $905;$temp53$0 = $904;
+            label = 271;
             break;
            }
            case 11:  {
@@ -49787,6 +49887,41 @@
             label = 244;
             break;
            }
+           case 110:  {
+            $797 = $79 | $dp$060;
+            $798 = (($74) + -4)|0;
+            $799 = (__ZN8Snes_Spc8cpu_readEii($this,$797,$798)|0);
+            $800 = (($799) + 8191)|0;
+            $801 = (($74) + -3)|0;
+            __ZN8Snes_Spc9cpu_writeEiii($this,$800,$797,$801);
+            $802 = (($pc$268) + 2|0);
+            $803 = ($799|0)==(1);
+            if (!($803)) {
+             $pc$0 = $802;
+             label = 5;
+             break L8;
+            }
+            $804 = (($74) + -2)|0;
+            $a$0 = $a$188;$c$0 = $c$163;$nz$0 = $nz$161;$pc$1 = $802;$psw$0 = $psw$165;$rel_time$0 = $804;$x$0 = $x$175;$y$0 = $y$169;
+            label = 6;
+            break;
+           }
+           case 254:  {
+            $805 = (($y$169) + 255)|0;
+            $806 = $805 & 255;
+            $807 = $78 << 24 >> 24;
+            $$sum1 = (($807) + 2)|0;
+            $808 = (($pc$268) + ($$sum1)|0);
+            $809 = ($806|0)==(0);
+            if (!($809)) {
+             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $808;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $806;
+             break L8;
+            }
+            $810 = (($pc$268) + 2|0);
+            $811 = (($74) + -2)|0;
+            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $810;$psw$1$be = $psw$165;$rel_time$1$be = $811;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = 0;
+            break;
+           }
            case 31:  {
             $812 = (__Z8get_le16PKv($77)|0);
             $813 = (($812) + ($x$175))|0;
@@ -49923,141 +50058,6 @@
             $895 = (($sp$067) + 3|0);
             $pc$29 = $894;$sp$2 = $895;$temp53$0 = $891;
             label = 271;
-            break;
-           }
-           case 142:  {
-            $896 = (($sp$067) + 1|0);
-            $897 = HEAP8[$sp$067]|0;
-            $898 = $897&255;
-            $899 = $896;
-            $900 = (($899) - ($54))|0;
-            $901 = ($900|0)==(513);
-            if (!($901)) {
-             $pc$29 = $77;$sp$2 = $896;$temp53$0 = $898;
-             label = 271;
-             break L8;
-            }
-            $902 = (($sp$067) + -256|0);
-            $903 = HEAP8[$902]|0;
-            $904 = $903&255;
-            $905 = (($sp$067) + -255|0);
-            $pc$29 = $77;$sp$2 = $905;$temp53$0 = $904;
-            label = 271;
-            break;
-           }
-           case 13:  {
-            $914 = $psw$165 & -164;
-            $915 = $c$163 >>> 8;
-            $916 = $915 & 1;
-            $917 = $dp$060 >>> 3;
-            $918 = $nz$161 >>> 4;
-            $919 = $918 | $nz$161;
-            $920 = $919 & 128;
-            $921 = $916 | $917;
-            $922 = $921 | $914;
-            $923 = $922 | $920;
-            $924 = $nz$161&255;
-            $925 = ($924<<24>>24)==(0);
-            $926 = $923 | 2;
-            $$22 = $925 ? $926 : $923;
-            $927 = $$22&255;
-            $928 = (($sp$067) + -1|0);
-            HEAP8[$928] = $927;
-            $929 = $928;
-            $930 = (($929) - ($55))|0;
-            $931 = ($930|0)==(256);
-            $932 = (($sp$067) + 255|0);
-            $$30 = $931 ? $932 : $928;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$30;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 45:  {
-            $933 = $a$188&255;
-            $934 = (($sp$067) + -1|0);
-            HEAP8[$934] = $933;
-            $935 = $934;
-            $936 = (($935) - ($56))|0;
-            $937 = ($936|0)==(256);
-            $938 = (($sp$067) + 255|0);
-            $$23 = $937 ? $938 : $934;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$23;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 77:  {
-            $939 = $x$175&255;
-            $940 = (($sp$067) + -1|0);
-            HEAP8[$940] = $939;
-            $941 = $940;
-            $942 = (($941) - ($57))|0;
-            $943 = ($942|0)==(256);
-            $944 = (($sp$067) + 255|0);
-            $$24 = $943 ? $944 : $940;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$24;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 109:  {
-            $945 = $y$169&255;
-            $946 = (($sp$067) + -1|0);
-            HEAP8[$946] = $945;
-            $947 = $946;
-            $948 = (($947) - ($58))|0;
-            $949 = ($948|0)==(256);
-            $950 = (($sp$067) + 255|0);
-            $$25 = $949 ? $950 : $946;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $$25;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 174:  {
-            $951 = (($sp$067) + 1|0);
-            $952 = HEAP8[$sp$067]|0;
-            $953 = $952&255;
-            $954 = $951;
-            $955 = (($954) - ($59))|0;
-            $956 = ($955|0)==(513);
-            if (!($956)) {
-             $a$1$be = $953;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $951;$x$1$be = $x$175;$y$1$be = $y$169;
-             break L8;
-            }
-            $957 = (($sp$067) + -256|0);
-            $958 = HEAP8[$957]|0;
-            $959 = $958&255;
-            $960 = (($sp$067) + -255|0);
-            $a$1$be = $959;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $77;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $960;$x$1$be = $x$175;$y$1$be = $y$169;
-            break;
-           }
-           case 110:  {
-            $797 = $79 | $dp$060;
-            $798 = (($74) + -4)|0;
-            $799 = (__ZN8Snes_Spc8cpu_readEii($this,$797,$798)|0);
-            $800 = (($799) + 8191)|0;
-            $801 = (($74) + -3)|0;
-            __ZN8Snes_Spc9cpu_writeEiii($this,$800,$797,$801);
-            $802 = (($pc$268) + 2|0);
-            $803 = ($799|0)==(1);
-            if (!($803)) {
-             $pc$0 = $802;
-             label = 5;
-             break L8;
-            }
-            $804 = (($74) + -2)|0;
-            $a$0 = $a$188;$c$0 = $c$163;$nz$0 = $nz$161;$pc$1 = $802;$psw$0 = $psw$165;$rel_time$0 = $804;$x$0 = $x$175;$y$0 = $y$169;
-            label = 6;
-            break;
-           }
-           case 254:  {
-            $805 = (($y$169) + 255)|0;
-            $806 = $805 & 255;
-            $807 = $78 << 24 >> 24;
-            $$sum1 = (($807) + 2)|0;
-            $808 = (($pc$268) + ($$sum1)|0);
-            $809 = ($806|0)==(0);
-            if (!($809)) {
-             $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $808;$psw$1$be = $psw$165;$rel_time$1$be = $74;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = $806;
-             break L8;
-            }
-            $810 = (($pc$268) + 2|0);
-            $811 = (($74) + -2)|0;
-            $a$1$be = $a$188;$c$1$be = $c$163;$dp$0$be = $dp$060;$nz$1$be = $nz$161;$pc$2$be = $810;$psw$1$be = $psw$165;$rel_time$1$be = $811;$sp$0$be = $sp$067;$x$1$be = $x$175;$y$1$be = 0;
             break;
            }
            default: {
@@ -52932,18 +52932,17 @@
         $44 = HEAP8[$in$019]|0;
         $45 = $44&255;
         switch ($45|0) {
+        case 1:  {
+         $field$0$ph = $19;
+         label = 16;
+         break;
+        }
+        case 20:  {
+         $copyright_len$18 = $copyright_len$017;$year$110 = $35;
+         break;
+        }
         case 2:  {
          $field$0$ph = $20;
-         label = 16;
-         break;
-        }
-        case 3:  {
-         $field$0$ph = $21;
-         label = 16;
-         break;
-        }
-        case 4:  {
-         $field$0$ph = $22;
          label = 16;
          break;
         }
@@ -52952,8 +52951,9 @@
          label = 16;
          break;
         }
-        case 20:  {
-         $copyright_len$18 = $copyright_len$017;$year$110 = $35;
+        case 4:  {
+         $field$0$ph = $22;
+         label = 16;
          break;
         }
         case 19:  {
@@ -52962,8 +52962,8 @@
          $copyright_len$18 = $46;$year$110 = $year$018;
          break;
         }
-        case 1:  {
-         $field$0$ph = $19;
+        case 3:  {
+         $field$0$ph = $21;
          label = 16;
          break;
         }
@@ -53878,13 +53878,13 @@
            $65 = HEAP32[$ym2413_rate>>2]|0;
            $66 = (+($65|0));
            $67 = (__ZN10Ym2413_Emu8set_rateEdd($63,$64,$66)|0);
-           if ((($67|0) == 2)) {
-            $$0 = (52952);
-            STACKTOP = sp;return ($$0|0);
-           } else if ((($67|0) == 0)) {
+           if ((($67|0) == 0)) {
             __ZN6Ym_EmuI10Ym2413_EmuE6enableEb($62,1);
             __ZN9Music_Emu15set_voice_countEi($59,8);
             break;
+           } else if ((($67|0) == 2)) {
+            $$0 = (52952);
+            STACKTOP = sp;return ($$0|0);
            } else {
             $$0 = (52984);
             STACKTOP = sp;return ($$0|0);
@@ -54579,14 +54579,28 @@
         $32 = $31&255;
         L11: do {
          switch ($32|0) {
-         case 81:  {
-          $57 = (__ZNK12Vgm_Emu_Impl10to_fm_timeEi($this,$vgm_time$07)|0);
-          $58 = (__ZN6Ym_EmuI10Ym2413_EmuE9run_untilEi($18,$57)|0);
-          $59 = ($58|0)==(0);
-          if (!($59)) {
-          }
-          $60 = (($pos$05) + 3|0);
-          $pos$0$be = $60;$vgm_time$0$be = $vgm_time$07;
+         case 102:  {
+          $33 = HEAP32[$15>>2]|0;
+          $pos$0$be = $33;$vgm_time$0$be = $vgm_time$07;
+          break;
+         }
+         case 98:  {
+          $34 = (($vgm_time$07) + 735)|0;
+          $pos$0$be = $30;$vgm_time$0$be = $34;
+          break;
+         }
+         case 99:  {
+          $35 = (($vgm_time$07) + 882)|0;
+          $pos$0$be = $30;$vgm_time$0$be = $35;
+          break;
+         }
+         case 79:  {
+          $36 = (__ZNK12Vgm_Emu_Impl12to_blip_timeEi($this,$vgm_time$07)|0);
+          $37 = (($pos$05) + 2|0);
+          $38 = HEAP8[$30]|0;
+          $39 = $38&255;
+          __ZN7Sms_Apu14write_ggstereoEii($16,$36,$39);
+          $pos$0$be = $37;$vgm_time$0$be = $vgm_time$07;
           break;
          }
          case 80:  {
@@ -54619,28 +54633,14 @@
           $pos$0$be = $53;$vgm_time$0$be = $56;
           break;
          }
-         case 98:  {
-          $34 = (($vgm_time$07) + 735)|0;
-          $pos$0$be = $30;$vgm_time$0$be = $34;
-          break;
-         }
-         case 99:  {
-          $35 = (($vgm_time$07) + 882)|0;
-          $pos$0$be = $30;$vgm_time$0$be = $35;
-          break;
-         }
-         case 79:  {
-          $36 = (__ZNK12Vgm_Emu_Impl12to_blip_timeEi($this,$vgm_time$07)|0);
-          $37 = (($pos$05) + 2|0);
-          $38 = HEAP8[$30]|0;
-          $39 = $38&255;
-          __ZN7Sms_Apu14write_ggstereoEii($16,$36,$39);
-          $pos$0$be = $37;$vgm_time$0$be = $vgm_time$07;
-          break;
-         }
-         case 102:  {
-          $33 = HEAP32[$15>>2]|0;
-          $pos$0$be = $33;$vgm_time$0$be = $vgm_time$07;
+         case 81:  {
+          $57 = (__ZNK12Vgm_Emu_Impl10to_fm_timeEi($this,$vgm_time$07)|0);
+          $58 = (__ZN6Ym_EmuI10Ym2413_EmuE9run_untilEi($18,$57)|0);
+          $59 = ($58|0)==(0);
+          if (!($59)) {
+          }
+          $60 = (($pos$05) + 3|0);
+          $pos$0$be = $60;$vgm_time$0$be = $vgm_time$07;
           break;
          }
          case 82:  {
@@ -54869,6 +54869,10 @@
        sp = STACKTOP;
        $1 = $command >> 4;
        switch ($1|0) {
+       case 13: case 12:  {
+        $$0 = 4;
+        break;
+       }
        case 11: case 10: case 5:  {
         $$0 = 3;
         break;
@@ -54879,10 +54883,6 @@
        }
        case 4: case 3:  {
         $$0 = 2;
-        break;
-       }
-       case 13: case 12:  {
-        $$0 = 4;
         break;
        }
        default: {
@@ -55030,8 +55030,8 @@
          break L3;
          break;
         }
-        case 84:  {
-         label = 8;
+        case 102:  {
+         label = 11;
          break L3;
          break;
         }
@@ -55040,9 +55040,14 @@
          $p$0$be = $10;
          break;
         }
-        case 102:  {
-         label = 11;
+        case 84:  {
+         label = 8;
          break L3;
+         break;
+        }
+        case 100: case 80:  {
+         $9 = (($p$01) + 2|0);
+         $p$0$be = $9;
          break;
         }
         case 103:  {
@@ -55056,11 +55061,6 @@
         case 81:  {
          label = 6;
          break L3;
-         break;
-        }
-        case 100: case 80:  {
-         $9 = (($p$01) + 2|0);
-         $p$0$be = $9;
          break;
         }
         default: {
@@ -55283,17 +55283,6 @@
         STACKTOP = sp;return ($$0|0);
         break;
        }
-       case 64:  {
-        $20 = $data & 127;
-        $21 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 136|0);
-        HEAP32[$21>>2] = $20;
-        $22 = $20 << 5;
-        $23 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 140|0);
-        HEAP32[$23>>2] = $22;
-        $$0 = 0;
-        STACKTOP = sp;return ($$0|0);
-        break;
-       }
        case 48:  {
         $11 = $data & 15;
         $12 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 132|0);
@@ -55308,6 +55297,45 @@
         HEAP32[$18>>2] = $17;
         $19 = ((($this) + (($6*556)|0)|0) + 188|0);
         HEAP32[$19>>2] = -1;
+        $$0 = 0;
+        STACKTOP = sp;return ($$0|0);
+        break;
+       }
+       case 128:  {
+        $92 = $data >> 4;
+        $93 = ((($this) + ($92<<2)|0) + 15548|0);
+        $94 = HEAP32[$93>>2]|0;
+        $95 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 144|0);
+        HEAP32[$95>>2] = $94;
+        $96 = $data << 2;
+        $97 = $96 & 60;
+        $98 = $97 | 2;
+        $99 = ((($this) + ($98<<2)|0) + 14140|0);
+        $100 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 180|0);
+        HEAP32[$100>>2] = $99;
+        $101 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 152|0);
+        $102 = HEAP32[$101>>2]|0;
+        $$sum = (($102) + ($98))|0;
+        $103 = ((($this) + ($$sum<<2)|0) + 14140|0);
+        $104 = HEAP32[$103>>2]|0;
+        $105 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 220|0);
+        HEAP32[$105>>2] = $104;
+        $106 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 192|0);
+        $107 = HEAP32[$106>>2]|0;
+        $108 = ($107|0)==(3);
+        if (!($108)) {
+         $$0 = 0;
+         STACKTOP = sp;return ($$0|0);
+        }
+        $109 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 196|0);
+        $110 = HEAP32[$109>>2]|0;
+        $111 = ($110|0)<(536870912);
+        if (!($111)) {
+         $$0 = 0;
+         STACKTOP = sp;return ($$0|0);
+        }
+        $112 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 200|0);
+        HEAP32[$112>>2] = $104;
         $$0 = 0;
         STACKTOP = sp;return ($$0|0);
         break;
@@ -55369,41 +55397,13 @@
         STACKTOP = sp;return ($$0|0);
         break;
        }
-       case 128:  {
-        $92 = $data >> 4;
-        $93 = ((($this) + ($92<<2)|0) + 15548|0);
-        $94 = HEAP32[$93>>2]|0;
-        $95 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 144|0);
-        HEAP32[$95>>2] = $94;
-        $96 = $data << 2;
-        $97 = $96 & 60;
-        $98 = $97 | 2;
-        $99 = ((($this) + ($98<<2)|0) + 14140|0);
-        $100 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 180|0);
-        HEAP32[$100>>2] = $99;
-        $101 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 152|0);
-        $102 = HEAP32[$101>>2]|0;
-        $$sum = (($102) + ($98))|0;
-        $103 = ((($this) + ($$sum<<2)|0) + 14140|0);
-        $104 = HEAP32[$103>>2]|0;
-        $105 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 220|0);
-        HEAP32[$105>>2] = $104;
-        $106 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 192|0);
-        $107 = HEAP32[$106>>2]|0;
-        $108 = ($107|0)==(3);
-        if (!($108)) {
-         $$0 = 0;
-         STACKTOP = sp;return ($$0|0);
-        }
-        $109 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 196|0);
-        $110 = HEAP32[$109>>2]|0;
-        $111 = ($110|0)<(536870912);
-        if (!($111)) {
-         $$0 = 0;
-         STACKTOP = sp;return ($$0|0);
-        }
-        $112 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 200|0);
-        HEAP32[$112>>2] = $104;
+       case 64:  {
+        $20 = $data & 127;
+        $21 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 136|0);
+        HEAP32[$21>>2] = $20;
+        $22 = $20 << 5;
+        $23 = (((($this) + (($6*556)|0)|0) + (($8*116)|0)|0) + 140|0);
+        HEAP32[$23>>2] = $22;
         $$0 = 0;
         STACKTOP = sp;return ($$0|0);
         break;
@@ -55500,6 +55500,28 @@
        $6 = (($5) + ($1))|0;
        $7 = $Adr & 252;
        switch ($7|0) {
+       case 160:  {
+        $8 = ((($this) + (($6*556)|0)|0) + 80|0);
+        $9 = HEAP32[$8>>2]|0;
+        $10 = $9 & 1792;
+        $11 = (($10) + ($data))|0;
+        HEAP32[$8>>2] = $11;
+        $12 = ((($this) + (($6*556)|0)|0) + 96|0);
+        $13 = HEAP32[$12>>2]|0;
+        $14 = $13 << 2;
+        $15 = $11 >> 7;
+        $16 = (53544 + ($15)|0);
+        $17 = HEAP8[$16]|0;
+        $18 = $17&255;
+        $19 = $18 | $14;
+        $20 = ((($this) + (($6*556)|0)|0) + 112|0);
+        HEAP32[$20>>2] = $19;
+        $21 = ((($this) + (($6*556)|0)|0) + 188|0);
+        HEAP32[$21>>2] = -1;
+        $$0 = 0;
+        STACKTOP = sp;return ($$0|0);
+        break;
+       }
        case 172:  {
         $56 = ($Adr|0)<(256);
         if (!($56)) {
@@ -55533,29 +55555,27 @@
         STACKTOP = sp;return ($$0|0);
         break;
        }
-       case 164:  {
-        $22 = ((($this) + (($6*556)|0)|0) + 80|0);
-        $23 = HEAP32[$22>>2]|0;
-        $24 = $23 & 255;
-        $25 = $data << 8;
-        $26 = $25 & 1792;
-        $27 = $24 | $26;
-        HEAP32[$22>>2] = $27;
-        $28 = $data >>> 3;
-        $29 = $28 & 7;
-        $30 = ((($this) + (($6*556)|0)|0) + 96|0);
-        HEAP32[$30>>2] = $29;
-        $31 = $29 << 2;
-        $32 = HEAP32[$22>>2]|0;
-        $33 = $32 >> 7;
-        $34 = (53544 + ($33)|0);
-        $35 = HEAP8[$34]|0;
-        $36 = $35&255;
-        $37 = $36 | $31;
-        $38 = ((($this) + (($6*556)|0)|0) + 112|0);
-        HEAP32[$38>>2] = $37;
-        $39 = ((($this) + (($6*556)|0)|0) + 188|0);
-        HEAP32[$39>>2] = -1;
+       case 176:  {
+        $76 = ((($this) + (($6*556)|0)|0) + 64|0);
+        $77 = HEAP32[$76>>2]|0;
+        $78 = $data & 7;
+        $79 = ($77|0)==($78|0);
+        if (!($79)) {
+         HEAP32[$76>>2] = $78;
+         $80 = ((($this) + (($6*556)|0)|0) + 232|0);
+         HEAP32[$80>>2] = 0;
+         $81 = ((($this) + (($6*556)|0)|0) + 348|0);
+         HEAP32[$81>>2] = 0;
+         $82 = ((($this) + (($6*556)|0)|0) + 464|0);
+         HEAP32[$82>>2] = 0;
+         $83 = ((($this) + (($6*556)|0)|0) + 580|0);
+         HEAP32[$83>>2] = 0;
+        }
+        $84 = $data >>> 3;
+        $85 = $84 & 7;
+        $86 = (9 - ($85))|0;
+        $87 = ((($this) + (($6*556)|0)|0) + 68|0);
+        HEAP32[$87>>2] = $86;
         $$0 = 0;
         STACKTOP = sp;return ($$0|0);
         break;
@@ -55632,49 +55652,29 @@
         STACKTOP = sp;return ($$0|0);
         break;
        }
-       case 160:  {
-        $8 = ((($this) + (($6*556)|0)|0) + 80|0);
-        $9 = HEAP32[$8>>2]|0;
-        $10 = $9 & 1792;
-        $11 = (($10) + ($data))|0;
-        HEAP32[$8>>2] = $11;
-        $12 = ((($this) + (($6*556)|0)|0) + 96|0);
-        $13 = HEAP32[$12>>2]|0;
-        $14 = $13 << 2;
-        $15 = $11 >> 7;
-        $16 = (53544 + ($15)|0);
-        $17 = HEAP8[$16]|0;
-        $18 = $17&255;
-        $19 = $18 | $14;
-        $20 = ((($this) + (($6*556)|0)|0) + 112|0);
-        HEAP32[$20>>2] = $19;
-        $21 = ((($this) + (($6*556)|0)|0) + 188|0);
-        HEAP32[$21>>2] = -1;
-        $$0 = 0;
-        STACKTOP = sp;return ($$0|0);
-        break;
-       }
-       case 176:  {
-        $76 = ((($this) + (($6*556)|0)|0) + 64|0);
-        $77 = HEAP32[$76>>2]|0;
-        $78 = $data & 7;
-        $79 = ($77|0)==($78|0);
-        if (!($79)) {
-         HEAP32[$76>>2] = $78;
-         $80 = ((($this) + (($6*556)|0)|0) + 232|0);
-         HEAP32[$80>>2] = 0;
-         $81 = ((($this) + (($6*556)|0)|0) + 348|0);
-         HEAP32[$81>>2] = 0;
-         $82 = ((($this) + (($6*556)|0)|0) + 464|0);
-         HEAP32[$82>>2] = 0;
-         $83 = ((($this) + (($6*556)|0)|0) + 580|0);
-         HEAP32[$83>>2] = 0;
-        }
-        $84 = $data >>> 3;
-        $85 = $84 & 7;
-        $86 = (9 - ($85))|0;
-        $87 = ((($this) + (($6*556)|0)|0) + 68|0);
-        HEAP32[$87>>2] = $86;
+       case 164:  {
+        $22 = ((($this) + (($6*556)|0)|0) + 80|0);
+        $23 = HEAP32[$22>>2]|0;
+        $24 = $23 & 255;
+        $25 = $data << 8;
+        $26 = $25 & 1792;
+        $27 = $24 | $26;
+        HEAP32[$22>>2] = $27;
+        $28 = $data >>> 3;
+        $29 = $28 & 7;
+        $30 = ((($this) + (($6*556)|0)|0) + 96|0);
+        HEAP32[$30>>2] = $29;
+        $31 = $29 << 2;
+        $32 = HEAP32[$22>>2]|0;
+        $33 = $32 >> 7;
+        $34 = (53544 + ($33)|0);
+        $35 = HEAP8[$34]|0;
+        $36 = $35&255;
+        $37 = $36 | $31;
+        $38 = ((($this) + (($6*556)|0)|0) + 112|0);
+        HEAP32[$38>>2] = $37;
+        $39 = ((($this) + (($6*556)|0)|0) + 188|0);
+        HEAP32[$39>>2] = -1;
         $$0 = 0;
         STACKTOP = sp;return ($$0|0);
         break;
@@ -55724,6 +55724,29 @@
        var $62 = 0, $63 = 0, $64 = 0, $65 = 0, $66 = 0, $7 = 0, $8 = 0, $9 = 0, label = 0, sp = 0;
        sp = STACKTOP;
        switch ($Adr|0) {
+       case 39:  {
+        $38 = (($this) + 32|0);
+        $39 = HEAP32[$38>>2]|0;
+        $40 = $39 ^ $data;
+        $41 = $40 & 64;
+        $42 = ($41|0)==(0);
+        if (!($42)) {
+         $43 = (($this) + 1300|0);
+         HEAP32[$43>>2] = -1;
+        }
+        $44 = $data ^ -16;
+        $45 = $44 >> 4;
+        $46 = $data >> 2;
+        $47 = $45 & $46;
+        $48 = (($this) + 4|0);
+        $49 = HEAP32[$48>>2]|0;
+        $50 = $47 & $49;
+        HEAP32[$48>>2] = $50;
+        HEAP32[$38>>2] = $data;
+        $$0 = 0;
+        STACKTOP = sp;return ($$0|0);
+        break;
+       }
        case 37:  {
         $20 = (($this) + 8|0);
         $21 = HEAP32[$20>>2]|0;
@@ -55743,54 +55766,6 @@
         HEAP32[$25>>2] = $28;
         $30 = (($this) + 16|0);
         HEAP32[$30>>2] = $28;
-        $$0 = 0;
-        STACKTOP = sp;return ($$0|0);
-        break;
-       }
-       case 34:  {
-        $1 = $data & 8;
-        $2 = ($1|0)==(0);
-        if ($2) {
-         $7 = (($this) + 13620|0);
-         HEAP32[$7>>2] = 0;
-         $8 = (($this) + 13624|0);
-         HEAP32[$8>>2] = 0;
-         $$0 = 0;
-         STACKTOP = sp;return ($$0|0);
-        } else {
-         $3 = $data & 7;
-         $4 = ((($this) + ($3<<2)|0) + 15740|0);
-         $5 = HEAP32[$4>>2]|0;
-         $6 = (($this) + 13624|0);
-         HEAP32[$6>>2] = $5;
-         $$0 = 0;
-         STACKTOP = sp;return ($$0|0);
-        }
-        break;
-       }
-       case 43:  {
-        $65 = (($this) + 36|0);
-        $66 = $data & 128;
-        HEAP32[$65>>2] = $66;
-        $$0 = 0;
-        STACKTOP = sp;return ($$0|0);
-        break;
-       }
-       case 38:  {
-        $31 = (($this) + 20|0);
-        HEAP32[$31>>2] = $data;
-        $32 = (($this) + 24|0);
-        $33 = HEAP32[$32>>2]|0;
-        $34 = (256 - ($data))|0;
-        $35 = $34 << 16;
-        $36 = ($33|0)==($35|0);
-        if ($36) {
-         $$0 = 0;
-         STACKTOP = sp;return ($$0|0);
-        }
-        HEAP32[$32>>2] = $35;
-        $37 = (($this) + 28|0);
-        HEAP32[$37>>2] = $35;
         $$0 = 0;
         STACKTOP = sp;return ($$0|0);
         break;
@@ -55841,6 +55816,25 @@
         }
         break;
        }
+       case 38:  {
+        $31 = (($this) + 20|0);
+        HEAP32[$31>>2] = $data;
+        $32 = (($this) + 24|0);
+        $33 = HEAP32[$32>>2]|0;
+        $34 = (256 - ($data))|0;
+        $35 = $34 << 16;
+        $36 = ($33|0)==($35|0);
+        if ($36) {
+         $$0 = 0;
+         STACKTOP = sp;return ($$0|0);
+        }
+        HEAP32[$32>>2] = $35;
+        $37 = (($this) + 28|0);
+        HEAP32[$37>>2] = $35;
+        $$0 = 0;
+        STACKTOP = sp;return ($$0|0);
+        break;
+       }
        case 36:  {
         $9 = (($this) + 8|0);
         $10 = HEAP32[$9>>2]|0;
@@ -55864,25 +55858,31 @@
         STACKTOP = sp;return ($$0|0);
         break;
        }
-       case 39:  {
-        $38 = (($this) + 32|0);
-        $39 = HEAP32[$38>>2]|0;
-        $40 = $39 ^ $data;
-        $41 = $40 & 64;
-        $42 = ($41|0)==(0);
-        if (!($42)) {
-         $43 = (($this) + 1300|0);
-         HEAP32[$43>>2] = -1;
+       case 34:  {
+        $1 = $data & 8;
+        $2 = ($1|0)==(0);
+        if ($2) {
+         $7 = (($this) + 13620|0);
+         HEAP32[$7>>2] = 0;
+         $8 = (($this) + 13624|0);
+         HEAP32[$8>>2] = 0;
+         $$0 = 0;
+         STACKTOP = sp;return ($$0|0);
+        } else {
+         $3 = $data & 7;
+         $4 = ((($this) + ($3<<2)|0) + 15740|0);
+         $5 = HEAP32[$4>>2]|0;
+         $6 = (($this) + 13624|0);
+         HEAP32[$6>>2] = $5;
+         $$0 = 0;
+         STACKTOP = sp;return ($$0|0);
         }
-        $44 = $data ^ -16;
-        $45 = $44 >> 4;
-        $46 = $data >> 2;
-        $47 = $45 & $46;
-        $48 = (($this) + 4|0);
-        $49 = HEAP32[$48>>2]|0;
-        $50 = $47 & $49;
-        HEAP32[$48>>2] = $50;
-        HEAP32[$38>>2] = $data;
+        break;
+       }
+       case 43:  {
+        $65 = (($this) + 36|0);
+        $66 = $data & 128;
+        HEAP32[$65>>2] = $66;
         $$0 = 0;
         STACKTOP = sp;return ($$0|0);
         break;
@@ -56818,15 +56818,15 @@
             HEAP32[$57>>2] = $56;
             $58 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 192|0);
             $59 = HEAP32[$58>>2]|0;
-            if ((($59|0) == 0)) {
-             $60 = HEAP32[$42>>2]|0;
-             $61 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 200|0);
-             HEAP32[$61>>2] = $60;
-             break;
-            } else if ((($59|0) == 1)) {
+            if ((($59|0) == 1)) {
              $62 = HEAP32[$47>>2]|0;
              $63 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 200|0);
              HEAP32[$63>>2] = $62;
+             break;
+            } else if ((($59|0) == 0)) {
+             $60 = HEAP32[$42>>2]|0;
+             $61 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 200|0);
+             HEAP32[$61>>2] = $60;
              break;
             } else {
              $64 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 196|0);
@@ -56835,14 +56835,14 @@
              if (!($66)) {
               break;
              }
-             if ((($59|0) == 2)) {
+             if ((($59|0) == 3)) {
+              $69 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 200|0);
+              HEAP32[$69>>2] = $56;
+              break;
+             } else if ((($59|0) == 2)) {
               $67 = HEAP32[$52>>2]|0;
               $68 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 200|0);
               HEAP32[$68>>2] = $67;
-              break;
-             } else if ((($59|0) == 3)) {
-              $69 = (((($this) + (($chi$07*556)|0)|0) + (($i$04*116)|0)|0) + 200|0);
-              HEAP32[$69>>2] = $56;
               break;
              } else {
               break;
@@ -58961,7 +58961,33 @@
        $1 = (($sl) + 64|0);
        $2 = HEAP32[$1>>2]|0;
        do {
-        if ((($2|0) == 2)) {
+        if ((($2|0) == 1)) {
+         $10 = (($sl) + 16|0);
+         $11 = HEAP32[$10>>2]|0;
+         $12 = (($sl) + 68|0);
+         HEAP32[$12>>2] = $11;
+         $13 = (($sl) + 88|0);
+         $14 = HEAP32[$13>>2]|0;
+         $15 = (($sl) + 72|0);
+         HEAP32[$15>>2] = $14;
+         $16 = (($sl) + 76|0);
+         HEAP32[$16>>2] = 536870912;
+         HEAP32[$1>>2] = 2;
+         STACKTOP = sp;return;
+        } else if ((($2|0) == 0)) {
+         $3 = (($sl) + 68|0);
+         HEAP32[$3>>2] = 268435456;
+         $4 = (($sl) + 84|0);
+         $5 = HEAP32[$4>>2]|0;
+         $6 = (($sl) + 72|0);
+         HEAP32[$6>>2] = $5;
+         $7 = (($sl) + 16|0);
+         $8 = HEAP32[$7>>2]|0;
+         $9 = (($sl) + 76|0);
+         HEAP32[$9>>2] = $8;
+         HEAP32[$1>>2] = 1;
+         STACKTOP = sp;return;
+        } else if ((($2|0) == 2)) {
          $17 = (($sl) + 28|0);
          $18 = HEAP32[$17>>2]|0;
          $19 = $18 & 8;
@@ -58990,32 +59016,6 @@
          $29 = $28 << 1;
          $30 = $29 & 4;
          __Z7set_segR6slot_ti($sl,$30);
-         STACKTOP = sp;return;
-        } else if ((($2|0) == 0)) {
-         $3 = (($sl) + 68|0);
-         HEAP32[$3>>2] = 268435456;
-         $4 = (($sl) + 84|0);
-         $5 = HEAP32[$4>>2]|0;
-         $6 = (($sl) + 72|0);
-         HEAP32[$6>>2] = $5;
-         $7 = (($sl) + 16|0);
-         $8 = HEAP32[$7>>2]|0;
-         $9 = (($sl) + 76|0);
-         HEAP32[$9>>2] = $8;
-         HEAP32[$1>>2] = 1;
-         STACKTOP = sp;return;
-        } else if ((($2|0) == 1)) {
-         $10 = (($sl) + 16|0);
-         $11 = HEAP32[$10>>2]|0;
-         $12 = (($sl) + 68|0);
-         HEAP32[$12>>2] = $11;
-         $13 = (($sl) + 88|0);
-         $14 = HEAP32[$13>>2]|0;
-         $15 = (($sl) + 72|0);
-         HEAP32[$15>>2] = $14;
-         $16 = (($sl) + 76|0);
-         HEAP32[$16>>2] = 536870912;
-         HEAP32[$1>>2] = 2;
          STACKTOP = sp;return;
         } else if (!((($2|0) == 3))) {
          STACKTOP = sp;return;
@@ -59073,26 +59073,26 @@
        var $$0 = 0, $1 = 0, label = 0, sp = 0;
        sp = STACKTOP;
        $1 = (__Z8get_be32PKv($header)|0);
-       if ((($1|0) == 1314080325)) {
-        $$0 = (54000);
+       if ((($1|0) == 1515733337)) {
+        $$0 = (53952);
        } else if ((($1|0) == 1212502861)) {
         $$0 = (53976);
+       } else if ((($1|0) == 1195528961)) {
+        $$0 = (53960);
+       } else if ((($1|0) == 1197034840)) {
+        $$0 = (53968);
+       } else if ((($1|0) == 1449618720)) {
+        $$0 = (54024);
+       } else if ((($1|0) == 1313166157)) {
+        $$0 = (53992);
+       } else if ((($1|0) == 1314080325)) {
+        $$0 = (54000);
+       } else if ((($1|0) == 1396789261)) {
+        $$0 = (54008);
        } else if ((($1|0) == 1397638483)) {
         $$0 = (54016);
        } else if ((($1|0) == 1263752024) | (($1|0) == 1263747907)) {
         $$0 = (53984);
-       } else if ((($1|0) == 1195528961)) {
-        $$0 = (53960);
-       } else if ((($1|0) == 1449618720)) {
-        $$0 = (54024);
-       } else if ((($1|0) == 1396789261)) {
-        $$0 = (54008);
-       } else if ((($1|0) == 1313166157)) {
-        $$0 = (53992);
-       } else if ((($1|0) == 1515733337)) {
-        $$0 = (53952);
-       } else if ((($1|0) == 1197034840)) {
-        $$0 = (53968);
        } else {
         $$0 = (54032);
        }
@@ -59936,26 +59936,7 @@
        $36 = HEAP32[$35>>2]|0;
        FUNCTION_TABLE_viiiii[$36 & 15]($9,$info,$6,1,0);
        $37 = HEAP32[$32>>2]|0;
-       if ((($37|0) == 0)) {
-        $38 = HEAP32[$20>>2]|0;
-        $39 = ($38|0)==(1);
-        if (!($39)) {
-         $dst_ptr$0 = 0;
-         STACKTOP = sp;return ($dst_ptr$0|0);
-        }
-        $40 = HEAP32[$18>>2]|0;
-        $41 = ($40|0)==(1);
-        if (!($41)) {
-         $dst_ptr$0 = 0;
-         STACKTOP = sp;return ($dst_ptr$0|0);
-        }
-        $42 = HEAP32[$19>>2]|0;
-        $43 = ($42|0)==(1);
-        $44 = HEAP32[$16>>2]|0;
-        $$1 = $43 ? $44 : 0;
-        $dst_ptr$0 = $$1;
-        STACKTOP = sp;return ($dst_ptr$0|0);
-       } else if ((($37|0) == 1)) {
+       if ((($37|0) == 1)) {
         $45 = HEAP32[$17>>2]|0;
         $46 = ($45|0)==(1);
         do {
@@ -59984,6 +59965,25 @@
         } while(0);
         $53 = HEAP32[$15>>2]|0;
         $dst_ptr$0 = $53;
+        STACKTOP = sp;return ($dst_ptr$0|0);
+       } else if ((($37|0) == 0)) {
+        $38 = HEAP32[$20>>2]|0;
+        $39 = ($38|0)==(1);
+        if (!($39)) {
+         $dst_ptr$0 = 0;
+         STACKTOP = sp;return ($dst_ptr$0|0);
+        }
+        $40 = HEAP32[$18>>2]|0;
+        $41 = ($40|0)==(1);
+        if (!($41)) {
+         $dst_ptr$0 = 0;
+         STACKTOP = sp;return ($dst_ptr$0|0);
+        }
+        $42 = HEAP32[$19>>2]|0;
+        $43 = ($42|0)==(1);
+        $44 = HEAP32[$16>>2]|0;
+        $$1 = $43 ? $44 : 0;
+        $dst_ptr$0 = $$1;
         STACKTOP = sp;return ($dst_ptr$0|0);
        } else {
         $dst_ptr$0 = 0;
@@ -61452,7 +61452,7 @@
           }
          } while(0);
          $199 = ($171|0)==(0|0);
-         L78: do {
+         L202: do {
           if (!($199)) {
            $200 = (($v$0$i) + 28|0);
            $201 = HEAP32[$200>>2]|0;
@@ -61471,7 +61471,7 @@
              $207 = HEAP32[(((54496) + 4|0))>>2]|0;
              $208 = $207 & $206;
              HEAP32[(((54496) + 4|0))>>2] = $208;
-             break L78;
+             break L202;
             } else {
              $209 = $171;
              $210 = HEAP32[(((54496) + 16|0))>>2]|0;
@@ -61491,7 +61491,7 @@
              }
              $216 = ($R$1$i|0)==(0|0);
              if ($216) {
-              break L78;
+              break L202;
              }
             }
            } while(0);
@@ -61673,7 +61673,7 @@
          $305 = (((54496) + ($idx$0$i<<2)|0) + 304|0);
          $306 = HEAP32[$305>>2]|0;
          $307 = ($306|0)==(0|0);
-         L126: do {
+         L9: do {
           if ($307) {
            $rsize$2$i = $279;$t$1$i = 0;$v$2$i = 0;
           } else {
@@ -61697,7 +61697,7 @@
              $318 = ($315|0)==($276|0);
              if ($318) {
               $rsize$2$i = $316;$t$1$i = $t$0$i14;$v$2$i = $t$0$i14;
-              break L126;
+              break L9;
              } else {
               $rsize$1$i = $316;$v$1$i = $t$0$i14;
              }
@@ -61904,7 +61904,7 @@
           }
          } while(0);
          $411 = ($383|0)==(0|0);
-         L176: do {
+         L59: do {
           if (!($411)) {
            $412 = (($v$3$lcssa$i) + 28|0);
            $413 = HEAP32[$412>>2]|0;
@@ -61923,7 +61923,7 @@
              $419 = HEAP32[(((54496) + 4|0))>>2]|0;
              $420 = $419 & $418;
              HEAP32[(((54496) + 4|0))>>2] = $420;
-             break L176;
+             break L59;
             } else {
              $421 = $383;
              $422 = HEAP32[(((54496) + 16|0))>>2]|0;
@@ -61943,7 +61943,7 @@
              }
              $428 = ($R$1$i20|0)==(0|0);
              if ($428) {
-              break L176;
+              break L59;
              }
             }
            } while(0);
@@ -61998,7 +61998,7 @@
           }
          } while(0);
          $449 = ($rsize$3$lcssa$i>>>0)<(16);
-         L204: do {
+         L87: do {
           if ($449) {
            $450 = (($rsize$3$lcssa$i) + ($276))|0;
            $451 = $450 | 3;
@@ -62154,7 +62154,7 @@
            $535 = HEAP32[$534>>2]|0;
            $536 = $535 & -8;
            $537 = ($536|0)==($rsize$3$lcssa$i|0);
-           L225: do {
+           L108: do {
             if ($537) {
              $T$0$lcssa$i = $529;
             } else {
@@ -62175,7 +62175,7 @@
               $543 = ($542|0)==($rsize$3$lcssa$i|0);
               if ($543) {
                $T$0$lcssa$i = $546;
-               break L225;
+               break L108;
               } else {
                $T$024$i$phi = $546;$K12$025$i = $539;$T$024$i = $T$024$i$phi;
               }
@@ -62200,7 +62200,7 @@
               $555 = (($376) + ($$sum13$i)|0);
               $556 = $555;
               HEAP32[$556>>2] = $484;
-              break L204;
+              break L87;
              }
             }
            } while(0);
@@ -66770,6 +66770,20 @@
       this._c_playInfo = Module.trackStart(track._c_track);
       console.log('play begin');
     }
+  };
+
+  gmemujs.load = function (file, cb) {
+    var _instance = new gmemujs();
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", file, true);
+    xhr.responseType = "arraybuffer";
+    xhr.onload = function(e) {
+      var payload = new Uint8Array(this.response);
+      var file = gmemujs.read(payload);
+      cb.call(file, e, _instance, xhr);
+    };
+    xhr.send();
+    return xhr;
   };
 
   gmemujs.helloWorld = function () {
