@@ -245,14 +245,6 @@ module.exports = function (grunt) {
             'fonts/*',
             'scripts/*'
           ]
-        }, {
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>/scripts',
-          dest: '<%= yeoman.tmp %>',
-          src: [
-            '*.js'
-          ]
         }]
       },
       server: {
@@ -268,6 +260,14 @@ module.exports = function (grunt) {
           cwd: 'gmemujs/',
           dest: '<%= yeoman.tmp %>',
           src: ['*']
+        }, {
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>/scripts',
+          dest: '<%= yeoman.tmp %>',
+          src: [
+            '*.js'
+          ]
         }]
       }
     },

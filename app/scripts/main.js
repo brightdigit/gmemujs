@@ -1,6 +1,6 @@
 'use strict';
 
-require(['gmemujs', 'string', 'jquery', 'async'], function (gmemujs, S, $, async) {
+require(['gmemujs', 'string', 'jquery', 'caolan/async', 'font!google,families:[Press+Start+2P]'], function (gmemujs, S, $, async) {
   var gameButtons = $('#games');
   $.get('games.csv', function (games) {
     async.map(S(games).lines(), function (line, cb) {
