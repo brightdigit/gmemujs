@@ -21,13 +21,29 @@ module.exports = function(grunt) {
       }
     },
     copy: {
-      main: {
+      demo: {
         expand: true,
         cwd: 'dist/',
         src: '**',
         dest: 'demo/gmemujs/'
+      },
+      'gh-pages' : {
+        expand: true,
+        cwd: 'demo/dist',
+        src: '**',
+        dest: 'gh-pages'
       }
     },
+    grunt: {
+      demo : {
+        gruntfile : 'demo/Gruntfile.js',
+        tasks: 'build'
+      },
+      server : {
+        gruntfile : 'demo/Gruntfile.js',
+        tasks: ['server']
+      }
+    }
   });
 
    grunt.registerTask('compile', 'Compile the C libraries with emscripten.', function(outfile) {
@@ -66,9 +82,10 @@ module.exports = function(grunt) {
         });
     });
 
+  require('load-grunt-tasks')(grunt);
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-includes');
-  grunt.registerTask('default', ['clean', 'compile', 'includes', 'uglify', 'copy']);
+  grunt.registerTask('default', ['clean', 'compile', 'includes', 'uglify', 'copy:demo', 'grunt:demo', 'copy:gh-pages', 'grunt:server']);
 };
