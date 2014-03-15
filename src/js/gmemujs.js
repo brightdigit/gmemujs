@@ -3,7 +3,7 @@
     else if (typeof define == 'function' && define.amd) define(name, definition)
     else this[name] = definition()
 }('gmemujs', function () {
-  var AudioContext = webkitAudioContext || mozAudioContext;
+  var AudioContext = window.AudioContext || window.webkitAudioContext || window.mozAudioContext;
   var INT16_MAX = Math.pow(2, 32) - 1;
   var Module = function () {
     var _Module = function () {
