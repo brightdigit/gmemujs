@@ -15,7 +15,8 @@
   <script>
     var INT16_MAX = Math.pow(2, 32) - 1;
     var AudioContext = window.AudioContext || window.webkitAudioContext || window.mozAudioContext;
-
+ var audioContext = new AudioContext();
+          var scriptProcessor = audioContext.createScriptProcessor(8192, 2, 2);
     var Module = function(Module) {
 
 
@@ -48,8 +49,7 @@
         $("button").prop('disabled', false).click(function() {
           console.log('begin play');
           var _c_playInfo = Module.trackStart(_c_track);
-          var audioContext = new AudioContext();
-          var scriptProcessor = audioContext.createScriptProcessor(8192, 2, 2);
+         
           scriptProcessor.onaudioprocess = function(e) {
             console.log('playing...');
             var bufferSize = 8192;
@@ -64,9 +64,13 @@
           var gain = audioContext.createGain();
           gain.gain.value = 1;
           var bufferNode = audioContext.createBufferSource();
-          var buffer = audioContext.createBuffer(1, 1024, audioContext.sampleRate);
+          var buffer = audioContext.createBuffer(2, 8192, audioContext.sampleRate);
           var data = buffer.getChannelData(0);
-          for (var i = 0; i < 2048; i++) {
+          for (var i = 0; i < 8192*2; i++) {
+            data[i] = ( Math.random() * 2 ) - 1;
+          }
+           var data = buffer.getChannelData(1);
+          for (var i = 0; i < 8192*2; i++) {
             data[i] = ( Math.random() * 2 ) - 1;
           }
           bufferNode.buffer = buffer;
