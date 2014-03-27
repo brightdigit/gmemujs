@@ -7,15 +7,15 @@ require(['gmemujs', 'string', 'jquery', 'caolan/async', 'font!google,families:[P
       cb(undefined, S(line).parseCSV(',', null, null));
     }, function (error, games) {
       async.each(games, function (game, cb) {
-        gameButtons.append('<button type="button" data-href="nsf/' + game[1] + '" class="btn btn-default">'+game[0]+'</button>');
+        gameButtons.append('<button type="button" data-href="nsf/' + game[1] + '" class="btn btn-default">' + game[0] + '</button>');
         cb();
-      }, function (error) {
+      }, function () {
         gameButtons.find('button').click(function () {
           gmemujs.load($(this).data('href'), function () {
             this.track(1).play();
           });
         });
-      })
+      });
     });
   });
 });
