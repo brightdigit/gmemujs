@@ -63,8 +63,7 @@ char* track_info (Track * track) {
   sprintf(json_str, info_fmt, track_info->length,
     track_info->play_length, track_info->intro_length, track_info->loop_length,
     track_info->system, track_info->game, track_info->song, track_info->author,
-    track_info->copyright, track_info->comment, track_info->dumper,
-    track_info->loop_length, track_info->intro_length);
+    track_info->copyright, track_info->comment, track_info->dumper);
   return json_str;
 }
 

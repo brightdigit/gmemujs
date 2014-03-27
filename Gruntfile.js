@@ -88,5 +88,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-includes');
-  grunt.registerTask('default', ['clean', 'compile', 'includes', 'uglify', 'copy:demo', 'grunt:demo', 'copy:gh-pages', 'grunt:server']);
+  grunt.registerTask('build',  ['clean', 'compile', 'includes', 'uglify', 'copy:demo', 'grunt:demo', 'copy:gh-pages']);
+  grunt.registerTask('run', ['build', 'grunt:server']);
+  grunt.registerTask('default', 'build');
 };
