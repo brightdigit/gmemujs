@@ -1,9 +1,11 @@
 [submodule "demo"]
 	path = demo
-	url = https://github.com/leogdion/gmemujs-demo.git
+	url = https://github.com/leogdion/gmemujs.git
+	branch = gh-pages-src
 [submodule "src/game-music-emu"]
 	path = src/game-music-emu
 	url = https://github.com/leogdion/game-music-emu.git
 [submodule "gh-pages"]
 	path = gh-pages
 	url = https://github.com/leogdion/gmemujs.git
+  branch = gh-pages
