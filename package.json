@@ -1,0 +1,27 @@
+{
+  "name": "gmemujs",
+  "version": "0.0.1",
+  "description": "gmemujs =======",
+  "main": "./dist/gmemu.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leogdion/gmemujs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leogdion/gmemujs/issues"
+  },
+  "homepage": "https://github.com/leogdion/gmemujs",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-includes": "~0.4.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-grunt": "^0.2.2",
+    "load-grunt-tasks": "^0.4.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+[submodule "src/game-music-emu"]
+	path = src/game-music-emu
+	url = https://github.com/leogdion/game-music-emu.git
+[submodule "gh-pages"]
+	path = gh-pages
+	url = https://github.com/leogdion/gmemujs.git
+  branch = gh-pages
+[submodule "gh-pages-src"]
+	path = gh-pages-src
+	url = https://github.com/leogdion/gmemujs.git
+	branch = gh-pages-src
