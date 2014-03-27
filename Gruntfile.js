@@ -1,5 +1,6 @@
 var path = require('path');
 var spawn = require('child_process').spawn;
+var os = require('os');
 
 module.exports = function(grunt) {
   grunt.initConfig({
@@ -61,9 +62,9 @@ module.exports = function(grunt) {
             '-s', 'ASM_JS=1',
             //'-g3',
             //'-s', "EXPORTED_FUNCTIONS=['_gme_track_info','_gme_open_data','_gme_track_count','_gme_start_track','_gme_play','_gme_track_ended']",
-            '-s', "EXPORTED_FUNCTIONS=['_initialize', '_gmemujs_test', '_open_data', '_track_count', '_open_track', '_track_info', '_track_start', '_generate_sound_data']",
+            '-s', "EXPORTED_FUNCTIONS=['_initialize','_gmemujs_test','_open_data','_track_count','_open_track','_track_info','_track_start','_generate_sound_data']",
             //'-s', 'LABEL_DEBUG=1',
-            '-O1',
+            '-O3',
             '-I' + gme_dir,
             '-o',  outfile,
 
@@ -74,9 +75,13 @@ module.exports = function(grunt) {
             '-Wno-logical-op-parentheses'
         ];
         var args = [].concat(flags, source_files);
-        //console.log(args);
         grunt.log.writeln('Compiling via emscripten to ' + outfile);
-        var build_proc = spawn(emcc, args, {stdio: 'inherit'});
+        var build_proc;
+        if (os.type() === "Windows_NT"){
+          build_proc = spawn('cmd', ['/c', emcc].concat(args), {stdio: 'inherit'});
+        } else {
+          build_proc = spawn(emcc, args, {stdio: 'inherit'});
+        }
         build_proc.on('exit', function() {
             cb();
         });

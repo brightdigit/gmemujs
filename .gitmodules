@@ -3,7 +3,7 @@
 	url = https://github.com/leogdion/gmemujs-demo.git
 [submodule "src/game-music-emu"]
 	path = src/game-music-emu
-	url = https://github.com/kode54/Game_Music_Emu.git
+	url = https://github.com/leogdion/game-music-emu.git
 [submodule "gh-pages"]
 	path = gh-pages
 	url = https://github.com/leogdion/gmemujs.git
