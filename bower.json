@@ -1,0 +1,20 @@
+{
+  "name": "gmemujs",
+  "version": "0.0.3",
+  "authors": [
+    "Leo Dion <leogdion@brightdigit.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/www/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "zepto": "~1.1.4",
+    "lodash": "~2.4.1"
+  }
+}

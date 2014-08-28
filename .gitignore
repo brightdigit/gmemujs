@@ -1,5 +1,8 @@
 node_modules
 dist
-.tmp
 bower_components
 gmemujs
+npm-debug.log
+/.tmp
+.coverrun
+.coverdata
