@@ -5,7 +5,3 @@
 	path = gh-pages
 	url = https://github.com/leogdion/gmemujs.git
   branch = gh-pages
-[submodule "gh-pages-src"]
-	path = gh-pages-src
-	url = https://github.com/leogdion/gmemujs.git
-	branch = gh-pages-src
