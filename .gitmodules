@@ -2,6 +2,6 @@
 	path = src/game-music-emu
 	url = https://github.com/leogdion/game-music-emu.git
 [submodule "gh-pages"]
-	path = gh-pages
+	path = public
 	url = https://github.com/leogdion/gmemujs.git
   branch = gh-pages
